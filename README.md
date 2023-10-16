@@ -14,6 +14,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ### 2023
 
+- [IJCV 2023] Automatic Modelling for Interactive Action Assessment. [DOI](https://doi.org/10.1007/s11263-022-01695-5)
 - [TCSVT 2023] [Hierarchical Graph Convolutional Networks for Action Quality Assessment. [PDF](http://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf) | [DOI](https://doi.org/10.1109/TCSVT.2023.3281413) | [Github](https://github.com/ZhouKanglei/HGCN_AQA)
 - [NCAA 2023] Auto-encoding score distribution regression for action quality assessment. [PDF](https://arxiv.org/pdf/2111.11029.pdf) | [DOI](https://doi.org/10.1007/s00521-023-09068-w) | [Github](https://github.com/InfoX-SEU/DAE-AQA)
 
@@ -33,14 +34,40 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ---
 
 - [CVPR 2022] FineDiving: A Fine-grained Dataset for Procedure-aware Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_FineDiving_A_Fine-Grained_Dataset_for_Procedure-Aware_Action_Quality_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xujinglin/FineDiving)
+- [CVPR 2022] Likert Scoring with Grade Decoupling for Long-term Action Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Likert_Scoring_With_Grade_Decoupling_for_Long-Term_Action_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xuangch/CVPR22_GDLT)
 - [ECCV 2022] Action Quality Assessment with Temporal Parsing Transformer. [PDF](https://arxiv.org/pdf/2207.09270.pdf) | [Github](https://github.com/baiyang4/aqa_tpt)
-- 
+- [ECCV 2022] Pairwise Contrastive Learning Network for Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640450.pdf)
+
+### 2021
+
+- [TPAMI 2021] Adaptive Action Assessment. [DOI](https://doi.org/10.1109/TPAMI.2021.3126534)
+
+---
+
+- [ICCV 2021] Group-aware Contrastive Regression for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Group-Aware_Contrastive_Regression_for_Action_Quality_Assessment_ICCV_2021_paper.pdf) | [Github](https://github.com/yuxumin/CoRe)
+- [ACM MM 2021] TSA-Net: Tube Self-Attention Network for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2201.03746.pdf) | [Github](https://github.com/Shunli-Wang/TSA-Net)
+
+### 2020
+
+- [CVPR 2020] Uncertainty-aware Score Distribution Learning for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_Uncertainty-Aware_Score_Distribution_Learning_for_Action_Quality_Assessment_CVPR_2020_paper.pdf) | [Github](https://github.com/nzl-thu/MUSDL)
+- [ECCV 2020] An Asymmetric Modeling for Action Assessment. [PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750222.pdf)
+
+### 2019 and Before
+
+- [CVPR 2019] What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Parmar_What_and_How_Well_You_Performed_A_Multitask_Learning_Approach_CVPR_2019_paper.pdf) | [Github](https://github.com/ParitoshParmar/MTL-AQA)
+- [ICCV 2019] Action Assessment by Joint Relation Graphs. [PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pan_Action_Assessment_by_Joint_Relation_Graphs_ICCV_2019_paper.pdf)
+- [WACV 2019] Action Quality Assessment Across Multiple Actions. [PDF](https://arxiv.org/pdf/2111.11029)
+- [ECCV 2014] Assessing the Quality of Actions. [Project](https://redirect.cs.umbc.edu/~hpirsiav/quality.html)
 
 ## Medical Care
 
 ### 2023
 
 - [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY)
+
+## Skill Assesement
+
+- [TMM 2023] Adaptive Stage-Aware Assessment Skill Transfer for Skill Determination. [DOI](https://doi.org/10.1109/TMM.2023.3294800)
 
 # Datasets
 
