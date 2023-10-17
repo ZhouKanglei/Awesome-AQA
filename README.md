@@ -33,6 +33,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [CVPR 2022] Likert Scoring with Grade Decoupling for Long-term Action Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Likert_Scoring_With_Grade_Decoupling_for_Long-Term_Action_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xuangch/CVPR22_GDLT)
 - [ECCV 2022] Action Quality Assessment with Temporal Parsing Transformer. [PDF](https://arxiv.org/pdf/2207.09270.pdf) | [Github](https://github.com/baiyang4/aqa_tpt)
 - [ECCV 2022] Pairwise Contrastive Learning Network for Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640450.pdf)
+- (ECCV 2022) Domain Knowledge-Informed Self-Supervised Representations for Workout Form Assessment. [PDF](https://arxiv.org/pdf/2202.14019v2.pdf) | [Github](https://github.com/ParitoshParmar/Fitness-AQA) 
 
 ### 2021
 
@@ -62,9 +63,38 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY)
 
-## Skill Assesement
+### 2022
+
++ (IJCAI 2022) EGCN: An Ensemble-based Learning Framework for Exploring Effective Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://www.ijcai.org/proceedings/2022/0511.pdf) | [Github](https://github.com/bruceyo/EGCN)
+
+### 2020
+
++ (TNSRE 2020) A Deep Learning Framework for Assessing Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8957502) | [DOI](https://doi.org/10.1109/TNSRE.2020.2966249)
+
+### 2019 and Before
+
++ (TNSRE 2019) The KIMORE Dataset: KInematic Assessment of MOvement and Clinical Scores for Remote Monitoring of Physical REhabilitation. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8736767) | [DOI](https://doi.org/10.1109/TNSRE.2019.2923060) 
+
+## Skill Assessment
 
 - [TMM 2023] Adaptive Stage-Aware Assessment Skill Transfer for Skill Determination. [DOI](https://doi.org/10.1109/TMM.2023.3294800)
 
 # Datasets
+
+## Sports
+
++ MTL-AQA
+  + Input format: RGB
+  + [Download](https://github.com/ParitoshParmar/Fitness-AQA)
+
+## Medical Care
+
++ KIMORE 
+  + Input format: RGB, Depth, Joint Position, Joint Orientation.
+  + [Download](https://univpm-my.sharepoint.com/personal/p008099_staff_univpm_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fp008099_staff_univpm_it%2FDocuments%2FKiMoRe&ga=1)
++ UI-PRMD
+  + Input format: Joint Position, Joint Orientation
+  + [Project & Download](https://www.webpages.uidaho.edu/ui-prmd/)
+
+## Skill Assessment
 
