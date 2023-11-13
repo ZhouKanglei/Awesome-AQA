@@ -18,6 +18,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ---
 
 - [CVPR 2023] LOGO: A Long-Form Video Dataset for Group Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_LOGO_A_Long-Form_Video_Dataset_for_Group_Action_Quality_Assessment_CVPR_2023_paper.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
+- [AAAI 2023] Skating-Mixer: Long-Term Sport Audio-Visual Modeling with MLPs. [PDF](https://arxiv.org/pdf/2203.03990.pdf)
 - [ACM MM 2023] A Figure Skating Jumping Dataset for Replay-Guided Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613774)
 - [ACM MM 2023] Localization-assisted Uncertainty Score Disentanglement Network for Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613795)
 - [IUI 2023] IRIS: Interpretable Rubric-Informed Segmentation for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2303.09097.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
@@ -36,10 +37,6 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [CVPR 2022] Likert Scoring with Grade Decoupling for Long-term Action Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Likert_Scoring_With_Grade_Decoupling_for_Long-Term_Action_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xuangch/CVPR22_GDLT)
 - [ECCV 2022] Action Quality Assessment with Temporal Parsing Transformer. [PDF](https://arxiv.org/pdf/2207.09270.pdf) | [Github](https://github.com/baiyang4/aqa_tpt)
 - [ECCV 2022] Pairwise Contrastive Learning Network for Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640450.pdf)
-
-___
-
-- [Arxiv 2022] Skating-Mixer: Long-Term Sport Audio-Visual Modeling with MLPs. [PDF](https://arxiv.org/pdf/2203.03990.pdf)
 
 ### 2021
 
