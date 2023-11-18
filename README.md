@@ -8,9 +8,14 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ## Sports
 
+### 2024
+
+- [WACV 2024] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf)
+
 ### 2023
 
 - [IJCV 2023] Automatic Modelling for Interactive Action Assessment. [DOI](https://doi.org/10.1007/s11263-022-01695-5)
+- [TIP 2023] Fine-grained Spatio-temporal Parsing Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2023.3331212)
 - [TCSVT 2023] Hierarchical Graph Convolutional Networks for Action Quality Assessment. [PDF](http://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf) | [DOI](https://doi.org/10.1109/TCSVT.2023.3281413) | [Github](https://github.com/ZhouKanglei/HGCN_AQA)
 - [TMM 2023] Learning Semantics-Guided Representations for Scoring Figure Skating. [DOI](https://doi.org/10.1109/TMM.2023.3328180)
 - [NCAA 2023] Auto-encoding score distribution regression for action quality assessment. [PDF](https://arxiv.org/pdf/2111.11029.pdf) | [DOI](https://doi.org/10.1007/s00521-023-09068-w) | [Github](https://github.com/InfoX-SEU/DAE-AQA)
