@@ -11,7 +11,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ### 2024
 
 - [WACV 2024] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [DOI](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP)
-- [TIP 2024] Multimodal Action Quality Assessment. [DOI](https://arxiv.org/pdf/2402.09444.pdf) | [Github]([GitHub - qinghuannn/PAMFN](https://github.com/qinghuannn/PAMFN))
+- [TIP 2024] Multimodal Action Quality Assessment. [DOI](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)
 
 ### 2023
 
