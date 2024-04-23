@@ -13,6 +13,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [CVPR 2024] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment.
 - [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
 - [WACV 2024] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [DOI](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP)
+- [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841)
 
 ---
 
@@ -21,6 +22,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ---
 
+- [arXiv 2024] Hierarchical NeuroSymbolic Approach for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798)
 - [arXiv 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf)
 
 ### 2023
