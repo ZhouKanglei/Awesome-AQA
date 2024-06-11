@@ -26,7 +26,6 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ---
 
-- [arXiv 2024] Hierarchical NeuroSymbolic Approach for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798)
 - [arXiv 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf)
 - [arXiv 2024] GAIA: Rethinking Action Quality Assessment for AI-Generated Videos. [PDF](https://arxiv.org/pdf/2406.06087) | [Github](https://github.com/zijianchen98/GAIA) |🔥🔥🔥
 
