@@ -6,7 +6,7 @@
 
 Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation), *etc*. 
 
-- 🔥🔥🔥denotes the highly recommended papers 
+- 🔥🔥🔥denotes the highly recommended papers for the novel insights and new directions.
 
 ## Sports
 
