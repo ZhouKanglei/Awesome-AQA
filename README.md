@@ -7,13 +7,7 @@
 Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation), *etc*. 
 
 - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
-
-  
-
-<div style="display:inline-block;width:78%;">We have created a Wechat group for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field.</div>
-<div style="display:inline-block;margin-left:10px;width:20%;"><img src=./imgs/aqa-wechat-group.png /></div>
-
-
+- We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field.
 
 ## Sports
 
