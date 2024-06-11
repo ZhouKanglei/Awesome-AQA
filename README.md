@@ -6,7 +6,14 @@
 
 Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation), *etc*. 
 
-- 🔥🔥🔥denotes the highly recommended papers for the novel insights and new directions.
+- 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
+
+  
+
+<div style="display:inline-block;width:78%;">We have created a Wechat group for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field.</div>
+<div style="display:inline-block;margin-left:10px;width:20%;"><img src=./imgs/aqa-wechat-group.png /></div>
+
+
 
 ## Sports
 
@@ -16,7 +23,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
 - [WACV 2024] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP)
 - [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe)
-- [CVPR 2024 CVSports] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github - code not avail](https://github.com/laurenok24/NSAQA) | 🔥🔥🔥
+- [CVPR 2024 CVSports] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github - code not avail](https://github.com/laurenok24/NSAQA) |🔥🔥🔥
 
 ---
 
