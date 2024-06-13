@@ -1,13 +1,12 @@
 #  Awesome Action Quality Assessment (AQA)
 
-*Pull requests are welcome if you find any interesting paper is missing.*
+> Pull requests are welcome if you find any interesting paper is missing.
+> - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
+> - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field.
 
 # Papers
 
 Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation), *etc*. 
-
-- 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
-- We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field.
 
 ## Sports
 
@@ -117,9 +116,15 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ## Sports
 
-+ MTL-AQA
-  + Input format: RGB
-  + [Download](https://github.com/ParitoshParmar/Fitness-AQA)
+| Dataset    | Type       | Modality           | Details             | Links                                                        |
+| ---------- | ---------- | ------------------ | ------------------- | ------------------------------------------------------------ |
+| MTL-AQA    | Short-term | RGB video          | Diving              | [Offical](https://github.com/ParitoshParmar/MTL-AQA) \| [DAE](https://github.com/Luciferbobo/DAE-AQA) |
+| FineDiving | Short-term | RGB video          | Diving              | [Offical](https://github.com/xujinglin/FineDiving/tree/main) |
+| AQA-7      | Short-term | RGB video          | Seven actions       | [Offical](http://rtis.oit.unlv.edu/datasets/)                |
+| RG         | Long-term  | RGB video          | Rhythmic gymnastics | [Offical](https://github.com/xuangch/CVPR22_GDLT/tree/main)  |
+| Fis-V      | Long-term  | RGB video          | Figure skating      | [Offical](https://github.com/chmxu/MS_LSTM)                  |
+| FS1000     | Long-term  | RGB video/Audio    | Figure skating      | [Offical](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating) |
+| FineFS     | Long-term  | RGB video/Skeleton | Figure skating      | [Offical](https://github.com/yanliji/FineFS-dataset)         |
 
 ## Medical Care
 
