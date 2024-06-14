@@ -21,6 +21,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ---
 
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)
+- [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA)
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
 
 ---
@@ -43,10 +44,6 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [ACM MM 2023] A Figure Skating Jumping Dataset for Replay-Guided Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613774)
 - [ACM MM 2023] Localization-assisted Uncertainty Score Disentanglement Network for Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613795)
 - [IUI 2023] IRIS: Interpretable Rubric-Informed Segmentation for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2303.09097.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
-
----
-
-- [Arxiv 2023] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf)
 
 ### 2022
 
