@@ -130,12 +130,8 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ## Medical Care
 
-+ KIMORE 
-  + Input format: RGB, Depth, Joint Position, Joint Orientation.
-  + [Download](https://univpm-my.sharepoint.com/personal/p008099_staff_univpm_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fp008099_staff_univpm_it%2FDocuments%2FKiMoRe&ga=1)
-+ UI-PRMD
-  + Input format: Joint Position, Joint Orientation
-  + [Project & Download](https://www.webpages.uidaho.edu/ui-prmd/)
-
-## Skill Assessment
+| Dataset | Modality                                   | Details | Links                                                        |
+| ------- | ------------------------------------------ | ------- | ------------------------------------------------------------ |
+| KIMORE  | RGB/Depth/Joint position/Joint orientation |         | [Offical](https://univpm-my.sharepoint.com/personal/p008099_staff_univpm_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fp008099_staff_univpm_it%2FDocuments%2FKiMoRe&ga=1) |
+| UI-PRMD | Joint position/Joint orientation           |         | [Offical](https://www.webpages.uidaho.edu/ui-prmd/)          |
 
