@@ -23,6 +23,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA)
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
+- [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103)
 
 ---
 
@@ -81,6 +82,10 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ## Medical Care
 
 ### 2024
+
+- [CVPRW 2024] FineRehab: A Multi-modality and Multi-task Dataset for Rehabilitation Analysis. [PDF](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Li_FineRehab_A_Multi-modality_and_Multi-task_Dataset_for_Rehabilitation_Analysis_CVPRW_2024_paper.pdf) | [Project](https://bsu3dvlab.github.io/FineRehab/)
+
+---
 
 + [TPAMI 2024] EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10475587) | [GitHub - EGCN++ not avail. EHE dataset avail.](https://github.com/bruceyo/egcnplusplus) 
 
