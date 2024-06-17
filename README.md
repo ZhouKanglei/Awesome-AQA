@@ -130,8 +130,8 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ## Medical Care
 
-| Dataset | Modality                                   | Details | Links                                                        |
-| ------- | ------------------------------------------ | ------- | ------------------------------------------------------------ |
-| KIMORE  | RGB/Depth/Joint position/Joint orientation |         | [Offical](https://univpm-my.sharepoint.com/personal/p008099_staff_univpm_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fp008099_staff_univpm_it%2FDocuments%2FKiMoRe&ga=1) |
-| UI-PRMD | Joint position/Joint orientation           |         | [Offical](https://www.webpages.uidaho.edu/ui-prmd/)          |
+| Dataset | Modality                                   | Details                                            | Links                                                        |
+| ------- | ------------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------ |
+| KIMORE  | RGB/Depth/Joint position/Joint orientation | 78 subjects (44 healthy and 34 motor dysfunctions) | [Offical](https://vrai.dii.univpm.it/content/kimore-dataset) |
+| UI-PRMD | Joint position/Joint orientation           | Each movement consists of 10 episodes              | [Offical](https://webpages.uidaho.edu/ui-prmd/)              |
 
