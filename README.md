@@ -2,7 +2,7 @@
 
 > Pull requests are welcome if you find any interesting paper is missing.
 > - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
-> - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field.
+> - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field. If it expires, please scan my [personal account](./imgs/ZKL.png).
 
 # Papers
 
