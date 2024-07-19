@@ -13,7 +13,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ### 2024
 
 - [CVPR 2024] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024)
-- [ECCV 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf)
+- [ECCV 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf) | [Github](https://github.com/ZhouKanglei/MAGR_CAQA)
 - [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
 - [WACV 2024] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP)
 - [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe)
@@ -21,6 +21,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ---
 
+- [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA)
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
