@@ -20,7 +20,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ---
 
-- [CVPR 2024] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) <img src="https://img.shields.io/badge/GitHub-Badge-brightgreen" alt="GitHub Badge" style="vertical-align: middle;">
+- [CVPR 2024] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) <img src="https://img.shields.io/badge/GitHub-Badge-brightgreen" alt="GitHub Badge" style="margin-left: 8px;">
 
 - [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. 
 
