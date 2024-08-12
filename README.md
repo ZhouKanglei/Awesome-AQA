@@ -25,7 +25,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 <div style="display: flex; align-items: center;">
     <span>Your Text</span>
-    <img src="https://img.shields.io/badge/GitHub-Badge-brightgreen" alt="GitHub Badge" style="vertical-align: middle; margin-left: 8px;">
+    <img src="https://img.shields.io/badge/GitHub-Badge-brightgreen" alt="GitHub Badge" style="vertical-align: -3px; margin-left: 8px;">
 </div>
 
 
