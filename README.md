@@ -21,12 +21,21 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ---
 
 - [CVPR 2024] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) 
+
 - [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa) | ![category](https://img.shields.io/badge/category-GNN-violet.svg)
+
 - [ECCV 2024] Semi-Supervised Teacher-Reference-Student Architecture for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2407.19675)
-- [ECCV 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [![arXiv](https://img.shields.io/badge/arXiv-2403.04398-b31b1b.svg)](https://arxiv.org/abs/2403.04398) [![GitHub Repo stars](https://img.shields.io/github/stars/ZhouKanglei/MAGR_CAQA)](https://github.com/ZhouKanglei/MAGR_CAQA) ![category](https://img.shields.io/badge/category-Continual%20AQA%20(CAQA)-red.svg)
+
+- [ECCV 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. 
+
+  [![arXiv](https://img.shields.io/badge/arXiv-2403.04398-b31b1b.svg)](https://arxiv.org/abs/2403.04398) [![GitHub Repo stars](https://img.shields.io/github/stars/ZhouKanglei/MAGR_CAQA)](https://github.com/ZhouKanglei/MAGR_CAQA) ![category](https://img.shields.io/badge/category-Continual%20AQA%20(CAQA)-red.svg)
+
 - [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
+
 - [WACV 2024] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP)
+
 - [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe)
+
 - [CVPRW 2024] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github](https://github.com/laurenok24/NSAQA) |🔥🔥🔥
 
 ---
