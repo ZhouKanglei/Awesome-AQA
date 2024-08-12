@@ -25,7 +25,8 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. 
 
   <details>
-  <summary><img src="https://img.shields.io/badge/arXiv-2408.02138-b31b1b.svg"/></summary>
+  <summary>details</summary>
+  <img src="https://img.shields.io/badge/arXiv-2408.02138-b31b1b.svg"/>
   </details>
 
   [![arXiv](https://img.shields.io/badge/arXiv-2408.02138-b31b1b.svg)](https://arxiv.org/abs/2408.02138) [![GitHub Repo stars](https://img.shields.io/github/stars/abrarmajeedi/rica2_aqa)](https://github.com/abrarmajeedi/rica2_aqa) ![category](https://img.shields.io/badge/category-GNN-violet.svg)
