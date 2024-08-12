@@ -1,4 +1,4 @@
-#  Awesome Action Quality Assessment (AQA)
+#  Awesome Action Quality Assessment (AQA) <img src="https://img.shields.io/badge/GitHub-Badge-brightgreen" alt="GitHub Badge" style="margin-left: 8px;">
 
 > Pull requests are welcome if you find any interesting paper is missing.
 > - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
