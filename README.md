@@ -14,16 +14,16 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)
-- [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | ![](https://img.shields.io/badge/Continual AQA (CAQA)-red)
+- [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | ![category](https://img.shields.io/badge/category-Continual AQA (CAQA)-red.svg)
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103)
 
 ---
 
 - [CVPR 2024] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) 
-- [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa) | ![](https://img.shields.io/badge/GNN-violet)
+- [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa) | ![category](https://img.shields.io/badge/category-GNN-violet.svg)
 - [ECCV 2024] Semi-Supervised Teacher-Reference-Student Architecture for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2407.19675)
-- [ECCV 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [![arXiv](https://img.shields.io/badge/arXiv-2403.04398-b31b1b.svg)](https://arxiv.org/abs/2403.04398) | ![GitHub Repo stars](https://img.shields.io/github/stars/ZhouKanglei/CoFInAl_AQA) | ![](https://img.shields.io/badge/Continual AQA (CAQA)-red) 
+- [ECCV 2024] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [![arXiv](https://img.shields.io/badge/arXiv-2403.04398-b31b1b.svg)](https://arxiv.org/abs/2403.04398) | [![GitHub Repo stars](https://img.shields.io/github/stars/ZhouKanglei/MAGR_CAQA)](https://github.com/ZhouKanglei/MAGR_CAQA) | ![category](https://img.shields.io/badge/category-Continual AQA (CAQA)-red.svg)
 - [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
 - [WACV 2024] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP)
 - [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe)
@@ -45,7 +45,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [IJCV 2023] Automatic Modelling for Interactive Action Assessment. [DOI](https://doi.org/10.1007/s11263-022-01695-5)
 - [TIP 2023] Fine-grained Spatio-temporal Parsing Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2023.3331212)
-- [TCSVT 2023] Hierarchical Graph Convolutional Networks for Action Quality Assessment. [PDF](http://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf) | [DOI](https://doi.org/10.1109/TCSVT.2023.3281413) | [Github](https://github.com/ZhouKanglei/HGCN_AQA) | ![](https://img.shields.io/badge/GNN-violet)
+- [TCSVT 2023] Hierarchical Graph Convolutional Networks for Action Quality Assessment. [PDF](http://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf) | [DOI](https://doi.org/10.1109/TCSVT.2023.3281413) | [Github](https://github.com/ZhouKanglei/HGCN_AQA) | ![category](https://img.shields.io/badge/category-GNN-violet.svg)
 - [TMM 2023] Learning Semantics-Guided Representations for Scoring Figure Skating. [DOI](https://doi.org/10.1109/TMM.2023.3328180)
 - [NCAA 2023] Auto-encoding score distribution regression for action quality assessment. [PDF](https://arxiv.org/pdf/2111.11029.pdf) | [DOI](https://doi.org/10.1007/s00521-023-09068-w) | [Github](https://github.com/InfoX-SEU/DAE-AQA)
 
