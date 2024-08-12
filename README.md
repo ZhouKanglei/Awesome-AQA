@@ -10,7 +10,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ## Sports
 
-### 2024
+### 2024 <img src="https://img.shields.io/badge/GitHub-Badge-brightgreen" alt="GitHub Badge" style="margin-left: 8px;">
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)
