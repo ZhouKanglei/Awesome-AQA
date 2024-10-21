@@ -18,6 +18,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) 
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103)
+- [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560) 
 
 ---
 
@@ -84,6 +85,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [CVPR 2019] What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Parmar_What_and_How_Well_You_Performed_A_Multitask_Learning_Approach_CVPR_2019_paper.pdf) | [Github](https://github.com/ParitoshParmar/MTL-AQA)
 - [ICCV 2019] Action Assessment by Joint Relation Graphs. [PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pan_Action_Assessment_by_Joint_Relation_Graphs_ICCV_2019_paper.pdf) 
 - [WACV 2019] Action Quality Assessment Across Multiple Actions. [PDF](https://arxiv.org/pdf/2111.11029)
+- [ICCV 2017] Am I a Baller? Basketball Performance Assessment from First-Person Videos. [PDF](https://openaccess.thecvf.com/content_ICCV_2017/papers/Bertasius_Am_I_a_ICCV_2017_paper.pdf)
 - [ECCV 2014] Assessing the Quality of Actions. [Project](https://redirect.cs.umbc.edu/~hpirsiav/quality.html)
 
 ## Medical Care
