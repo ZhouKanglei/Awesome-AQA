@@ -69,6 +69,10 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [TMM 2023] Learning Semantics-Guided Representations for Scoring Figure Skating. [DOI](https://doi.org/10.1109/TMM.2023.3328180)
 - [NCAA 2023] Auto-encoding score distribution regression for action quality assessment. [PDF](https://arxiv.org/pdf/2111.11029.pdf) | [DOI](https://doi.org/10.1007/s00521-023-09068-w) | [Github](https://github.com/InfoX-SEU/DAE-AQA)
 
+- [Applied Intelligence 2023] Multi-skeleton structures graph convolutional network for action quality assessment in long videos. [DOI](https://doi.org/10.1007/s10489-023-04613-5)
+- [Applied Intelligence 2023] Label-reconstruction-based pseudo-subscore learning for action quality assessment in sporting events. [DOI](https://doi.org/10.1007/s10489-022-03984-5)
+- [Applied Intelligence 2023] Improving action quality assessment with across-staged temporal reasoning on imbalanced data. [DOI](https://doi.org/10.1007/s10489-023-05166-3)
+
 ---
 
 - [CVPR 2023] LOGO: A Long-Form Video Dataset for Group Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_LOGO_A_Long-Form_Video_Dataset_for_Group_Action_Quality_Assessment_CVPR_2023_paper.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
@@ -76,6 +80,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [ACM MM 2023] A Figure Skating Jumping Dataset for Replay-Guided Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613774)
 - [ACM MM 2023] Localization-assisted Uncertainty Score Disentanglement Network for Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613795) | [Github - FineFS dataset avail, code not avail](https://github.com/yanliji/FineFS-dataset)
 - [IUI 2023] IRIS: Interpretable Rubric-Informed Segmentation for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2303.09097.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
+- [ICASSP 2023] Contrastive Self-Supervised Learning for Automated Multi-Modal Dance Performance Assessment. [DOI](https://doi.org/10.1109/ICASSP49357.2023.10096824)
 
 ### 2022
 
