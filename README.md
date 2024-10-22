@@ -138,6 +138,7 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 ### 2024
 + [TPAMI 2024] EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10475587) | [GitHub - EGCN++ not avail. EHE dataset avail.](https://github.com/bruceyo/egcnplusplus) 
 
+- [TNSRE 2024] Automatic Assessment of Upper Extremity Function and Mobile Application for Self-Administered Stroke Rehabilitation. [DOI](https://doi.org/10.1109/TNSRE.2024.3358497)
 ---
 
 - [CVPRW 2024] FineRehab: A Multi-modality and Multi-task Dataset for Rehabilitation Analysis. [PDF](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Li_FineRehab_A_Multi-modality_and_Multi-task_Dataset_for_Rehabilitation_Analysis_CVPRW_2024_paper.pdf) | [Project](https://bsu3dvlab.github.io/FineRehab/)
@@ -147,8 +148,12 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 - [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY)
 - [TNSRE 2023] A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256137)
+- [TNSRE 2023] A Skeleton-Based Rehabilitation Exercise Assessment System With Rotation Invariance. [DOI](https://doi.org/10.1109/TNSRE.2023.3282675) | [Github](https://github.com/Kelly510/RehabExerAssess)
+
+---
 
 - [CHASE 2023] Short: Deep Learning Approach to Skeletal Performance Evaluation of Physical Therapy Exercises. [DOI](https://doi.org/10.1145/3580252.3586984)
+- [ICCVW 2023] Personalized Monitoring in Home Healthcare: An Assistive System for Post Hip Replacement Rehabilitation. [PDF](https://openaccess.thecvf.com/content/ICCV2023W/ACVR/papers/Kryeem_Personalized_Monitoring_in_Home_Healthcare_An_Assistive_System_for_Post_ICCVW_2023_paper.pdf)
 
 ### 2022
 
