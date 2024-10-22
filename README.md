@@ -84,6 +84,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [TCSVT 2022] Semi-Supervised Action Quality Assessment With Self-Supervised Segment Feature Recovery. [DOI](https://doi.org/10.1109/TCSVT.2022.3143549)
 - [JVCIR 2022] Skeleton-based deep pose feature learning for action quality assessment on figure skating videos. [DOI](https://doi.org/10.1016/j.jvcir.2022.103625)
+
 ---
 
 - [CVPR 2022 **Oral**] FineDiving: A Fine-grained Dataset for Procedure-aware Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_FineDiving_A_Fine-Grained_Dataset_for_Procedure-Aware_Action_Quality_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xujinglin/FineDiving)
@@ -117,15 +118,11 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 - [CVPR 2019] What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Parmar_What_and_How_Well_You_Performed_A_Multitask_Learning_Approach_CVPR_2019_paper.pdf) | [Github](https://github.com/ParitoshParmar/MTL-AQA)
 - [ICCV 2019] Action Assessment by Joint Relation Graphs. [PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pan_Action_Assessment_by_Joint_Relation_Graphs_ICCV_2019_paper.pdf) 
 - [WACV 2019] Action Quality Assessment Across Multiple Actions. [PDF](https://arxiv.org/pdf/2111.11029)
-
 - [PCM 2018] End-to-end learning for action quality assessment. [DOI](https://doi.org/10.1007/978-3-030-00767-6_12)
 - [ICIP 2018] S3d: Stacking segmental p3d for action quality assessment. [DOI](https://doi.org/10.1109/ICIP.2018.8451364)
 - [ACCV 2018] Scoringnet: Learning key fragment for action quality assessment with ranking loss in skilled sports. [DOI](https://doi.org/10.1007/978-3-030-20876-9_10)
-
 - [ICCV 2017] Am I a Baller? Basketball Performance Assessment from First-Person Videos. [PDF](https://openaccess.thecvf.com/content_ICCV_2017/papers/Bertasius_Am_I_a_ICCV_2017_paper.pdf)
-
 - [BMVC 2015] Dynamical Regularity for Action Analysis. [PDF](https://bmva-archive.org.uk/bmvc/2015/papers/paper067/paper067.pdf)
-
 - [ECCV 2014] Assessing the Quality of Actions. [PDF](https://core.ac.uk/download/pdf/78056242.pdf) | [Project](https://redirect.cs.umbc.edu/~hpirsiav/quality.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,9 +130,10 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 ## Medical Care
 
 ### 2024
-+ [TPAMI 2024] EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10475587) | [GitHub - EGCN++ not avail. EHE dataset avail.](https://github.com/bruceyo/egcnplusplus) 
-
+- [TPAMI 2024] EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10475587) | [GitHub - EGCN++ not avail. EHE dataset avail.](https://github.com/bruceyo/egcnplusplus) 
 - [TNSRE 2024] Automatic Assessment of Upper Extremity Function and Mobile Application for Self-Administered Stroke Rehabilitation. [DOI](https://doi.org/10.1109/TNSRE.2024.3358497)
+- [TNSRE 2024] An Expert-Knowledge-Based Graph Convolutional Network for Skeleton- Based Physical Rehabilitation Exercises Assessment. [DOI](https://doi.org/10.1109/TNSRE.2024.3400790)
+
 ---
 
 - [CVPRW 2024] FineRehab: A Multi-modality and Multi-task Dataset for Rehabilitation Analysis. [PDF](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Li_FineRehab_A_Multi-modality_and_Multi-task_Dataset_for_Rehabilitation_Analysis_CVPRW_2024_paper.pdf) | [Project](https://bsu3dvlab.github.io/FineRehab/)
@@ -154,22 +152,25 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 ### 2022
 
-+ [IJCAI 2022] EGCN: An Ensemble-based Learning Framework for Exploring Effective Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://www.ijcai.org/proceedings/2022/0511.pdf) | [Github](https://github.com/bruceyo/EGCN)
+- [TNSRE 2022] Graph convolutional networks for assessment of physical rehabilitation exercises. [DOI](https://doi.org/10.1109/TNSRE.2022.3150392)
+
+---
+
+- [IJCAI 2022] EGCN: An Ensemble-based Learning Framework for Exploring Effective Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://www.ijcai.org/proceedings/2022/0511.pdf) | [Github](https://github.com/bruceyo/EGCN)
 
 ### 2021
 
-+ [PR 2021] Skeleton-based human action evaluation using graph convolutional network for monitoring Alzheimer’s progression. [PDF](https://www.sciencedirect.com/science/article/pii/S003132032100282X) | [DOI](https://doi.org/10.1016/j.patcog.2021.108095)
+- [PR 2021] Skeleton-based human action evaluation using graph convolutional network for monitoring Alzheimer’s progression. [PDF](https://www.sciencedirect.com/science/article/pii/S003132032100282X) | [DOI](https://doi.org/10.1016/j.patcog.2021.108095)
 
 
 ### 2020
 
-+ [TNSRE 2020] A Deep Learning Framework for Assessing Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8957502) | [DOI](https://doi.org/10.1109/TNSRE.2020.2966249)
-
+- [TNSRE 2020] A Deep Learning Framework for Assessing Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8957502) | [DOI](https://doi.org/10.1109/TNSRE.2020.2966249)
 - [Sensors 2020] VI-Net: View-Invariant Quality of Human Movement Assessment. [PDF](https://arxiv.org/pdf/2008.04999)
 
 ### 2019 and Before
 
-+ [TNSRE 2019] The KIMORE Dataset: KInematic Assessment of MOvement and Clinical Scores for Remote Monitoring of Physical REhabilitation. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8736767) | [DOI](https://doi.org/10.1109/TNSRE.2019.2923060) 
+- [TNSRE 2019] The KIMORE Dataset: KInematic Assessment of MOvement and Clinical Scores for Remote Monitoring of Physical REhabilitation. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8736767) | [DOI](https://doi.org/10.1109/TNSRE.2019.2923060) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,6 +186,10 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 - [ICASSP 2024] Which is the Better Teacher Action? A New Ranking Model and Dataset. [DOI](https://doi.org/10.1109/ICASSP48485.2024.10448158) | [Github](https://github.com/MingZier/TAQR-Dataset)
 
 ### 2023
+
+- [RA-L 2023] Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery. [PDF](https://discovery.ucl.ac.uk/id/eprint/10164755/2/Anastasiou_Keep%20Your%20Eye%20on%20the%20Best_AAM.pdf) | [Github](https://github.com/anastadimi/Contra-Sformer)
+
+---
 
 - [MICCAI 2023] Sedskill: Surgical events driven method for skill assessment from thoracoscopic surgical videos. [PDF](https://xmengli.github.io/papers/2023MICCAI-XDing.pdf) | [Github](https://github.com/xmed-lab/SEDSkill)
 
@@ -207,10 +212,8 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 ### 2019 and Before
 
-
 - [CVPR 2019] The pros and cons: Rank-aware temporal attention for skill determination in long videos. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Doughty_The_Pros_and_Cons_Rank-Aware_Temporal_Attention_for_Skill_Determination_CVPR_2019_paper.pdf)
 - [ICCVW 2019] Manipulation-skill assessment from videos with spatial attention network. [PDF](https://openaccess.thecvf.com/content_ICCVW_2019/papers/EPIC/Li_Manipulation-Skill_Assessment_from_Videos_with_Spatial_Attention_Network_ICCVW_2019_paper.pdf)
-
 - [CVPR 2018] Who's better? who's best? pairwise deep ranking for skill determination. [PDF](https://openaccess.thecvf.com/content_cvpr_2018/papers/Doughty_Whos_Better_Whos_CVPR_2018_paper.pdf)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
