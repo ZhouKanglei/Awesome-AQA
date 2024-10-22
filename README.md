@@ -86,6 +86,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [TCSVT 2022] Semi-Supervised Action Quality Assessment With Self-Supervised Segment Feature Recovery. [DOI](https://doi.org/10.1109/TCSVT.2022.3143549)
 
+- [JVCIR 2022] Skeleton-based deep pose feature learning for action quality assessment on figure skating videos. [DOI](https://doi.org/10.1016/j.jvcir.2022.103625)
 ---
 
 - [CVPR 2022 **Oral**] FineDiving: A Fine-grained Dataset for Procedure-aware Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_FineDiving_A_Fine-Grained_Dataset_for_Procedure-Aware_Action_Quality_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xujinglin/FineDiving)
@@ -105,7 +106,8 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 - [ICCV 2021] Group-aware Contrastive Regression for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Group-Aware_Contrastive_Regression_for_Action_Quality_Assessment_ICCV_2021_paper.pdf) | [Github](https://github.com/yuxumin/CoRe)
 - [ACM MM 2021] TSA-Net: Tube Self-Attention Network for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2201.03746.pdf) | [Github](https://github.com/Shunli-Wang/TSA-Net)
 - [WACV 2021] EAGLE-Eye: Extreme-pose Action Grader using detaiL bird’s-Eye view. [PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Nekoui_EAGLE-Eye_Extreme-Pose_Action_Grader_Using_Detail_Birds-Eye_View_WACV_2021_paper.pdf)
-
+- [ICIP 2021] Action quality assessment with ignoring scene context. [DOI](https://doi.org/10.1109/ICIP42928.2021.9506257)
+- [PETRA 2021] Towards Improved and Interpretable Action Quality Assessment with Self-Supervised Alignment. [PDF](https://users.ics.forth.gr/~argyros/mypapers/2021_06_PETRA_AQA-Roditakis.pdf)
 - [INSAI 2021] A survey of video-based action quality assessment. [PDF](https://arxiv.org/pdf/2204.09271.pdf)
 
 ### 2020
@@ -118,25 +120,35 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 - [CVPR 2019] What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Parmar_What_and_How_Well_You_Performed_A_Multitask_Learning_Approach_CVPR_2019_paper.pdf) | [Github](https://github.com/ParitoshParmar/MTL-AQA)
 - [ICCV 2019] Action Assessment by Joint Relation Graphs. [PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pan_Action_Assessment_by_Joint_Relation_Graphs_ICCV_2019_paper.pdf) 
 - [WACV 2019] Action Quality Assessment Across Multiple Actions. [PDF](https://arxiv.org/pdf/2111.11029)
+
+- [PCM 2018] End-to-end learning for action quality assessment. [DOI](https://doi.org/10.1007/978-3-030-00767-6_12)
+- [ICIP 2018] S3d: Stacking segmental p3d for action quality assessment. [DOI](https://doi.org/10.1109/ICIP.2018.8451364)
+- [ACCV 2018] Scoringnet: Learning key fragment for action quality assessment with ranking loss in skilled sports. [DOI](https://doi.org/10.1007/978-3-030-20876-9_10)
+
 - [ICCV 2017] Am I a Baller? Basketball Performance Assessment from First-Person Videos. [PDF](https://openaccess.thecvf.com/content_ICCV_2017/papers/Bertasius_Am_I_a_ICCV_2017_paper.pdf)
-- [ECCV 2014] Assessing the Quality of Actions. [Project](https://redirect.cs.umbc.edu/~hpirsiav/quality.html)
+
+- [BMVC 2015] Dynamical Regularity for Action Analysis. [PDF](https://bmva-archive.org.uk/bmvc/2015/papers/paper067/paper067.pdf)
+
+- [ECCV 2014] Assessing the Quality of Actions. [PDF](https://core.ac.uk/download/pdf/78056242.pdf) | [Project](https://redirect.cs.umbc.edu/~hpirsiav/quality.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Medical Care
 
 ### 2024
-
-- [CVPRW 2024] FineRehab: A Multi-modality and Multi-task Dataset for Rehabilitation Analysis. [PDF](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Li_FineRehab_A_Multi-modality_and_Multi-task_Dataset_for_Rehabilitation_Analysis_CVPRW_2024_paper.pdf) | [Project](https://bsu3dvlab.github.io/FineRehab/)
++ [TPAMI 2024] EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10475587) | [GitHub - EGCN++ not avail. EHE dataset avail.](https://github.com/bruceyo/egcnplusplus) 
 
 ---
 
-+ [TPAMI 2024] EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10475587) | [GitHub - EGCN++ not avail. EHE dataset avail.](https://github.com/bruceyo/egcnplusplus) 
+- [CVPRW 2024] FineRehab: A Multi-modality and Multi-task Dataset for Rehabilitation Analysis. [PDF](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Li_FineRehab_A_Multi-modality_and_Multi-task_Dataset_for_Rehabilitation_Analysis_CVPRW_2024_paper.pdf) | [Project](https://bsu3dvlab.github.io/FineRehab/)
+
 
 ### 2023
 
 - [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY)
 - [TNSRE 2023] A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256137)
+
+- [CHASE 2023] Short: Deep Learning Approach to Skeletal Performance Evaluation of Physical Therapy Exercises. [DOI](https://doi.org/10.1145/3580252.3586984)
 
 ### 2022
 
@@ -150,6 +162,8 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 ### 2020
 
 + [TNSRE 2020] A Deep Learning Framework for Assessing Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8957502) | [DOI](https://doi.org/10.1109/TNSRE.2020.2966249)
+
+- [Sensors 2020] VI-Net: View-Invariant Quality of Human Movement Assessment. [PDF](https://arxiv.org/pdf/2008.04999)
 
 ### 2019 and Before
 
