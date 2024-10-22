@@ -36,7 +36,9 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe)
 - [CVPRW 2024] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github](https://github.com/laurenok24/NSAQA) |🔥🔥🔥
 
+---
 
+- [arXiv 2024] Learning to Score Sign Language with Two-stage Method. [PDF](https://arxiv.org/pdf/2404.10383)
 
 ### 2023
 
@@ -132,6 +134,9 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 - [TCSVT 2024] Rhythmer: Ranking-based Skill Assessment with Rhythm-aware Transformer. [DOI](https://doi.org/10.1109/TCSVT.2024.3459938)
 - [TMM 2024] Adaptive Stage-Aware Assessment Skill Transfer for Skill Determination. [DOI](https://doi.org/10.1109/TMM.2023.3294800)
 
+---
+
+- [ICASSP 2024] Which is the Better Teacher Action? A New Ranking Model and Dataset. [DOI](https://doi.org/10.1109/ICASSP48485.2024.10448158) | [Github](https://github.com/MingZier/TAQR-Dataset)
 
 ### 2023
 
