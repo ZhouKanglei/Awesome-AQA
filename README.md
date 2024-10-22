@@ -1,8 +1,27 @@
+<a id="readme-top"></a>
 #  Awesome Action Quality Assessment (AQA)
 
 > Pull requests are welcome if you find any interesting paper is missing.
 > - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
 > - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field. If it expires, please scan my [personal account](./imgs/ZKL.png).
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Papers</a>
+      <ul>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#medical-care">Medical care</a></li>
+        <li><a href="#skill-assessment">Skill assessment</a></li>
+      </ul>
+    </li>
+    <li><a href="#datasets">Datasets</a></li>
+  </ol>
+</details>
+
 
 # Papers
 
@@ -14,7 +33,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
 - [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [PDF](papers/TIP'24-Semi-supervised_AQA.pdf) | [DOI](https://doi.org/10.1109/TIP.2024.3468870)
-- [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)
+- [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN) 
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) 
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103)
@@ -95,6 +114,8 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 - [ICCV 2017] Am I a Baller? Basketball Performance Assessment from First-Person Videos. [PDF](https://openaccess.thecvf.com/content_ICCV_2017/papers/Bertasius_Am_I_a_ICCV_2017_paper.pdf)
 - [ECCV 2014] Assessing the Quality of Actions. [Project](https://redirect.cs.umbc.edu/~hpirsiav/quality.html)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Medical Care
 
 ### 2024
@@ -126,6 +147,8 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 ### 2019 and Before
 
 + [TNSRE 2019] The KIMORE Dataset: KInematic Assessment of MOvement and Clinical Scores for Remote Monitoring of Physical REhabilitation. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8736767) | [DOI](https://doi.org/10.1109/TNSRE.2019.2923060) 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Skill Assessment
 
@@ -167,6 +190,8 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 - [CVPR 2018] Who's better? who's best? pairwise deep ranking for skill determination. [PDF](https://openaccess.thecvf.com/content_cvpr_2018/papers/Doughty_Whos_Better_Whos_CVPR_2018_paper.pdf)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Datasets
 
 ## Sports
@@ -187,3 +212,6 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 | ------- | ------------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------ |
 | KIMORE  | RGB/Depth/Joint position/Joint orientation | 78 subjects (44 healthy and 34 motor dysfunctions) | [Offical](https://vrai.dii.univpm.it/content/kimore-dataset) |
 | UI-PRMD | Joint position/Joint orientation           | Each movement consists of 10 episodes              | [Offical](https://webpages.uidaho.edu/ui-prmd/)              |
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
