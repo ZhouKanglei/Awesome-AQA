@@ -38,7 +38,6 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103)
 - [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560) 
-
 - [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
 
 ---
@@ -68,7 +67,6 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [TCSVT 2023] Hierarchical Graph Convolutional Networks for Action Quality Assessment. [PDF](http://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf) | [DOI](https://doi.org/10.1109/TCSVT.2023.3281413) | [Github](https://github.com/ZhouKanglei/HGCN_AQA) 
 - [TMM 2023] Learning Semantics-Guided Representations for Scoring Figure Skating. [DOI](https://doi.org/10.1109/TMM.2023.3328180)
 - [NCAA 2023] Auto-encoding score distribution regression for action quality assessment. [PDF](https://arxiv.org/pdf/2111.11029.pdf) | [DOI](https://doi.org/10.1007/s00521-023-09068-w) | [Github](https://github.com/InfoX-SEU/DAE-AQA)
-
 - [Applied Intelligence 2023] Multi-skeleton structures graph convolutional network for action quality assessment in long videos. [DOI](https://doi.org/10.1007/s10489-023-04613-5)
 - [Applied Intelligence 2023] Label-reconstruction-based pseudo-subscore learning for action quality assessment in sporting events. [DOI](https://doi.org/10.1007/s10489-022-03984-5)
 - [Applied Intelligence 2023] Improving action quality assessment with across-staged temporal reasoning on imbalanced data. [DOI](https://doi.org/10.1007/s10489-023-05166-3)
@@ -85,7 +83,6 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ### 2022
 
 - [TCSVT 2022] Semi-Supervised Action Quality Assessment With Self-Supervised Segment Feature Recovery. [DOI](https://doi.org/10.1109/TCSVT.2022.3143549)
-
 - [JVCIR 2022] Skeleton-based deep pose feature learning for action quality assessment on figure skating videos. [DOI](https://doi.org/10.1016/j.jvcir.2022.103625)
 ---
 
