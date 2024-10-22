@@ -68,11 +68,16 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ### 2021
 
 - [TPAMI 2021] Adaptive Action Assessment. [DOI](https://doi.org/10.1109/TPAMI.2021.3126534)
+- [TOMM 2021] Will You Ever Become Popular? Learning to Predict Virality of Dance Clips. [PDF](https://arxiv.org/pdf/2111.03819)
 
 ---
 
+- [CVPR 2021] AIFit: Automatic 3D Human-Interpretable
+Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf)
 - [ICCV 2021] Group-aware Contrastive Regression for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Group-Aware_Contrastive_Regression_for_Action_Quality_Assessment_ICCV_2021_paper.pdf) | [Github](https://github.com/yuxumin/CoRe)
 - [ACM MM 2021] TSA-Net: Tube Self-Attention Network for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2201.03746.pdf) | [Github](https://github.com/Shunli-Wang/TSA-Net)
+- [WACV 2021] EAGLE-Eye: Extreme-pose Action Grader using detaiL bird’s-Eye view. [PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Nekoui_EAGLE-Eye_Extreme-Pose_Action_Grader_Using_Detail_Birds-Eye_View_WACV_2021_paper.pdf)
+
 - [INSAI 2021] A survey of video-based action quality assessment. [PDF](https://arxiv.org/pdf/2204.09271.pdf)
 
 ### 2020
@@ -111,6 +116,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 + [PR 2021] Skeleton-based human action evaluation using graph convolutional network for monitoring Alzheimer’s progression. [PDF](https://www.sciencedirect.com/science/article/pii/S003132032100282X) | [DOI](https://doi.org/10.1016/j.patcog.2021.108095)
 
+
 ### 2020
 
 + [TNSRE 2020] A Deep Learning Framework for Assessing Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8957502) | [DOI](https://doi.org/10.1109/TNSRE.2020.2966249)
@@ -140,6 +146,9 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ### 2021
 
 - [CVPR 2021] Towards unified surgical skill assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Towards_Unified_Surgical_Skill_Assessment_CVPR_2021_paper.pdf)
+
+- [MMSP 2021] Piano-Skills-Assessment. [DOI](https://doi.org/10.1109/MMSP53017.2021.9733638) | [Github](https://github.com/ParitoshParmar/Piano-Skills-Assessment)
+
 
 ### 2020
 
