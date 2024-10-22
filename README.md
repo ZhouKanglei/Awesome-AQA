@@ -11,11 +11,11 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Papers</a>
+      <a href="#papers">Papers</a>
       <ul>
         <li><a href="#sports">Sports</a></li>
-        <li><a href="#medical-care">Medical care</a></li>
-        <li><a href="#skill-assessment">Skill assessment</a></li>
+        <li><a href="#medical-care">Medical Care</a></li>
+        <li><a href="#skill-assessment">Skill Assessment</a></li>
       </ul>
     </li>
     <li><a href="#datasets">Datasets</a></li>
