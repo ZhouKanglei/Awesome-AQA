@@ -124,10 +124,34 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ### 2024
 
 - [TCSVT 2024] Rhythmer: Ranking-based Skill Assessment with Rhythm-aware Transformer. [DOI](https://doi.org/10.1109/TCSVT.2024.3459938)
+- [TMM 2024] Adaptive Stage-Aware Assessment Skill Transfer for Skill Determination. [DOI](https://doi.org/10.1109/TMM.2023.3294800)
+
 
 ### 2023
 
-- [TMM 2023] Adaptive Stage-Aware Assessment Skill Transfer for Skill Determination. [DOI](https://doi.org/10.1109/TMM.2023.3294800)
+- [MICCAI 2023] Sedskill: Surgical events driven method for skill assessment from thoracoscopic surgical videos. [PDF](https://xmengli.github.io/papers/2023MICCAI-XDing.pdf) | [Github](https://github.com/xmed-lab/SEDSkill)
+
+### 2022
+
+- [ECCV 2022] Domain knowledge-informed self-supervised representations for workout form assessment. [PDF](https://arxiv.org/pdf/2202.14019) | [Github](https://github.com/ParitoshParmar/Fitness-AQA)
+- [MICCAI 2022] Surgical skill assessment via video semantic aggregation. [PDF](https://arxiv.org/pdf/2208.02611) | [Github](https://github.com/shinkyo0513/Surgical-Skill-Assessment-via-Video-Semantic-Aggregation)
+- [MICCAI 2022] Video-based surgical skills assessment using long term tool tracking. [PDF](https://arxiv.org/pdf/2207.02247)
+
+### 2021
+
+- [CVPR 2021] Towards unified surgical skill assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Towards_Unified_Surgical_Skill_Assessment_CVPR_2021_paper.pdf)
+
+### 2020
+
+- [MICCAI 2020] Towards accurate and interpretable surgical skill assessment: A video-based method incorporating recognized surgical gestures and skill levels. [PDF](https://www.researchgate.net/profile/Tianyu-Wang-65/publication/345262769_Towards_Accurate_and_Interpretable_Surgical_Skill_Assessment_A_Video-Based_Method_Incorporating_Recognized_Surgical_Gestures_and_Skill_Levels/links/65e547c6adf2362b636a736c/Towards-Accurate-and-Interpretable-Surgical-Skill-Assessment-A-Video-Based-Method-Incorporating-Recognized-Surgical-Gestures-and-Skill-Levels.pdf)
+
+### 2019 and Before
+
+
+- [CVPR 2019] The pros and cons: Rank-aware temporal attention for skill determination in long videos. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Doughty_The_Pros_and_Cons_Rank-Aware_Temporal_Attention_for_Skill_Determination_CVPR_2019_paper.pdf)
+- [ICCVW 2019] Manipulation-skill assessment from videos with spatial attention network. [PDF](https://openaccess.thecvf.com/content_ICCVW_2019/papers/EPIC/Li_Manipulation-Skill_Assessment_from_Videos_with_Spatial_Attention_Network_ICCVW_2019_paper.pdf)
+
+- [CVPR 2018] Who's better? who's best? pairwise deep ranking for skill determination. [PDF](https://openaccess.thecvf.com/content_cvpr_2018/papers/Doughty_Whos_Better_Whos_CVPR_2018_paper.pdf)
 
 # Datasets
 
