@@ -39,6 +39,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103)
 - [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560) 
 - [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
+- [Neurocomputing 2024] Dual-referenced assistive network for action quality assessment. [DOI](https://doi.org/10.1016/j.neucom.2024.128786)
 
 ---
 
@@ -222,15 +223,15 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 ## Sports
 
-| Dataset    | Type       | Modality           | Size | Details             | Links                                                        |
-| ---------- | ---------- | ------------------ | ---- | ------------------- | ------------------------------------------------------------ |
+| Dataset    | Type       | Modality           | Size | Details             | Links                                                                                                 |
+| ---------- | ---------- | ------------------ | ---- | ------------------- | ----------------------------------------------------------------------------------------------------- |
 | MTL-AQA    | Short-term | RGB video          | 1412 | Diving (16 kinds)   | [Offical](https://github.com/ParitoshParmar/MTL-AQA) \| [DAE](https://github.com/Luciferbobo/DAE-AQA) |
-| FineDiving | Short-term | RGB video          | 3000 | Diving (30 kinds)   | [Offical](https://github.com/xujinglin/FineDiving/tree/main) |
-| AQA-7      | Short-term | RGB video          | 549  | Seven actions       | [Offical](http://rtis.oit.unlv.edu/datasets/)                |
-| RG         | Long-term  | RGB video          | 250  | Rhythmic gymnastics | [Offical](https://github.com/xuangch/CVPR22_GDLT/tree/main)  |
-| Fis-V      | Long-term  | RGB video          | 500  | Figure skating      | [Offical](https://github.com/chmxu/MS_LSTM)                  |
-| FS1000     | Long-term  | RGB video/Audio    | 1604 | Figure skating      | [Offical](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating) |
-| FineFS     | Long-term  | RGB video/Skeleton | 1167 | Figure skating      | [Offical](https://github.com/yanliji/FineFS-dataset)         |
+| FineDiving | Short-term | RGB video          | 3000 | Diving (30 kinds)   | [Offical](https://github.com/xujinglin/FineDiving/tree/main)                                          |
+| AQA-7      | Short-term | RGB video          | 549  | Seven actions       | [Offical](http://rtis.oit.unlv.edu/datasets/)                                                         |
+| RG         | Long-term  | RGB video          | 250  | Rhythmic gymnastics | [Offical](https://github.com/xuangch/CVPR22_GDLT/tree/main)                                           |
+| Fis-V      | Long-term  | RGB video          | 500  | Figure skating      | [Offical](https://github.com/chmxu/MS_LSTM)                                                           |
+| FS1000     | Long-term  | RGB video/Audio    | 1604 | Figure skating      | [Offical](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating)                             |
+| FineFS     | Long-term  | RGB video/Skeleton | 1167 | Figure skating      | [Offical](https://github.com/yanliji/FineFS-dataset)                                                  |
 
 ## Medical Care
 
