@@ -33,7 +33,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
 - [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [PDF](papers/TIP'24-Semi-supervised_AQA.pdf) | [DOI](https://doi.org/10.1109/TIP.2024.3468870)
-- [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)   | $\color{yellow}\textsf{Video + Audio}\color{orange}\textsf{ + Flow}$
+- [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN) | $\color{yellow}\textsf{Video + Audio}\color{orange}\textsf{ + Flow}$
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
 - [TCSVT 2024] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | $\color{cyan}\textsf{Video + Text}$
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
@@ -49,7 +49,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [CVPR 2024 **Oral**] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) 
 - [CVPR 2024] Narrative Action Evaluation with Prompt-Guided Multimodal Interaction. [PDF](https://arxiv.org/pdf/2404.14471) | [Github](https://github.com/shiyi-zh0408/NAE_CVPR2024) | $\color{magenta}\textsf{Interpretable Feedback}$, $\color{cyan}\textsf{Video + Text}$ 
 - [ECCV 2024 **Oral**] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf) | [Github](https://github.com/ZhouKanglei/MAGR_CAQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
-- [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa)
+- [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa) | $\color{cyan}\textsf{Video + Text}$
 - [ECCV 2024] Semi-Supervised Teacher-Reference-Student Architecture for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2407.19675)
 - [ECCV 2024] Vision-Language Action Knowledge Learning for Semantic-Aware Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05909.pdf)  | $\color{cyan}\textsf{Video + Text}$ 
 - [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
