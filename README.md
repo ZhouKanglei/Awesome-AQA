@@ -33,11 +33,11 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
 - [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [PDF](papers/TIP'24-Semi-supervised_AQA.pdf) | [DOI](https://doi.org/10.1109/TIP.2024.3468870)
-- [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)   | $\color{yellow}\textsf{Video + Audio}\color{orange}\textsf{+Flos}$
+- [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)   | $\color{yellow}\textsf{Video + Audio}\color{orange}\textsf{ + Flow}$
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) 
 - [TCSVT 2024] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | $\color{cyan}\textsf{Video + Text}$
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
-- [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103) | $\color{green}\textsf{Video + Skeleton}$
+- [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103) | $\color{lightgreen}\textsf{Video + Skeleton}$
 - [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560) 
 - [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
 - [Neurocomputing 2024] Dual-referenced assistive network for action quality assessment. [DOI](https://doi.org/10.1016/j.neucom.2024.128786)
@@ -45,7 +45,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ---
 
 - [NeurIPS 2024 **Spotlight**] GAIA: Rethinking Action Quality Assessment for AI-Generated Videos. [PDF](https://arxiv.org/pdf/2406.06087) | [Github](https://github.com/zijianchen98/GAIA) |🔥🔥🔥
-- [NeurIPS 2024] LucidAction: A Hierarchical and Multi-model Dataset for Comprehensive Action Quality Assessment. [NeurIPS 2024 Website](https://nips.cc/virtual/2024/poster/97542)  | $\color{green}\textsf{Video + Skeleton}$
+- [NeurIPS 2024] LucidAction: A Hierarchical and Multi-model Dataset for Comprehensive Action Quality Assessment. [NeurIPS 2024 Website](https://nips.cc/virtual/2024/poster/97542)  | $\color{lightgreen}\textsf{Video + Skeleton}$
 - [CVPR 2024 **Oral**] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) 
 - [ECCV 2024 **Oral**] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf) | [Github](https://github.com/ZhouKanglei/MAGR_CAQA) 
 - [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa)
