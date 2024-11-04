@@ -223,24 +223,29 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 # Datasets
 
-## Sports
 
-| Dataset    | Type       | Modality           | Size | Details             | Links                                                                                                 |
-| ---------- | ---------- | ------------------ | ---- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| MTL-AQA    | Short-term | RGB video          | 1412 | Diving (16 kinds)   | [Offical](https://github.com/ParitoshParmar/MTL-AQA) \| [DAE](https://github.com/Luciferbobo/DAE-AQA) |
-| FineDiving | Short-term | RGB video          | 3000 | Diving (30 kinds)   | [Offical](https://github.com/xujinglin/FineDiving/tree/main)                                          |
-| AQA-7      | Short-term | RGB video          | 549  | Seven actions       | [Offical](http://rtis.oit.unlv.edu/datasets/)                                                         |
-| RG         | Long-term  | RGB video          | 250  | Rhythmic gymnastics | [Offical](https://github.com/xuangch/CVPR22_GDLT/tree/main)                                           |
-| Fis-V      | Long-term  | RGB video          | 500  | Figure skating      | [Offical](https://github.com/chmxu/MS_LSTM)                                                           |
-| FS1000     | Long-term  | RGB video/Audio    | 1604 | Figure skating      | [Offical](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating)                             |
-| FineFS     | Long-term  | RGB video/Skeleton | 1167 | Figure skating      | [Offical](https://github.com/yanliji/FineFS-dataset)                                                  |
-
-## Medical Care
-
-| Dataset | Modality                                   | Details                                            | Links                                                        |
-| ------- | ------------------------------------------ | -------------------------------------------------- | ------------------------------------------------------------ |
-| KIMORE  | RGB/Depth/Joint position/Joint orientation | 78 subjects (44 healthy and 34 motor dysfunctions) | [Offical](https://vrai.dii.univpm.it/content/kimore-dataset) |
-| UI-PRMD | Joint position/Joint orientation           | Each movement consists of 10 episodes              | [Offical](https://webpages.uidaho.edu/ui-prmd/)              |
+| **Dataset**           | **Year** | **Modality**                    | **Domains**        | **# Classes** | **# Samples** | **# Avg. Frames** | **Annotations**                            | **URL**                                                               |
+|-----------------------|----------|----------------------------------|--------------------|---------------|---------------|-------------------|--------------------------------------------|-----------------------------------------------------------------------|
+| MIT Olympic           | 2014     | Video, 2D Skeleton              | Sports            | 2             | 309           | Dive: 150, Figure Skate: 4200 | Score                                      | [Link](https://userpages.cs.umbc.edu/hpirsiav/quality.html)           |
+| UNLV Olympic          | 2017     | Video                           | Sports            | 3             | 717           | Dive: 150, Figure Skate: 4200, Vault: 75 | Score                                      | [Link](http://rtis.oit.unlv.edu/datasets.html)                        |
+| AQA-7                 | 2019     | Video                           | Sports            | 7             | 1189          | Dive: 97-105-156, Vault: 87, Big Air: 122-132, Trampoline: 634 | Score | [Link](http://rtis.oit.unlv.edu/datasets/)                           |
+| MTL-AQA               | 2019     | Video                           | Sports            | 16            | 1412          | 96                | Score                                      | [Link](https://github.com/Luciferbobo/DAE-AQA)                        |
+| Fis-V                 | 2019     | Video                           | Sports            | 1             | 500           | 4300              | TES PCS                                    | [Link](https://github.com/chmxu/MS_LSTM)                              |
+| RG                    | 2020     | Video                           | Sports            | 1             | 250           | 2375              | Difficulty, Execution, Total               | [Link](https://github.com/qinghuannn/ACTION-NET)                      |
+| FineDiving            | 2022     | Video                           | Sports            | 52            | 3000          | 105               | Step, Score                                | [Link](https://github.com/xujinglin/FineDiving)                       |
+| FS1000                | 2023     | Video, Audio                    | Sports            | 7             | 1604          | 5000              | TES PCS, detailed PCS                      | [Link](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating)|
+| FineFS                | 2023     | Video, 2D/3D Skeleton           | Sports            | 4             | 1167          | 5000              | detailed Score, Subaction Class, Segmentation | [Link](https://github.com/yanliji/FineFS-dataset)                  |
+| LOGO                  | 2023     | Video                           | Sports            | 12            | 200           | 5100              | Action Class, Formation, Score             | [Link](https://github.com/shiyi-zh0408/LOGO)                          |
+| GAIA                  | 2024     | Video (AI Gen.)                 | All               | 510           | 9180          | 70                | Subject, Completeness, Interaction         | [Link](https://github.com/zijianchen98/GAIA)                          |
+| JIGSAWS               | 2014     | Video                           | Skill Assessment  | 3             | 103           | --                | Surgemes Class, Rating                     | [Link](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/) |
+| EPIC-Skills           | 2018     | Video                           | Skill Assessment  | 7             | 216           | --                | Relative Rank                               | [Link](https://github.com/hazeld/rank-aware-attention-network)        |
+| BEST                  | 2019     | Video                           | Skill Assessment  | 5             | 500           | 6400              | Relative Rank                               | [Link](https://github.com/hazeld/rank-aware-attention-network)        |
+| PISA                  | 2021     | Video, Audio                    | Skill Assessment  | 1             | 992           | 160               | Skill Level, Difficulty                    | [Link](https://github.com/ParitoshParmar/Piano-Skills-Assessment)     |
+| TAQR                  | 2024     | Video                           | Skill Assessment  | 4             | 300           | 488               | Relative Rank                               | [Link](https://github.com/MingZier/TAQR-Dataset)                      |
+| UI-PRMD               | 2018     | 3D Skeleton, Joint Pos. & Ori.  | Medical Care      | 10            | 1326          | --                | Binary Class                               | [Link](https://webpages.uidaho.edu/ui-prmd/)                          |
+| KIMORE                | 2019     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care | 5       | 1560          | --                | Score                                      | [Link](https://vrai.dii.univpm.it/content/kimore-dataset)             |
+| EHE                   | 2021     | 3D Skeleton, Joint Pos. & Ori.  | Medical Care      | 6             | 869           | --                | Binary Class                               | [Link](https://github.com/bruceyo/egcnplusplus/tree/main/EHE_dataset) |
+| FineRehab             | 2024     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care | 16    | 4215          | --                | Score                                      | [Link](https://bsu3dvlab.github.io/FineRehab/)                        |
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
