@@ -8,7 +8,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table of Contents: Papers and Datasets</summary>
   <ol>
     <li>
       <a href="#papers">Papers</a>
