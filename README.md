@@ -34,7 +34,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
 - [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [PDF](papers/TIP'24-Semi-supervised_AQA.pdf) | [DOI](https://doi.org/10.1109/TIP.2024.3468870)
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN)   | $\color{yellow}\textsf{Video + Audio}\color{orange}\textsf{ + Flow}$
-- [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 Continual Learning
+- [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
 - [TCSVT 2024] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | $\color{cyan}\textsf{Video + Text}$
 - [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103) | $\color{lightgreen}\textsf{Video + Skeleton}$
@@ -47,16 +47,17 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [NeurIPS 2024 **Spotlight**] GAIA: Rethinking Action Quality Assessment for AI-Generated Videos. [PDF](https://arxiv.org/pdf/2406.06087) | [Github](https://github.com/zijianchen98/GAIA) |🔥🔥🔥
 - [NeurIPS 2024] LucidAction: A Hierarchical and Multi-model Dataset for Comprehensive Action Quality Assessment. [NeurIPS 2024 Website](https://nips.cc/virtual/2024/poster/97542)  | $\color{lightgreen}\textsf{Video + Skeleton}$
 - [CVPR 2024 **Oral**] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) 
-- [ECCV 2024 **Oral**] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf) | [Github](https://github.com/ZhouKanglei/MAGR_CAQA) | 🧠 Continual Learning
+- [CVPR 2024] Narrative Action Evaluation with Prompt-Guided Multimodal Interaction. [PDF](https://arxiv.org/pdf/2404.14471) | [Github](https://github.com/shiyi-zh0408/NAE_CVPR2024) | $\color{magenta}\textsf{Interpretable Feedback}$ | $\color{cyan}\textsf{Video + Text}$ 
+- [ECCV 2024 **Oral**] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf) | [Github](https://github.com/ZhouKanglei/MAGR_CAQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
 - [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa)
 - [ECCV 2024] Semi-Supervised Teacher-Reference-Student Architecture for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2407.19675)
 - [ECCV 2024] Vision-Language Action Knowledge Learning for Semantic-Aware Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05909.pdf)  | $\color{cyan}\textsf{Video + Text}$ 
 - [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
 - [ACM MM 2024] 2M-AF: A Strong Multi-Modality Framework For Human Action Quality Assessment with Self-supervised Representation Learning. [PDF](https://openreview.net/forum?id=oEhi4pd0e1)
 - [BMVC 2024] Interpretable Long-term Action Quality Assessment. [PDF](https://arxiv.org/pdf/2408.11687) | [Github](https://github.com/dx199771/Interpretability-AQA)
-- [WACV 2024 **Oral**] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP) | 🧠 Continual Learning
+- [WACV 2024 **Oral**] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP) | 🧠 $\color{pink}\textsf{Continual Learning}$
 - [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe)
-- [CVPRW 2024] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github](https://github.com/laurenok24/NSAQA) |🔥🔥🔥
+- [CVPRW 2024] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github](https://github.com/laurenok24/NSAQA) | $\color{magenta}\textsf{Interpretable Feedback}$
 
 ---
 
@@ -102,7 +103,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ---
 
 - [CVPR 2021] AIFit: Automatic 3D Human-Interpretable
-Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf)
+Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf) | $\color{magenta}\textsf{Interpretable Feedback}$
 - [ICCV 2021] Group-aware Contrastive Regression for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Group-Aware_Contrastive_Regression_for_Action_Quality_Assessment_ICCV_2021_paper.pdf) | [Github](https://github.com/yuxumin/CoRe)
 - [ACM MM 2021] TSA-Net: Tube Self-Attention Network for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2201.03746.pdf) | [Github](https://github.com/Shunli-Wang/TSA-Net)
 - [WACV 2021] EAGLE-Eye: Extreme-pose Action Grader using detaiL bird’s-Eye view. [PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Nekoui_EAGLE-Eye_Extreme-Pose_Action_Grader_Using_Detail_Birds-Eye_View_WACV_2021_paper.pdf)
@@ -143,7 +144,7 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 ### 2023
 
-- [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY)
+- [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY)  | $\color{magenta}\textsf{Interpretable Feedback}$
 - [TNSRE 2023] A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256137)
 - [TNSRE 2023] A Skeleton-Based Rehabilitation Exercise Assessment System With Rotation Invariance. [DOI](https://doi.org/10.1109/TNSRE.2023.3282675) | [Github](https://github.com/Kelly510/RehabExerAssess)
 
