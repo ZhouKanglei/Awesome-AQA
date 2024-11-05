@@ -1,12 +1,13 @@
 <a id="readme-top"></a>
+
 #  Awesome Action Quality Assessment (AQA)
 
 > Pull requests are welcome if you find any interesting paper is missing.
 > - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
 > - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field. If it expires, please scan my [personal account](./imgs/ZKL.png).
 
-
 <!-- TABLE OF CONTENTS -->
+
 <details>
   <summary>Table of Contents: Papers and Datasets</summary>
   <ol>
@@ -174,6 +175,7 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 ### 2019 and Before
 
 - [TNSRE 2019] The KIMORE Dataset: KInematic Assessment of MOvement and Clinical Scores for Remote Monitoring of Physical REhabilitation. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8736767) | [DOI](https://doi.org/10.1109/TNSRE.2019.2923060) 
+- [Data 2018] A Data Set of Human Body Movements for Physical Rehabilitation Exercises. [PDF](https://www.mdpi.com/2306-5729/3/1/2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,7 +228,7 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 | **Dataset**           | **Year** | **Modality**                    | **Domains**        | **# Classes** | **# Samples** | **# Avg. Frames** | **Annotations**                            | **URL**                                                               |
 |-----------------------|----------|----------------------------------|--------------------|---------------|---------------|-------------------|--------------------------------------------|-----------------------------------------------------------------------|
-| MIT Olympic           | 2014     | Video, 2D Skeleton              | Sports            | 2             | 309           | Dive: 150, Figure Skate: 4200 | Score                                      | [Link](https://userpages.cs.umbc.edu/hpirsiav/quality.html)           |
+| MIT Olympic | 2014     | Video, 2D Skeleton              | Sports            | 2             | 309           | Dive: 150, Figure Skate: 4200 | Score                                      | [Link](https://userpages.cs.umbc.edu/hpirsiav/quality.html)           |
 | UNLV Olympic          | 2017     | Video                           | Sports            | 3             | 717           | Dive: 150, Figure Skate: 4200, Vault: 75 | Score                                      | [Link](http://rtis.oit.unlv.edu/datasets.html)                        |
 | AQA-7                 | 2019     | Video                           | Sports            | 7             | 1189          | Dive: 97-105-156, Vault: 87, Big Air: 122-132, Trampoline: 634 | Score | [Link](http://rtis.oit.unlv.edu/datasets/)                           |
 | MTL-AQA               | 2019     | Video                           | Sports            | 16            | 1412          | 96                | Score                                      | [Link](https://github.com/Luciferbobo/DAE-AQA)                        |
