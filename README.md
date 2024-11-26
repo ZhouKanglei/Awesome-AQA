@@ -1,10 +1,13 @@
 <a id="readme-top"></a>
 #  Awesome Action Quality Assessment (AQA)
 
+[![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://zhoukanglei.github.io/AQA-Survey)
+[![Page Views Count](https://badges.toozhao.com/badges/01JDKP6H9FYE9WEX7ADV27SFW4/green.svg)](https://badges.toozhao.com/stats/01JDKP5N9H7Y2KWEYJKQFN29RD "Get your own page views count badge on badges.toozhao.com")
+
+
 > Pull requests are welcome if you find any interesting paper is missing.
 > - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
 > - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field. If it expires, please scan my [personal account](./imgs/ZKL.png).
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -41,7 +44,8 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560) 
 - [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
 - [Neurocomputing 2024] Dual-referenced assistive network for action quality assessment. [DOI](https://doi.org/10.1016/j.neucom.2024.128786)
-
+- [ESWA 2024] Vision-based human action quality assessment: A systematic review. [DOI](https://doi.org/10.1016/j.eswa.2024.125642) | $\color{orange}\textsf{Survey}$
+- 
 ---
 
 - [NeurIPS 2024 **Spotlight**] GAIA: Rethinking Action Quality Assessment for AI-Generated Videos. [PDF](https://arxiv.org/pdf/2406.06087) | [Github](https://github.com/zijianchen98/GAIA) |🔥🔥🔥
@@ -109,7 +113,7 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 - [WACV 2021] EAGLE-Eye: Extreme-pose Action Grader using detaiL bird’s-Eye view. [PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Nekoui_EAGLE-Eye_Extreme-Pose_Action_Grader_Using_Detail_Birds-Eye_View_WACV_2021_paper.pdf)
 - [ICIP 2021] Action quality assessment with ignoring scene context. [DOI](https://doi.org/10.1109/ICIP42928.2021.9506257)
 - [PETRA 2021] Towards Improved and Interpretable Action Quality Assessment with Self-Supervised Alignment. [PDF](https://users.ics.forth.gr/~argyros/mypapers/2021_06_PETRA_AQA-Roditakis.pdf)
-- [INSAI 2021] A survey of video-based action quality assessment. [PDF](https://arxiv.org/pdf/2204.09271.pdf)
+- [INSAI 2021] A survey of video-based action quality assessment. [PDF](https://arxiv.org/pdf/2204.09271.pdf) | $\color{orange}\textsf{Survey}$
 
 ### 2020
 
@@ -224,28 +228,28 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 # Datasets
 
 
-| **Dataset**           | **Year** | **Modality**                    | **Domains**        | **# Classes** | **# Samples** | **# Avg. Frames** | **Annotations**                            | **URL**                                                               |
-|-----------------------|----------|----------------------------------|--------------------|---------------|---------------|-------------------|--------------------------------------------|-----------------------------------------------------------------------|
-| MIT Olympic           | 2014     | Video, 2D Skeleton              | Sports            | 2             | 309           | Dive: 150, Figure Skate: 4200 | Score                                      | [Link](https://userpages.cs.umbc.edu/hpirsiav/quality.html)           |
-| UNLV Olympic          | 2017     | Video                           | Sports            | 3             | 717           | Dive: 150, Figure Skate: 4200, Vault: 75 | Score                                      | [Link](http://rtis.oit.unlv.edu/datasets.html)                        |
-| AQA-7                 | 2019     | Video                           | Sports            | 7             | 1189          | Dive: 97-105-156, Vault: 87, Big Air: 122-132, Trampoline: 634 | Score | [Link](http://rtis.oit.unlv.edu/datasets/)                           |
-| MTL-AQA               | 2019     | Video                           | Sports            | 16            | 1412          | 96                | Score                                      | [Link](https://github.com/Luciferbobo/DAE-AQA)                        |
-| Fis-V                 | 2019     | Video                           | Sports            | 1             | 500           | 4300              | TES PCS                                    | [Link](https://github.com/chmxu/MS_LSTM)                              |
-| RG                    | 2020     | Video                           | Sports            | 1             | 250           | 2375              | Difficulty, Execution, Total               | [Link](https://github.com/qinghuannn/ACTION-NET)                      |
-| FineDiving            | 2022     | Video                           | Sports            | 52            | 3000          | 105               | Step, Score                                | [Link](https://github.com/xujinglin/FineDiving)                       |
-| FS1000                | 2023     | Video, Audio                    | Sports            | 7             | 1604          | 5000              | TES PCS, detailed PCS                      | [Link](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating)|
-| FineFS                | 2023     | Video, 2D/3D Skeleton           | Sports            | 4             | 1167          | 5000              | detailed Score, Subaction Class, Segmentation | [Link](https://github.com/yanliji/FineFS-dataset)                  |
-| LOGO                  | 2023     | Video                           | Sports            | 12            | 200           | 5100              | Action Class, Formation, Score             | [Link](https://github.com/shiyi-zh0408/LOGO)                          |
-| GAIA                  | 2024     | Video (AI Gen.)                 | All               | 510           | 9180          | 70                | Subject, Completeness, Interaction         | [Link](https://github.com/zijianchen98/GAIA)                          |
-| JIGSAWS               | 2014     | Video                           | Skill Assessment  | 3             | 103           | --                | Surgemes Class, Rating                     | [Link](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/) |
-| EPIC-Skills           | 2018     | Video                           | Skill Assessment  | 7             | 216           | --                | Relative Rank                               | [Link](https://github.com/hazeld/rank-aware-attention-network)        |
-| BEST                  | 2019     | Video                           | Skill Assessment  | 5             | 500           | 6400              | Relative Rank                               | [Link](https://github.com/hazeld/rank-aware-attention-network)        |
-| PISA                  | 2021     | Video, Audio                    | Skill Assessment  | 1             | 992           | 160               | Skill Level, Difficulty                    | [Link](https://github.com/ParitoshParmar/Piano-Skills-Assessment)     |
-| TAQR                  | 2024     | Video                           | Skill Assessment  | 4             | 300           | 488               | Relative Rank                               | [Link](https://github.com/MingZier/TAQR-Dataset)                      |
-| UI-PRMD               | 2018     | 3D Skeleton, Joint Pos. & Ori.  | Medical Care      | 10            | 1326          | --                | Binary Class                               | [Link](https://webpages.uidaho.edu/ui-prmd/)                          |
-| KIMORE                | 2019     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care | 5       | 1560          | --                | Score                                      | [Link](https://vrai.dii.univpm.it/content/kimore-dataset)             |
-| EHE                   | 2021     | 3D Skeleton, Joint Pos. & Ori.  | Medical Care      | 6             | 869           | --                | Binary Class                               | [Link](https://github.com/bruceyo/egcnplusplus/tree/main/EHE_dataset) |
-| FineRehab             | 2024     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care | 16    | 4215          | --                | Score                                      | [Link](https://bsu3dvlab.github.io/FineRehab/)                        |
+| **Dataset**  | **Year** | **Modality**                          | **Domains**      | **# Classes** | **# Samples** | **# Avg. Frames**                                              | **Annotations**                               | **URL**                                                                  |
+| ------------ | -------- | ------------------------------------- | ---------------- | ------------- | ------------- | -------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------ |
+| MIT Olympic  | 2014     | Video, 2D Skeleton                    | Sports           | 2             | 309           | Dive: 150, Figure Skate: 4200                                  | Score                                         | [Link](https://userpages.cs.umbc.edu/hpirsiav/quality.html)              |
+| UNLV Olympic | 2017     | Video                                 | Sports           | 3             | 717           | Dive: 150, Figure Skate: 4200, Vault: 75                       | Score                                         | [Link](http://rtis.oit.unlv.edu/datasets.html)                           |
+| AQA-7        | 2019     | Video                                 | Sports           | 7             | 1189          | Dive: 97-105-156, Vault: 87, Big Air: 122-132, Trampoline: 634 | Score                                         | [Link](http://rtis.oit.unlv.edu/datasets/)                               |
+| MTL-AQA      | 2019     | Video                                 | Sports           | 16            | 1412          | 96                                                             | Score                                         | [Link](https://github.com/Luciferbobo/DAE-AQA)                           |
+| Fis-V        | 2019     | Video                                 | Sports           | 1             | 500           | 4300                                                           | TES PCS                                       | [Link](https://github.com/chmxu/MS_LSTM)                                 |
+| RG           | 2020     | Video                                 | Sports           | 1             | 250           | 2375                                                           | Difficulty, Execution, Total                  | [Link](https://github.com/qinghuannn/ACTION-NET)                         |
+| FineDiving   | 2022     | Video                                 | Sports           | 52            | 3000          | 105                                                            | Step, Score                                   | [Link](https://github.com/xujinglin/FineDiving)                          |
+| FS1000       | 2023     | Video, Audio                          | Sports           | 7             | 1604          | 5000                                                           | TES PCS, detailed PCS                         | [Link](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating)   |
+| FineFS       | 2023     | Video, 2D/3D Skeleton                 | Sports           | 4             | 1167          | 5000                                                           | detailed Score, Subaction Class, Segmentation | [Link](https://github.com/yanliji/FineFS-dataset)                        |
+| LOGO         | 2023     | Video                                 | Sports           | 12            | 200           | 5100                                                           | Action Class, Formation, Score                | [Link](https://github.com/shiyi-zh0408/LOGO)                             |
+| GAIA         | 2024     | Video (AI Gen.)                       | All              | 510           | 9180          | 70                                                             | Subject, Completeness, Interaction            | [Link](https://github.com/zijianchen98/GAIA)                             |
+| JIGSAWS      | 2014     | Video                                 | Skill Assessment | 3             | 103           | --                                                             | Surgemes Class, Rating                        | [Link](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/) |
+| EPIC-Skills  | 2018     | Video                                 | Skill Assessment | 7             | 216           | --                                                             | Relative Rank                                 | [Link](https://github.com/hazeld/rank-aware-attention-network)           |
+| BEST         | 2019     | Video                                 | Skill Assessment | 5             | 500           | 6400                                                           | Relative Rank                                 | [Link](https://github.com/hazeld/rank-aware-attention-network)           |
+| PISA         | 2021     | Video, Audio                          | Skill Assessment | 1             | 992           | 160                                                            | Skill Level, Difficulty                       | [Link](https://github.com/ParitoshParmar/Piano-Skills-Assessment)        |
+| TAQR         | 2024     | Video                                 | Skill Assessment | 4             | 300           | 488                                                            | Relative Rank                                 | [Link](https://github.com/MingZier/TAQR-Dataset)                         |
+| UI-PRMD      | 2018     | 3D Skeleton, Joint Pos. & Ori.        | Medical Care     | 10            | 1326          | --                                                             | Binary Class                                  | [Link](https://webpages.uidaho.edu/ui-prmd/)                             |
+| KIMORE       | 2019     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care     | 5             | 1560          | --                                                             | Score                                         | [Link](https://vrai.dii.univpm.it/content/kimore-dataset)                |
+| EHE          | 2021     | 3D Skeleton, Joint Pos. & Ori.        | Medical Care     | 6             | 869           | --                                                             | Binary Class                                  | [Link](https://github.com/bruceyo/egcnplusplus/tree/main/EHE_dataset)    |
+| FineRehab    | 2024     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care     | 16            | 4215          | --                                                             | Score                                         | [Link](https://bsu3dvlab.github.io/FineRehab/)                           |
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
