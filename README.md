@@ -32,10 +32,9 @@
 
 Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation), skill assessment, *etc*. 
 
-## Highly Recommanded Survey and Benchmark
+## Highly Recommended Survey and Benchmark
 
 - [arXiv 2024] A Comprehensive Survey of Action Quality Assessment: Method and Benchmark. [PDF](https://arxiv.org/pdf/2412.11149) | [Github](https://github.com/ZhouKanglei/AQA-Benchmark)  | $\color{orange}\textsf{Survey}$
-  
 
 ## Sports
 
