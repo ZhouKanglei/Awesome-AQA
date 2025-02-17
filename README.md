@@ -38,6 +38,14 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ## Sports
 
+### 2025
+
+- [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456)
+
+---
+
+- [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817)  | $\color{orange}\textsf{Survey}$
+
 ### 2024
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation.  [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
