@@ -33,7 +33,7 @@
 Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation), skill assessment, *etc*. 
 
 ## Highly Recommended Survey and Benchmark
-- [arXiv 2024] A Comprehensive Survey of Action Quality Assessment: Method and Benchmark. [PDF](https://arxiv.org/pdf/2412.11149) | [Github](https://github.com/ZhouKanglei/AQA-Benchmark)  | $\color{orange}\textsf{Survey}$ + $\color{orange}\textsf{Benchmark}$
+- [arXiv 2024] A Comprehensive Survey of Action Quality Assessment: Method and Benchmark. [PDF](https://arxiv.org/pdf/2412.11149) | [Github](https://github.com/ZhouKanglei/AQA-Benchmark)  | $\color{orange}\textsf{Survey} + \color{orange}\textsf{Benchmark}$
 - [ESWA 2024] Vision-based human action quality assessment: A systematic review. [DOI](https://doi.org/10.1016/j.eswa.2024.125642) | $\color{orange}\textsf{Survey}$
 - [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817)  | $\color{orange}\textsf{Survey}$
 
