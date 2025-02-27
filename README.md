@@ -33,8 +33,9 @@
 Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation), skill assessment, *etc*. 
 
 ## Highly Recommended Survey and Benchmark
-
-- [arXiv 2024] A Comprehensive Survey of Action Quality Assessment: Method and Benchmark. [PDF](https://arxiv.org/pdf/2412.11149) | [Github](https://github.com/ZhouKanglei/AQA-Benchmark)  | $\color{orange}\textsf{Survey}$
+- [arXiv 2024] A Comprehensive Survey of Action Quality Assessment: Method and Benchmark. [PDF](https://arxiv.org/pdf/2412.11149) | [Github](https://github.com/ZhouKanglei/AQA-Benchmark)  | $\color{orange}\textsf{Survey}$ + $\color{orange}\textsf{Benchmark}$
+- [ESWA 2024] Vision-based human action quality assessment: A systematic review. [DOI](https://doi.org/10.1016/j.eswa.2024.125642) | $\color{orange}\textsf{Survey}$
+- [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817)  | $\color{orange}\textsf{Survey}$
 
 ## Sports
 
@@ -45,6 +46,8 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 ---
 
 - [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817)  | $\color{orange}\textsf{Survey}$
+- [arXiv 2025] Action Quality Assessment via Hierarchical Pose-guided Multi-stage Contrastive Regression. [PDF](https://arxiv.org/pdf/2501.03674) | [Github](https://github.com/Lumos0507/HP-MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
+
 
 ### 2024
 
@@ -53,7 +56,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN) | $\color{yellow}\textsf{Video + Audio}\color{yellow}\textsf{ + Flow}$
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
 - [TCSVT 2024] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | $\color{cyan}\textsf{Video + Text}$
-- [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR)
+- [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR) | $\color{lime}\textsf{Contrastive Regression}$
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103) | $\color{lightgreen}\textsf{Video + Skeleton}$
 - [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560) 
 - [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
@@ -74,7 +77,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [ACM MM 2024] 2M-AF: A Strong Multi-Modality Framework For Human Action Quality Assessment with Self-supervised Representation Learning. [PDF](https://openreview.net/forum?id=oEhi4pd0e1)
 - [BMVC 2024] Interpretable Long-term Action Quality Assessment. [PDF](https://arxiv.org/pdf/2408.11687) | [Github](https://github.com/dx199771/Interpretability-AQA)
 - [WACV 2024 **Oral**] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP) | 🧠 $\color{pink}\textsf{Continual Learning}$
-- [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe)
+- [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
 - [CVPRW 2024] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github](https://github.com/laurenok24/NSAQA) | $\color{magenta}\textsf{Interpretable Feedback}$
 
 ---
@@ -101,7 +104,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [ACM MM 2023] A Figure Skating Jumping Dataset for Replay-Guided Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613774)
 - [ACM MM 2023] Localization-assisted Uncertainty Score Disentanglement Network for Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613795) | [Github - FineFS dataset avail, code not avail](https://github.com/yanliji/FineFS-dataset)
 - [IUI 2023] IRIS: Interpretable Rubric-Informed Segmentation for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2303.09097.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
-- [ICASSP 2023] Contrastive Self-Supervised Learning for Automated Multi-Modal Dance Performance Assessment. [DOI](https://doi.org/10.1109/ICASSP49357.2023.10096824)
+- [ICASSP 2023] Contrastive Self-Supervised Learning for Automated Multi-Modal Dance Performance Assessment. [DOI](https://doi.org/10.1109/ICASSP49357.2023.10096824) | $\color{lime}\textsf{Contrastive Regression}$
 
 ### 2022
 
@@ -113,7 +116,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 - [CVPR 2022 **Oral**] FineDiving: A Fine-grained Dataset for Procedure-aware Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_FineDiving_A_Fine-Grained_Dataset_for_Procedure-Aware_Action_Quality_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xujinglin/FineDiving)
 - [CVPR 2022] Likert Scoring with Grade Decoupling for Long-term Action Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Likert_Scoring_With_Grade_Decoupling_for_Long-Term_Action_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xuangch/CVPR22_GDLT)
 - [ECCV 2022] Action Quality Assessment with Temporal Parsing Transformer. [PDF](https://arxiv.org/pdf/2207.09270.pdf) | [Github](https://github.com/baiyang4/aqa_tpt)
-- [ECCV 2022] Pairwise Contrastive Learning Network for Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640450.pdf)
+- [ECCV 2022] Pairwise Contrastive Learning Network for Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640450.pdf) | $\color{lime}\textsf{Contrastive Regression}$
 
 ### 2021
 
@@ -124,7 +127,7 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 - [CVPR 2021] AIFit: Automatic 3D Human-Interpretable
 Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf) | $\color{magenta}\textsf{Interpretable Feedback}$
-- [ICCV 2021] Group-aware Contrastive Regression for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Group-Aware_Contrastive_Regression_for_Action_Quality_Assessment_ICCV_2021_paper.pdf) | [Github](https://github.com/yuxumin/CoRe)
+- [ICCV 2021] Group-aware Contrastive Regression for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Group-Aware_Contrastive_Regression_for_Action_Quality_Assessment_ICCV_2021_paper.pdf) | [Github](https://github.com/yuxumin/CoRe) | $\color{lime}\textsf{Contrastive Regression}$
 - [ACM MM 2021] TSA-Net: Tube Self-Attention Network for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2201.03746.pdf) | [Github](https://github.com/Shunli-Wang/TSA-Net)
 - [WACV 2021] EAGLE-Eye: Extreme-pose Action Grader using detaiL bird’s-Eye view. [PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Nekoui_EAGLE-Eye_Extreme-Pose_Action_Grader_Using_Detail_Birds-Eye_View_WACV_2021_paper.pdf)
 - [ICIP 2021] Action quality assessment with ignoring scene context. [DOI](https://doi.org/10.1109/ICIP42928.2021.9506257)
@@ -165,7 +168,7 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 ### 2023
 
 - [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY)  | $\color{magenta}\textsf{Interpretable Feedback}$
-- [TNSRE 2023] A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256137)
+- [TNSRE 2023] A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256137) | $\color{lime}\textsf{Contrastive Regression}$
 - [TNSRE 2023] A Skeleton-Based Rehabilitation Exercise Assessment System With Rotation Invariance. [DOI](https://doi.org/10.1109/TNSRE.2023.3282675) | [Github](https://github.com/Kelly510/RehabExerAssess)
 
 ---
@@ -211,7 +214,7 @@ Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/conten
 
 ### 2023
 
-- [RA-L 2023] Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery. [PDF](https://discovery.ucl.ac.uk/id/eprint/10164755/2/Anastasiou_Keep%20Your%20Eye%20on%20the%20Best_AAM.pdf) | [Github](https://github.com/anastadimi/Contra-Sformer)
+- [RA-L 2023] Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery. [PDF](https://discovery.ucl.ac.uk/id/eprint/10164755/2/Anastasiou_Keep%20Your%20Eye%20on%20the%20Best_AAM.pdf) | [Github](https://github.com/anastadimi/Contra-Sformer) | $\color{lime}\textsf{Contrastive Regression}$
 
 ---
 
