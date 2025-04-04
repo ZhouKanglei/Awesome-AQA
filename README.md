@@ -45,8 +45,13 @@ Currently, AQA is widely applied in sports, medical care (*e.g.*, rehabilitation
 
 ---
 
+- [CVPR 2025] BASKET: A Large-Scale Video Dataset for Fine-Grained Skill Estimation. [PDF](https://arxiv.org/pdf/2503.20781) | [Github](https://github.com/yulupan00/BASKET)
+
+---
+
 - [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817)  | $\color{orange}\textsf{Survey}$
 - [arXiv 2025] Action Quality Assessment via Hierarchical Pose-guided Multi-stage Contrastive Regression. [PDF](https://arxiv.org/pdf/2501.03674) | [Github](https://github.com/Lumos0507/HP-MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
+- [arXiv 2025] FineCausal: A Causal-Based Framework for Interpretable Fine-Grained Action Quality Assessment. [PDF](https://arxiv.org/pdf/2503.23911) | [Github](https://github.com/Harrison21/FineCausal)
 
 
 ### 2024
