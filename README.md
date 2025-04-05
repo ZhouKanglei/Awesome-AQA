@@ -41,6 +41,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 ### 2025
 
+- [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935)
 - [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456)
 
 ---
@@ -52,7 +53,6 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 - [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817) | $\color{orange}\textsf{Survey}$
 - [arXiv 2025] Action Quality Assessment via Hierarchical Pose-guided Multi-stage Contrastive Regression. [PDF](https://arxiv.org/pdf/2501.03674) | [Github](https://github.com/Lumos0507/HP-MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
-
 
 ### 2024
 
