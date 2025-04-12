@@ -47,6 +47,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 ---
 
 - [CVPR 2025] BASKET: A Large-Scale Video Dataset for Fine-Grained Skill Estimation. [PDF](https://arxiv.org/pdf/2503.20781) | [Github](https://github.com/yulupan00/BASKET)
+- [AAAI 2025] DanceFix: An Exploration in Group Dance Neatness Assessment Through Fixing Abnormal Challenges of Human Pose. [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32959)
 - [CVPRW 2025] FineCausal: A Causal-Based Framework for Interpretable Fine-Grained Action Quality Assessment. [PDF](https://arxiv.org/pdf/2503.23911) | [Github](https://github.com/Harrison21/FineCausal) | $\color{magenta}\textsf{Interpretable Reasoning}$
 
 ---
