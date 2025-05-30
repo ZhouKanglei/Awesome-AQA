@@ -44,6 +44,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 - [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935)
 - [TIP 2025] PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction. [PDF](https://arxiv.org/abs/2505.19972) | [Github](https://github.com/ZhouKanglei/PHI_AQA)
 - [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456)
+- [TOMM 2025] Scaled Background Swap: Video Augmentation for Action Quality Assessment with Background Debiasing. [DOI](https://dl.acm.org/doi/10.1145/3737461) | [Github](https://github.com/Emy-cv/Scaled-Background-Swap)
 
 ---
 
@@ -59,7 +60,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 ### 2024
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation. [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
-- [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [PDF](papers/TIP'24-Semi-supervised_AQA.pdf) | [DOI](https://doi.org/10.1109/TIP.2024.3468870)
+- [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment [DOI](https://doi.org/10.1109/TIP.2024.3468870)
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN) | $\color{yellow}\textsf{Video + Audio}\color{yellow}\textsf{ + Flow}$
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
 - [TCSVT 2024] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | $\color{cyan}\textsf{Video + Text}$
