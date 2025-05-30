@@ -41,10 +41,11 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 ### 2025
 
-- [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935)
-- [TIP 2025] PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction. [PDF](https://arxiv.org/abs/2505.19972) | [Github](https://github.com/ZhouKanglei/PHI_AQA)
-- [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456)
-- [TOMM 2025] Scaled Background Swap: Video Augmentation for Action Quality Assessment with Background Debiasing. [DOI](https://dl.acm.org/doi/10.1145/3737461) | [Github](https://github.com/Emy-cv/Scaled-Background-Swap)
+- [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935) | [PDF](papers/25-tpami-human_centric.pdf)
+- [TIP 2025] PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction. [PDF](https://arxiv.org/abs/2505.19972) | [Github](https://github.com/ZhouKanglei/PHI_AQA) | $\color{magenta}\textsf{Domain Shift}$
+- [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456) | [PDF](papers/25-tcsvt-st_graph_transformer.pdf)
+- [TCSVT 2024] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | [PDF](papers/25-tcsvt-visual_semantic_alignment.pdf) | $\color{cyan}\textsf{Video + Text}$
+- [TOMM 2025] Scaled Background Swap: Video Augmentation for Action Quality Assessment with Background Debiasing. [DOI](https://dl.acm.org/doi/10.1145/3737461) | [PDF](papers/25-tomm-backgroud_debiasing.pdf) | [Github](https://github.com/Emy-cv/Scaled-Background-Swap)
 
 ---
 
@@ -60,11 +61,10 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 ### 2024
 
 - [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation. [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
-- [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment [DOI](https://doi.org/10.1109/TIP.2024.3468870)
+- [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2024.3468870) | [PDF](papers/24-tip-subaction_parsing_network.pdf)
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN) | $\color{yellow}\textsf{Video + Audio}\color{yellow}\textsf{ + Flow}$
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
-- [TCSVT 2024] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | $\color{cyan}\textsf{Video + Text}$
-- [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [Github](https://github.com/XuHuangbiao/T2CR) | $\color{lime}\textsf{Contrastive Regression}$
+- [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [PDF](papers/24-infsci-two_path.pdf) | [Github](https://github.com/XuHuangbiao/T2CR) | $\color{lime}\textsf{Contrastive Regression}$ 
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103) | $\color{lightgreen}\textsf{Video + Skeleton}$
 - [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560)
 - [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
@@ -81,10 +81,10 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 - [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa) | $\color{cyan}\textsf{Video + Text}$
 - [ECCV 2024] Semi-Supervised Teacher-Reference-Student Architecture for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2407.19675)
 - [ECCV 2024] Vision-Language Action Knowledge Learning for Semantic-Aware Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05909.pdf) | $\color{cyan}\textsf{Video + Text}$
-- [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA)
+- [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA) | $\color{magenta}\textsf{Domain Shift}$
 - [ACM MM 2024] 2M-AF: A Strong Multi-Modality Framework For Human Action Quality Assessment with Self-supervised Representation Learning. [PDF](https://openreview.net/forum?id=oEhi4pd0e1)
 - [BMVC 2024] Interpretable Long-term Action Quality Assessment. [PDF](https://arxiv.org/pdf/2408.11687) | [Github](https://github.com/dx199771/Interpretability-AQA)
-- [WACV 2024 **Oral**] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP) | 🧠 $\color{pink}\textsf{Continual Learning}$
+- [WACV 2024 **Oral**] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP) | 🧠 $\color{pink}\textsf{Continual Learning}$ | $\color{magenta}\textsf{Domain Shift}$
 - [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
 - [CVPRW 2024] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github](https://github.com/laurenok24/NSAQA) | $\color{magenta}\textsf{Interpretable Feedback}$
 
@@ -96,8 +96,8 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 ### 2023
 
-- [IJCV 2023] Automatic Modelling for Interactive Action Assessment. [DOI](https://doi.org/10.1007/s11263-022-01695-5)
-- [TIP 2023] Fine-grained Spatio-temporal Parsing Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2023.3331212)
+- [IJCV 2023] Automatic Modelling for Interactive Action Assessment. [DOI](https://doi.org/10.1007/s11263-022-01695-5) | [PDF](papers/23-ijcv-automatic_interactive_modelling.pdf)
+- [TIP 2023] Fine-grained Spatio-temporal Parsing Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2023.3331212) | [PDF](papers/23-tip-fspn.pdf)
 - [TCSVT 2023] Hierarchical Graph Convolutional Networks for Action Quality Assessment. [PDF](http://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf) | [DOI](https://doi.org/10.1109/TCSVT.2023.3281413) | [Github](https://github.com/ZhouKanglei/HGCN_AQA)
 - [TMM 2023] Learning Semantics-Guided Representations for Scoring Figure Skating. [DOI](https://doi.org/10.1109/TMM.2023.3328180) | $\color{cyan}\textsf{Video + Text}$
 - [NCAA 2023] Auto-encoding score distribution regression for action quality assessment. [PDF](https://arxiv.org/pdf/2111.11029.pdf) | [DOI](https://doi.org/10.1007/s00521-023-09068-w) | [Github](https://github.com/InfoX-SEU/DAE-AQA)
