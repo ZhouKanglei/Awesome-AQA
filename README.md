@@ -50,6 +50,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 ---
 
 - [CVPR 2025] BASKET: A Large-Scale Video Dataset for Fine-Grained Skill Estimation. [PDF](https://arxiv.org/pdf/2503.20781) | [Github](https://github.com/yulupan00/BASKET)
+- [CVPR 2025] Language-Guided Audio-Visual Learning for Long-Term Sports Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_Language-Guided_Audio-Visual_Learning_for_Long-Term_Sports_Assessment_CVPR_2025_paper.pdf)
 - [AAAI 2025] DanceFix: An Exploration in Group Dance Neatness Assessment Through Fixing Abnormal Challenges of Human Pose. [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32959)
 - [CVPRW 2025] FineCausal: A Causal-Based Framework for Interpretable Fine-Grained Action Quality Assessment. [PDF](https://arxiv.org/pdf/2503.23911) | [Github](https://github.com/Harrison21/FineCausal) | $\color{magenta}\textsf{Interpretable Reasoning}$
 
@@ -64,7 +65,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 - [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2024.3468870) | [PDF](papers/24-tip-subaction_parsing_network.pdf)
 - [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN) | $\color{yellow}\textsf{Video + Audio}\color{yellow}\textsf{ + Flow}$
 - [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
-- [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [PDF](papers/24-infsci-two_path.pdf) | [Github](https://github.com/XuHuangbiao/T2CR) | $\color{lime}\textsf{Contrastive Regression}$ 
+- [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [PDF](papers/24-infsci-two_path.pdf) | [Github](https://github.com/XuHuangbiao/T2CR) | $\color{lime}\textsf{Contrastive Regression}$
 - [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103) | $\color{lightgreen}\textsf{Video + Skeleton}$
 - [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560)
 - [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
