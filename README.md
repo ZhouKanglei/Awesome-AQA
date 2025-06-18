@@ -53,6 +53,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 - [CVPR 2025] Language-Guided Audio-Visual Learning for Long-Term Sports Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_Language-Guided_Audio-Visual_Learning_for_Long-Term_Sports_Assessment_CVPR_2025_paper.pdf) | [Github](https://github.com/XuHuangbiao/MLAVL)
 - [AAAI 2025] DanceFix: An Exploration in Group Dance Neatness Assessment Through Fixing Abnormal Challenges of Human Pose. [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32959)
 - [CVPRW 2025] FineCausal: A Causal-Based Framework for Interpretable Fine-Grained Action Quality Assessment. [PDF](https://arxiv.org/pdf/2503.23911) | [Github](https://github.com/Harrison21/FineCausal) | $\color{magenta}\textsf{Interpretable Reasoning}$
+- [CVPRW 2025] From Beats to Scores: A Multi-Modal Framework for Comprehensive Figure Skating Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/papers/Wang_From_Beats_to_Scores_A_Multi-Modal_Framework_for_Comprehensive_Figure_CVPRW_2025_paper.pdf) | [Github](https://github.com/ycwfs/Figure-Skating-Quality-Assessment)
 
 ---
 
@@ -211,6 +212,10 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Skill Assessment
+
+### 2025
+
+- [arXiv 2025] PATS: Proficiency-Aware Temporal Sampling for Multi-View Sports Skill Assessment. [PDF](https://arxiv.org/pdf/2506.04996)
 
 ### 2024
 
