@@ -43,6 +43,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 - [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935) | [PDF](papers/25-tpami-human_centric.pdf)
 - [TIP 2025] PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction. [PDF](https://arxiv.org/abs/2505.19972) | [Github](https://github.com/ZhouKanglei/PHI_AQA) | $\color{magenta}\textsf{Domain Shift}$
+- [TMM 2025] Quality-Guided Vision-Language Learning for Long-Term Action Quality Assessment. [DOI](https://doi.org/10.1109/TMM.2024.3413293)
 - [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456) | [PDF](papers/25-tcsvt-st_graph_transformer.pdf)
 - [TCSVT 2025] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | [PDF](papers/25-tcsvt-visual_semantic_alignment.pdf) | $\color{cyan}\textsf{Video + Text}$
 - [TOMM 2025] Scaled Background Swap: Video Augmentation for Action Quality Assessment with Background Debiasing. [DOI](https://dl.acm.org/doi/10.1145/3737461) | [PDF](papers/25-tomm-backgroud_debiasing.pdf) | [Github](https://github.com/Emy-cv/Scaled-Background-Swap)
@@ -52,6 +53,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 - [CVPR 2025] BASKET: A Large-Scale Video Dataset for Fine-Grained Skill Estimation. [PDF](https://arxiv.org/pdf/2503.20781) | [Github](https://github.com/yulupan00/BASKET)
 - [CVPR 2025] Language-Guided Audio-Visual Learning for Long-Term Sports Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_Language-Guided_Audio-Visual_Learning_for_Long-Term_Sports_Assessment_CVPR_2025_paper.pdf) | [Github](https://github.com/XuHuangbiao/MLAVL)
 - [AAAI 2025] DanceFix: An Exploration in Group Dance Neatness Assessment Through Fixing Abnormal Challenges of Human Pose. [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32959)
+- [ACM MM 2025] Learning Long-Range Action Representation by Two-Stream Mamba Pyramid Network for Figure Skating Assessment. [PDF](https://arxiv.org/pdf/2508.16291v1) | [Github](https://github.com/ycwfs/Figure-Skating-Action-Quality-Assessment)
 - [CVPRW 2025] FineCausal: A Causal-Based Framework for Interpretable Fine-Grained Action Quality Assessment. [PDF](https://arxiv.org/pdf/2503.23911) | [Github](https://github.com/Harrison21/FineCausal) | $\color{magenta}\textsf{Interpretable Reasoning}$
 - [CVPRW 2025] From Beats to Scores: A Multi-Modal Framework for Comprehensive Figure Skating Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/papers/Wang_From_Beats_to_Scores_A_Multi-Modal_Framework_for_Comprehensive_Figure_CVPRW_2025_paper.pdf) | [Github](https://github.com/ycwfs/Figure-Skating-Quality-Assessment)
 
