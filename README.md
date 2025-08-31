@@ -10,8 +10,6 @@
 > - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
 > - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field. If it expires, please scan my [personal account](./imgs/ZKL.png).
 
-<!-- TABLE OF CONTENTS -->
-
 <details>
   <summary>Table of Contents: Papers and Datasets</summary>
   <ol>
