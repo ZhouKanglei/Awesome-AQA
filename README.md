@@ -42,6 +42,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 - [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935) | [PDF](papers/25-tpami-human_centric.pdf)
 - [TIP 2025] PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction. [PDF](https://arxiv.org/abs/2505.19972) | [Github](https://github.com/ZhouKanglei/PHI_AQA) | $\color{magenta}\textsf{Domain Shift}$
 - [TMM 2025] Quality-Guided Vision-Language Learning for Long-Term Action Quality Assessment. [DOI](https://doi.org/10.1109/TMM.2024.3413293)
+- [TMM 2025] Comprehensive Action Quality Assessment Through Multi-Branch Modeling. [DOI](https://doi.org/10.1109/TMM.2025.3607713)
 - [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456) | [PDF](papers/25-tcsvt-st_graph_transformer.pdf)
 - [TCSVT 2025] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | [PDF](papers/25-tcsvt-visual_semantic_alignment.pdf) | $\color{cyan}\textsf{Video + Text}$
 - [TOMM 2025] Scaled Background Swap: Video Augmentation for Action Quality Assessment with Background Debiasing. [DOI](https://dl.acm.org/doi/10.1145/3737461) | [PDF](papers/25-tomm-backgroud_debiasing.pdf) | [Github](https://github.com/Emy-cv/Scaled-Background-Swap)
