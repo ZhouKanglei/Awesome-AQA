@@ -61,7 +61,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 - [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817) | $\color{orange}\textsf{Survey}$
 - [arXiv 2025] Action Quality Assessment via Hierarchical Pose-guided Multi-stage Contrastive Regression. [PDF](https://arxiv.org/pdf/2501.03674) | [Github](https://github.com/Lumos0507/HP-MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
 - [arXiv 2025] FLEX: A Large-Scale Multi-Modal Multi-Action Dataset for Fitness Action Quality Assessment. [PDF](https://arxiv.org/pdf/2506.03198) | [Github](https://github.com/HaoYin116/FLEX)
-- [arXiv 2025] Continual Action Quality Assessment via Adaptive Manifold-Aligned Graph Regularization. [PDF](https://arxiv.org/pdf/2510.06842) | [Github](https://github.com/ZhouKanglei/MAGRPP)
+- [arXiv 2025] Continual Action Quality Assessment via Adaptive Manifold-Aligned Graph Regularization. [PDF](https://arxiv.org/pdf/2510.06842) | [Github](https://github.com/ZhouKanglei/MAGRPP) | 🧠 $\color{pink}\textsf{Continual Learning}$
 
 ### 2024
 
