@@ -3,7 +3,7 @@
 # Awesome Action Quality Assessment (AQA)
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://zhoukanglei.github.io/AQA-Survey)
-[![Page Views Count](https://badges.toozhao.com/badges/01JDKP6H9FYE9WEX7ADV27SFW4/green.svg)](https://badges.toozhao.com/stats/01JDKP6H9FYE9WEX7ADV27SFW4 "Get your own page views count badge on badges.toozhao.com")
+
 
 > Pull requests are welcome if you find any interesting paper is missing.
 >
