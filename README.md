@@ -41,6 +41,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 - [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935) | [PDF](papers/25-tpami-human_centric.pdf)
 - [TIP 2025] PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction. [PDF](https://arxiv.org/abs/2505.19972) | [Github](https://github.com/ZhouKanglei/PHI_AQA) | $\color{magenta}\textsf{Domain Shift}$
+- [TIP 2025] Action Quality Assessment via Hierarchical Pose-Guided Multi-Stage Contrastive Regression. [DOI](https://doi.org/10.1109/TIP.2025.3613952)
 - [TMM 2025] Quality-Guided Vision-Language Learning for Long-Term Action Quality Assessment. [DOI](https://doi.org/10.1109/TMM.2024.3413293)
 - [TMM 2025] Comprehensive Action Quality Assessment Through Multi-Branch Modeling. [DOI](https://doi.org/10.1109/TMM.2025.3607713)
 - [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456) | [PDF](papers/25-tcsvt-st_graph_transformer.pdf)
