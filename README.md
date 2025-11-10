@@ -4,7 +4,6 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://zhoukanglei.github.io/AQA-Survey)
 
-
 > Pull requests are welcome if you find any interesting paper is missing.
 >
 > - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
@@ -50,6 +49,7 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 ---
 
+- [NeuriPS 2025] Learning Skill-Attributes for Transferable Assessment in Video. [PDF](https://openreview.net/pdf/d244080db1fb71ec0c14a49eb0f3ed1fcd2dd03a.pdf) | [Project](https://vision.cs.utexas.edu/projects/CrossTrainer/)
 - [CVPR 2025] BASKET: A Large-Scale Video Dataset for Fine-Grained Skill Estimation. [PDF](https://arxiv.org/pdf/2503.20781) | [Github](https://github.com/yulupan00/BASKET)
 - [CVPR 2025] Language-Guided Audio-Visual Learning for Long-Term Sports Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_Language-Guided_Audio-Visual_Learning_for_Long-Term_Sports_Assessment_CVPR_2025_paper.pdf) | [Github](https://github.com/XuHuangbiao/MLAVL)
 - [AAAI 2025] DanceFix: An Exploration in Group Dance Neatness Assessment Through Fixing Abnormal Challenges of Human Pose. [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32959)
