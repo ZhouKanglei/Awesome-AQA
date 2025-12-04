@@ -36,6 +36,11 @@ Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation
 
 ## Sports
 
+### 2026
+
+- [AAAI 2026] MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2511.17397) | [Github](https://github.com/XuHuangbiao/MCMoE)
+- [WACV 2026] CaFlow: Enhancing Long-Term Action Quality Assessment with Causal Counterfactual Flow. [PDF](https://arxiv.org/pdf/2511.21653) | [Github](https://github.com/Harrison21/CaFlow)
+
 ### 2025
 
 - [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935) | [PDF](papers/25-tpami-human_centric.pdf)
