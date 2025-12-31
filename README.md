@@ -1,294 +1,171 @@
-<a id="readme-top"></a>
-
 # Awesome Action Quality Assessment (AQA)
 
-[![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://zhoukanglei.github.io/AQA-Survey)
+## Recommended: Survey / Project entry points
+- 🔍 **Project page (keyword-friendly search):** <https://zhoukanglei.github.io/AQA-Survey> — quickly search and filter all papers/notes.
+- 📘 **Bibliography bundle:** this repo ships the latest reference list; use the project page for fast discovery.
 
-> Pull requests are welcome if you find any interesting paper is missing.
->
-> - 🔥🔥🔥 denotes the highly recommended papers for the novel insights and new directions.
-> - We have created a [Wechat group](./imgs/aqa-wechat-group.png) for our colleagues to exchange and discuss the latest progress in the field of AQA, contributing to the development of this field. If it expires, please scan my [personal account](./imgs/ZKL.png).
+[![](imgs/project.png)](https://zhoukanglei.github.io/AQA-Survey)
 
 <details>
-  <summary>Table of Contents: Papers and Datasets</summary>
-  <ol>
-    <li>
-      <a href="#papers">Papers</a>
-      <ul>
-        <li><a href="#sports">Sports</a></li>
-        <li><a href="#medical-care">Medical Care</a></li>
-        <li><a href="#skill-assessment">Skill Assessment</a></li>
-      </ul>
-    </li>
-    <li><a href="#datasets">Datasets</a></li>
-  </ol>
+<summary><b>Notes / Contributions / Community</b> (click to expand)</summary>
+
+| Item | Details | Link / Image |
+|---|---|---|
+| Contribute | Open an issue or submit full Pull requests to add or correct papers/links. | [Issue tracker](https://github.com/ZhouKanglei/Awesome-AQA/issues) · [Pull requests](https://github.com/ZhouKanglei/Awesome-AQA/pulls) |
+| WeChat group | Join via QR; if the main one expires, use the personal link. | [Main QR](imgs/aqa-wechat-group.jpg) · [Personal QR](imgs/ZKL.png) |
+| Updates | Project page and issues carry the latest notes and announcements. | [Project page](https://zhoukanglei.github.io/AQA-Survey) · [Issue tracker](https://github.com/ZhouKanglei/Awesome-AQA/issues) |
+
 </details>
 
-# Papers
-
-Currently, AQA is widely applied in sports, medical care (_e.g._, rehabilitation), skill assessment, _etc_.
-
-## Highly Recommended Survey and Benchmark
-
-- [arXiv 2024] A Comprehensive Survey of Action Quality Assessment: Method and Benchmark. [PDF](https://arxiv.org/pdf/2412.11149) | [Github](https://github.com/ZhouKanglei/AQA-Benchmark) | $\color{orange}\textsf{Survey} + \color{orange}\textsf{Benchmark}$
-- [ESWA 2024] Vision-based human action quality assessment: A systematic review. [DOI](https://doi.org/10.1016/j.eswa.2024.125642) | $\color{orange}\textsf{Survey}$
-- [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817) | $\color{orange}\textsf{Survey}$
-
-## Sports
-
-### 2026
-
-- [AAAI 2026] MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2511.17397) | [Github](https://github.com/XuHuangbiao/MCMoE)
-- [WACV 2026] CaFlow: Enhancing Long-Term Action Quality Assessment with Causal Counterfactual Flow. [PDF](https://arxiv.org/pdf/2511.21653) | [Github](https://github.com/Harrison21/CaFlow)
-
-### 2025
-
-- [TPAMI 2025] Human-centric Fine-grained Action Quality Assessment. [DOI](https://doi.org/10.1109/TPAMI.2025.3556935) | [PDF](papers/25-tpami-human_centric.pdf)
-- [TIP 2025] PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction. [PDF](https://arxiv.org/abs/2505.19972) | [Github](https://github.com/ZhouKanglei/PHI_AQA) | $\color{magenta}\textsf{Domain Shift}$
-- [TIP 2025] Action Quality Assessment via Hierarchical Pose-Guided Multi-Stage Contrastive Regression. [DOI](https://doi.org/10.1109/TIP.2025.3613952)
-- [TMM 2025] Quality-Guided Vision-Language Learning for Long-Term Action Quality Assessment. [DOI](https://doi.org/10.1109/TMM.2024.3413293)
-- [TMM 2025] Comprehensive Action Quality Assessment Through Multi-Branch Modeling. [DOI](https://doi.org/10.1109/TMM.2025.3607713)
-- [TCSVT 2025] Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2025.3541456) | [PDF](papers/25-tcsvt-st_graph_transformer.pdf)
-- [TCSVT 2025] Visual-semantic Alignment Temporal Parsing for Action Quality Assessment. [DOI](https://doi.org/10.1109/TCSVT.2024.3487242) | [PDF](papers/25-tcsvt-visual_semantic_alignment.pdf) | $\color{cyan}\textsf{Video + Text}$
-- [TOMM 2025] Scaled Background Swap: Video Augmentation for Action Quality Assessment with Background Debiasing. [DOI](https://dl.acm.org/doi/10.1145/3737461) | [PDF](papers/25-tomm-backgroud_debiasing.pdf) | [Github](https://github.com/Emy-cv/Scaled-Background-Swap)
-
----
-
-- [NeuriPS 2025] Learning Skill-Attributes for Transferable Assessment in Video. [PDF](https://openreview.net/pdf/d244080db1fb71ec0c14a49eb0f3ed1fcd2dd03a.pdf) | [Project](https://vision.cs.utexas.edu/projects/CrossTrainer/)
-- [CVPR 2025] BASKET: A Large-Scale Video Dataset for Fine-Grained Skill Estimation. [PDF](https://arxiv.org/pdf/2503.20781) | [Github](https://github.com/yulupan00/BASKET)
-- [CVPR 2025] Language-Guided Audio-Visual Learning for Long-Term Sports Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_Language-Guided_Audio-Visual_Learning_for_Long-Term_Sports_Assessment_CVPR_2025_paper.pdf) | [Github](https://github.com/XuHuangbiao/MLAVL)
-- [AAAI 2025] DanceFix: An Exploration in Group Dance Neatness Assessment Through Fixing Abnormal Challenges of Human Pose. [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32959)
-- [ACM MM 2025] Learning Long-Range Action Representation by Two-Stream Mamba Pyramid Network for Figure Skating Assessment. [PDF](https://arxiv.org/pdf/2508.16291v1) | [Github](https://github.com/ycwfs/Figure-Skating-Action-Quality-Assessment)
-- [CVPRW 2025] FineCausal: A Causal-Based Framework for Interpretable Fine-Grained Action Quality Assessment. [PDF](https://arxiv.org/pdf/2503.23911) | [Github](https://github.com/Harrison21/FineCausal) | $\color{magenta}\textsf{Interpretable Reasoning}$
-- [CVPRW 2025] From Beats to Scores: A Multi-Modal Framework for Comprehensive Figure Skating Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/papers/Wang_From_Beats_to_Scores_A_Multi-Modal_Framework_for_Comprehensive_Figure_CVPRW_2025_paper.pdf) | [Github](https://github.com/ycwfs/Figure-Skating-Quality-Assessment)
-
----
-
-- [arXiv 2025] A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions. [PDF](https://arxiv.org/pdf/2502.02817) | $\color{orange}\textsf{Survey}$
-- [arXiv 2025] Action Quality Assessment via Hierarchical Pose-guided Multi-stage Contrastive Regression. [PDF](https://arxiv.org/pdf/2501.03674) | [Github](https://github.com/Lumos0507/HP-MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
-- [arXiv 2025] FLEX: A Large-Scale Multi-Modal Multi-Action Dataset for Fitness Action Quality Assessment. [PDF](https://arxiv.org/pdf/2506.03198) | [Github](https://github.com/HaoYin116/FLEX)
-- [arXiv 2025] Continual Action Quality Assessment via Adaptive Manifold-Aligned Graph Regularization. [PDF](https://arxiv.org/pdf/2510.06842) | [Github](https://github.com/ZhouKanglei/MAGRPP) | 🧠 $\color{pink}\textsf{Continual Learning}$
-
-### 2024
-
-- [IJCV 2024] Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation. [PDF](https://link.springer.com/article/10.1007/s11263-024-02146-z) | [Github](https://github.com/xujinglin/FineDiving)
-- [TIP 2024] Self-supervised subaction Parsing Network for Semi-supervised Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2024.3468870) | [PDF](papers/24-tip-subaction_parsing_network.pdf)
-- [TIP 2024] Multimodal Action Quality Assessment. [PDF](https://arxiv.org/pdf/2402.09444.pdf) | [Github](https://github.com/qinghuannn/PAMFN) | $\color{yellow}\textsf{Video + Audio}\color{yellow}\textsf{ + Flow}$
-- [TCSVT 2024] Continual Action Assessment via Task-Consistent Score-Discriminative Feature Distribution Modeling. [PDF](https://arxiv.org/pdf/2309.17105.pdf) | [Github](https://github.com/iSEE-Laboratory/Continual-AQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
-- [Information Sciences 2024] Two-path target-aware contrastive regression for action quality assessment. [DOI](https://doi.org/10.1016/j.ins.2024.120347) | [PDF](papers/24-infsci-two_path.pdf) | [Github](https://github.com/XuHuangbiao/T2CR) | $\color{lime}\textsf{Contrastive Regression}$
-- [TIM 2024] Learning Sparse Temporal Video Mapping for Action Quality Assessment in Floor Gymnastics. [PDF](https://arxiv.org/pdf/2301.06103) | $\color{lightgreen}\textsf{Video + Skeleton}$
-- [TCE 2024] ResFNN: Residual Structure-Based Feedforward Neural Network for Action Quality Assessment in Sports Consumer Electronics. [DOI](https://doi.org/10.1109/TCE.2024.3482560)
-- [Applied Intelligence 2024] Assessing action quality with semantic-sequence performance regression and densely distributed sample weighting. [DOI](https://doi.org/10.1007/s10489-024-05349-6)
-- [Neurocomputing 2024] Dual-referenced assistive network for action quality assessment. [DOI](https://doi.org/10.1016/j.neucom.2024.128786)
-- [ESWA 2024] Vision-based human action quality assessment: A systematic review. [DOI](https://doi.org/10.1016/j.eswa.2024.125642) | $\color{orange}\textsf{Survey}$
-
----
-
-- [NeurIPS 2024 **Spotlight**] GAIA: Rethinking Action Quality Assessment for AI-Generated Videos. [PDF](https://arxiv.org/pdf/2406.06087) | [Github](https://github.com/zijianchen98/GAIA) |🔥🔥🔥
-- [NeurIPS 2024] LucidAction: A Hierarchical and Multi-model Dataset for Comprehensive Action Quality Assessment. [NeurIPS 2024 Website](https://nips.cc/virtual/2024/poster/97542) | $\color{lightgreen}\textsf{Video + Skeleton}$
-- [CVPR 2024 **Oral**] FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment. [PDF](https://arxiv.org/pdf/2405.06887) | [Github](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024)
-- [CVPR 2024] Narrative Action Evaluation with Prompt-Guided Multimodal Interaction. [PDF](https://arxiv.org/pdf/2404.14471) | [Github](https://github.com/shiyi-zh0408/NAE_CVPR2024) | $\color{magenta}\textsf{Interpretable Feedback}$, $\color{cyan}\textsf{Video + Text}$
-- [ECCV 2024 **Oral**] MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.04398.pdf) | [Github](https://github.com/ZhouKanglei/MAGR_CAQA) | 🧠 $\color{pink}\textsf{Continual Learning}$
-- [ECCV 2024] RICA^2: Rubric-Informed, Calibrated Assessment of Actions. [PDF](https://arxiv.org/pdf/2408.02138) | [Github](https://github.com/abrarmajeedi/rica2_aqa) | $\color{cyan}\textsf{Video + Text}$
-- [ECCV 2024] Semi-Supervised Teacher-Reference-Student Architecture for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2407.19675)
-- [ECCV 2024] Vision-Language Action Knowledge Learning for Semantic-Aware Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05909.pdf) | $\color{cyan}\textsf{Video + Text}$
-- [IJCAI 2024] CoFInAl: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment. [PDF](https://arxiv.org/pdf/2404.13999.pdf) | [Github](https://github.com/ZhouKanglei/CoFInAl_AQA) | $\color{magenta}\textsf{Domain Shift}$
-- [ACM MM 2024] 2M-AF: A Strong Multi-Modality Framework For Human Action Quality Assessment with Self-supervised Representation Learning. [PDF](https://openreview.net/forum?id=oEhi4pd0e1)
-- [BMVC 2024] Interpretable Long-term Action Quality Assessment. [PDF](https://arxiv.org/pdf/2408.11687) | [Github](https://github.com/dx199771/Interpretability-AQA)
-- [WACV 2024 **Oral**] PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2311.07603.pdf) | [Github](https://github.com/Plrbear/PECoP) | 🧠 $\color{pink}\textsf{Continual Learning}$ | $\color{magenta}\textsf{Domain Shift}$
-- [ICASSP 2024] Multi-Stage Contrastive Regression for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2401.02841) | [Github](https://github.com/Angel-1999/MCoRe) | $\color{lime}\textsf{Contrastive Regression}$
-- [CVPRW 2024] Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment. [PDF](https://arxiv.org/pdf/2403.13798) | [Github](https://github.com/laurenok24/NSAQA) | $\color{magenta}\textsf{Interpretable Feedback}$
-
----
-
-- [arXiv 2024] Learning to Score Sign Language with Two-stage Method. [PDF](https://arxiv.org/pdf/2404.10383)
-- [arXiv 2024] TechCoach: Towards Technical Keypoint-Aware Descriptive Action Coaching. [PDF](https://arxiv.org/pdf/2411.17130) | $\color{magenta}\textsf{Interpretable Feedback}$
-- [arXiv 2024] ExpertAF: Expert Actionable Feedback from Video. [PDF](https://arxiv.org/pdf/2408.00672) | $\color{magenta}\textsf{Interpretable Feedback}$
-
-### 2023
-
-- [IJCV 2023] Automatic Modelling for Interactive Action Assessment. [DOI](https://doi.org/10.1007/s11263-022-01695-5) | [PDF](papers/23-ijcv-automatic_interactive_modelling.pdf)
-- [TIP 2023] Fine-grained Spatio-temporal Parsing Network for Action Quality Assessment. [DOI](https://doi.org/10.1109/TIP.2023.3331212) | [PDF](papers/23-tip-fspn.pdf)
-- [TCSVT 2023] Hierarchical Graph Convolutional Networks for Action Quality Assessment. [PDF](http://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf) | [DOI](https://doi.org/10.1109/TCSVT.2023.3281413) | [Github](https://github.com/ZhouKanglei/HGCN_AQA)
-- [TMM 2023] Learning Semantics-Guided Representations for Scoring Figure Skating. [DOI](https://doi.org/10.1109/TMM.2023.3328180) | $\color{cyan}\textsf{Video + Text}$
-- [NCAA 2023] Auto-encoding score distribution regression for action quality assessment. [PDF](https://arxiv.org/pdf/2111.11029.pdf) | [DOI](https://doi.org/10.1007/s00521-023-09068-w) | [Github](https://github.com/InfoX-SEU/DAE-AQA)
-- [Applied Intelligence 2023] Multi-skeleton structures graph convolutional network for action quality assessment in long videos. [DOI](https://doi.org/10.1007/s10489-023-04613-5)
-- [Applied Intelligence 2023] Label-reconstruction-based pseudo-subscore learning for action quality assessment in sporting events. [DOI](https://doi.org/10.1007/s10489-022-03984-5)
-- [Applied Intelligence 2023] Improving action quality assessment with across-staged temporal reasoning on imbalanced data. [DOI](https://doi.org/10.1007/s10489-023-05166-3)
-
----
-
-- [CVPR 2023] LOGO: A Long-Form Video Dataset for Group Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_LOGO_A_Long-Form_Video_Dataset_for_Group_Action_Quality_Assessment_CVPR_2023_paper.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
-- [AAAI 2023] Skating-Mixer: Long-Term Sport Audio-Visual Modeling with MLPs. [PDF](https://arxiv.org/pdf/2203.03990.pdf) | [Github](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating) | $\color{yellow}\text{Video + Audio}$
-- [ACM MM 2023] A Figure Skating Jumping Dataset for Replay-Guided Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613774)
-- [ACM MM 2023] Localization-assisted Uncertainty Score Disentanglement Network for Action Quality Assessment. [DOI](https://dl.acm.org/doi/abs/10.1145/3581783.3613795) | [Github - FineFS dataset avail, code not avail](https://github.com/yanliji/FineFS-dataset)
-- [IUI 2023] IRIS: Interpretable Rubric-Informed Segmentation for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2303.09097.pdf) | [Github](https://github.com/shiyi-zh0408/LOGO)
-- [ICASSP 2023] Contrastive Self-Supervised Learning for Automated Multi-Modal Dance Performance Assessment. [DOI](https://doi.org/10.1109/ICASSP49357.2023.10096824) | $\color{lime}\textsf{Contrastive Regression}$
-
-### 2022
-
-- [TCSVT 2022] Semi-Supervised Action Quality Assessment With Self-Supervised Segment Feature Recovery. [DOI](https://doi.org/10.1109/TCSVT.2022.3143549)
-- [JVCIR 2022] Skeleton-based deep pose feature learning for action quality assessment on figure skating videos. [DOI](https://doi.org/10.1016/j.jvcir.2022.103625)
-
----
-
-- [CVPR 2022 **Oral**] FineDiving: A Fine-grained Dataset for Procedure-aware Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_FineDiving_A_Fine-Grained_Dataset_for_Procedure-Aware_Action_Quality_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xujinglin/FineDiving)
-- [CVPR 2022] Likert Scoring with Grade Decoupling for Long-term Action Assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Likert_Scoring_With_Grade_Decoupling_for_Long-Term_Action_Assessment_CVPR_2022_paper.pdf) | [Github](https://github.com/xuangch/CVPR22_GDLT)
-- [ECCV 2022] Action Quality Assessment with Temporal Parsing Transformer. [PDF](https://arxiv.org/pdf/2207.09270.pdf) | [Github](https://github.com/baiyang4/aqa_tpt)
-- [ECCV 2022] Pairwise Contrastive Learning Network for Action Quality Assessment. [PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640450.pdf) | $\color{lime}\textsf{Contrastive Regression}$
-
-### 2021
-
-- [TPAMI 2021] Adaptive Action Assessment. [DOI](https://doi.org/10.1109/TPAMI.2021.3126534)
-- [TOMM 2021] Will You Ever Become Popular? Learning to Predict Virality of Dance Clips. [PDF](https://arxiv.org/pdf/2111.03819)
-
----
-
-- [CVPR 2021] AIFit: Automatic 3D Human-Interpretable
-  Feedback Models for Fitness Training. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf) | $\color{magenta}\textsf{Interpretable Feedback}$
-- [ICCV 2021] Group-aware Contrastive Regression for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Group-Aware_Contrastive_Regression_for_Action_Quality_Assessment_ICCV_2021_paper.pdf) | [Github](https://github.com/yuxumin/CoRe) | $\color{lime}\textsf{Contrastive Regression}$
-- [ACM MM 2021] TSA-Net: Tube Self-Attention Network for Action Quality Assessment. [PDF](https://arxiv.org/pdf/2201.03746.pdf) | [Github](https://github.com/Shunli-Wang/TSA-Net)
-- [WACV 2021] EAGLE-Eye: Extreme-pose Action Grader using detaiL bird’s-Eye view. [PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Nekoui_EAGLE-Eye_Extreme-Pose_Action_Grader_Using_Detail_Birds-Eye_View_WACV_2021_paper.pdf)
-- [ICIP 2021] Action quality assessment with ignoring scene context. [DOI](https://doi.org/10.1109/ICIP42928.2021.9506257)
-- [PETRA 2021] Towards Improved and Interpretable Action Quality Assessment with Self-Supervised Alignment. [PDF](https://users.ics.forth.gr/~argyros/mypapers/2021_06_PETRA_AQA-Roditakis.pdf)
-- [INSAI 2021] A survey of video-based action quality assessment. [PDF](https://arxiv.org/pdf/2204.09271.pdf) | $\color{orange}\textsf{Survey}$
-
-### 2020
-
-- [CVPR 2020] Uncertainty-aware Score Distribution Learning for Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_Uncertainty-Aware_Score_Distribution_Learning_for_Action_Quality_Assessment_CVPR_2020_paper.pdf) | [Github](https://github.com/nzl-thu/MUSDL)
-- [ECCV 2020] An Asymmetric Modeling for Action Assessment. [PDF](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750222.pdf)
-
-### 2019 and Before
-
-- [CVPR 2019] What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Parmar_What_and_How_Well_You_Performed_A_Multitask_Learning_Approach_CVPR_2019_paper.pdf) | [Github](https://github.com/ParitoshParmar/MTL-AQA)
-- [ICCV 2019] Action Assessment by Joint Relation Graphs. [PDF](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pan_Action_Assessment_by_Joint_Relation_Graphs_ICCV_2019_paper.pdf)
-- [WACV 2019] Action Quality Assessment Across Multiple Actions. [PDF](https://arxiv.org/pdf/2111.11029)
-- [PCM 2018] End-to-end learning for action quality assessment. [DOI](https://doi.org/10.1007/978-3-030-00767-6_12)
-- [ICIP 2018] S3d: Stacking segmental p3d for action quality assessment. [DOI](https://doi.org/10.1109/ICIP.2018.8451364)
-- [ACCV 2018] Scoringnet: Learning key fragment for action quality assessment with ranking loss in skilled sports. [DOI](https://doi.org/10.1007/978-3-030-20876-9_10)
-- [ICCV 2017] Am I a Baller? Basketball Performance Assessment from First-Person Videos. [PDF](https://openaccess.thecvf.com/content_ICCV_2017/papers/Bertasius_Am_I_a_ICCV_2017_paper.pdf)
-- [BMVC 2015] Dynamical Regularity for Action Analysis. [PDF](https://bmva-archive.org.uk/bmvc/2015/papers/paper067/paper067.pdf)
-- [ECCV 2014] Assessing the Quality of Actions. [PDF](https://core.ac.uk/download/pdf/78056242.pdf) | [Project](https://redirect.cs.umbc.edu/~hpirsiav/quality.html)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Medical Care
-
-### 2024
-
-- [TPAMI 2024] EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10475587) | [GitHub - EGCN++ not avail. EHE dataset avail.](https://github.com/bruceyo/egcnplusplus)
-- [TNSRE 2024] Automatic Assessment of Upper Extremity Function and Mobile Application for Self-Administered Stroke Rehabilitation. [DOI](https://doi.org/10.1109/TNSRE.2024.3358497)
-- [TNSRE 2024] An Expert-Knowledge-Based Graph Convolutional Network for Skeleton- Based Physical Rehabilitation Exercises Assessment. [DOI](https://doi.org/10.1109/TNSRE.2024.3400790)
-
----
-
-- [CVPRW 2024] FineRehab: A Multi-modality and Multi-task Dataset for Rehabilitation Analysis. [PDF](https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Li_FineRehab_A_Multi-modality_and_Multi-task_Dataset_for_Rehabilitation_Analysis_CVPRW_2024_paper.pdf) | [Project](https://bsu3dvlab.github.io/FineRehab/)
-
-### 2023
-
-- [TVCG 2023] A Video-Based Augmented Reality System for Human-in-the-Loop Muscle Strength Assessment of Juvenile Dermatomyositis. [PDF](http://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) | [DOI](https://doi.org/10.1109/TVCG.2023.3247092) | [Video](https://www.youtube.com/watch?v=ASxzXP3bemY) | $\color{magenta}\textsf{Interpretable Feedback}$
-- [TNSRE 2023] A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10256137) | $\color{lime}\textsf{Contrastive Regression}$
-- [TNSRE 2023] A Skeleton-Based Rehabilitation Exercise Assessment System With Rotation Invariance. [DOI](https://doi.org/10.1109/TNSRE.2023.3282675) | [Github](https://github.com/Kelly510/RehabExerAssess)
-
----
-
-- [CHASE 2023] Short: Deep Learning Approach to Skeletal Performance Evaluation of Physical Therapy Exercises. [DOI](https://doi.org/10.1145/3580252.3586984)
-- [ICCVW 2023] Personalized Monitoring in Home Healthcare: An Assistive System for Post Hip Replacement Rehabilitation. [PDF](https://openaccess.thecvf.com/content/ICCV2023W/ACVR/papers/Kryeem_Personalized_Monitoring_in_Home_Healthcare_An_Assistive_System_for_Post_ICCVW_2023_paper.pdf)
-
-### 2022
-
-- [TNSRE 2022] Graph convolutional networks for assessment of physical rehabilitation exercises. [DOI](https://doi.org/10.1109/TNSRE.2022.3150392)
-
----
-
-- [IJCAI 2022] EGCN: An Ensemble-based Learning Framework for Exploring Effective Skeleton-based Rehabilitation Exercise Assessment. [PDF](https://www.ijcai.org/proceedings/2022/0511.pdf) | [Github](https://github.com/bruceyo/EGCN)
-
-### 2021
-
-- [PR 2021] Skeleton-based human action evaluation using graph convolutional network for monitoring Alzheimer’s progression. [PDF](https://www.sciencedirect.com/science/article/pii/S003132032100282X) | [DOI](https://doi.org/10.1016/j.patcog.2021.108095)
-
-### 2020
-
-- [TNSRE 2020] A Deep Learning Framework for Assessing Physical Rehabilitation Exercises. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8957502) | [DOI](https://doi.org/10.1109/TNSRE.2020.2966249)
-- [Sensors 2020] VI-Net: View-Invariant Quality of Human Movement Assessment. [PDF](https://arxiv.org/pdf/2008.04999)
-
-### 2019 and Before
-
-- [TNSRE 2019] The KIMORE Dataset: KInematic Assessment of MOvement and Clinical Scores for Remote Monitoring of Physical REhabilitation. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8736767) | [DOI](https://doi.org/10.1109/TNSRE.2019.2923060)
-- [Data 2018] A Data Set of Human Body Movements for Physical Rehabilitation Exercises. [PDF](https://www.mdpi.com/2306-5729/3/1/2)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Skill Assessment
-
-### 2025
-
-- [arXiv 2025] PATS: Proficiency-Aware Temporal Sampling for Multi-View Sports Skill Assessment. [PDF](https://arxiv.org/pdf/2506.04996)
-
-### 2024
-
-- [TCSVT 2024] Rhythmer: Ranking-based Skill Assessment with Rhythm-aware Transformer. [DOI](https://doi.org/10.1109/TCSVT.2024.3459938)
-- [TMM 2024] Adaptive Stage-Aware Assessment Skill Transfer for Skill Determination. [DOI](https://doi.org/10.1109/TMM.2023.3294800)
-
----
-
-- [ICASSP 2024] Which is the Better Teacher Action? A New Ranking Model and Dataset. [DOI](https://doi.org/10.1109/ICASSP48485.2024.10448158) | [Github](https://github.com/MingZier/TAQR-Dataset)
-
-### 2023
-
-- [RA-L 2023] Keep Your Eye on the Best: Contrastive Regression Transformer for Skill Assessment in Robotic Surgery. [PDF](https://discovery.ucl.ac.uk/id/eprint/10164755/2/Anastasiou_Keep%20Your%20Eye%20on%20the%20Best_AAM.pdf) | [Github](https://github.com/anastadimi/Contra-Sformer) | $\color{lime}\textsf{Contrastive Regression}$
-
----
-
-- [MICCAI 2023] Sedskill: Surgical events driven method for skill assessment from thoracoscopic surgical videos. [PDF](https://xmengli.github.io/papers/2023MICCAI-XDing.pdf) | [Github](https://github.com/xmed-lab/SEDSkill)
-
-### 2022
-
-- [ECCV 2022] Domain knowledge-informed self-supervised representations for workout form assessment. [PDF](https://arxiv.org/pdf/2202.14019) | [Github](https://github.com/ParitoshParmar/Fitness-AQA)
-- [MICCAI 2022] Surgical skill assessment via video semantic aggregation. [PDF](https://arxiv.org/pdf/2208.02611) | [Github](https://github.com/shinkyo0513/Surgical-Skill-Assessment-via-Video-Semantic-Aggregation)
-- [MICCAI 2022] Video-based surgical skills assessment using long term tool tracking. [PDF](https://arxiv.org/pdf/2207.02247)
-
-### 2021
-
-- [CVPR 2021] Towards unified surgical skill assessment. [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Towards_Unified_Surgical_Skill_Assessment_CVPR_2021_paper.pdf)
-
-- [MMSP 2021] Piano-Skills-Assessment. [DOI](https://doi.org/10.1109/MMSP53017.2021.9733638) | [Github](https://github.com/ParitoshParmar/Piano-Skills-Assessment)
-
-### 2020
-
-- [MICCAI 2020] Towards accurate and interpretable surgical skill assessment: A video-based method incorporating recognized surgical gestures and skill levels. [PDF](https://www.researchgate.net/profile/Tianyu-Wang-65/publication/345262769_Towards_Accurate_and_Interpretable_Surgical_Skill_Assessment_A_Video-Based_Method_Incorporating_Recognized_Surgical_Gestures_and_Skill_Levels/links/65e547c6adf2362b636a736c/Towards-Accurate-and-Interpretable-Surgical-Skill-Assessment-A-Video-Based-Method-Incorporating-Recognized-Surgical-Gestures-and-Skill-Levels.pdf)
-
-### 2019 and Before
-
-- [CVPR 2019] The pros and cons: Rank-aware temporal attention for skill determination in long videos. [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Doughty_The_Pros_and_Cons_Rank-Aware_Temporal_Attention_for_Skill_Determination_CVPR_2019_paper.pdf)
-- [ICCVW 2019] Manipulation-skill assessment from videos with spatial attention network. [PDF](https://openaccess.thecvf.com/content_ICCVW_2019/papers/EPIC/Li_Manipulation-Skill_Assessment_from_Videos_with_Spatial_Attention_Network_ICCVW_2019_paper.pdf)
-- [CVPR 2018] Who's better? who's best? pairwise deep ranking for skill determination. [PDF](https://openaccess.thecvf.com/content_cvpr_2018/papers/Doughty_Whos_Better_Whos_CVPR_2018_paper.pdf)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# Datasets
-
-| **Dataset**  | **Year** | **Modality**                          | **Domains**      | **# Classes** | **# Samples** | **# Avg. Frames**                                              | **Annotations**                               | **URL**                                                                  |
-| ------------ | -------- | ------------------------------------- | ---------------- | ------------- | ------------- | -------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------ |
-| MIT Olympic  | 2014     | Video, 2D Skeleton                    | Sports           | 2             | 309           | Dive: 150, Figure Skate: 4200                                  | Score                                         | [Link](https://userpages.cs.umbc.edu/hpirsiav/quality.html)              |
-| UNLV Olympic | 2017     | Video                                 | Sports           | 3             | 717           | Dive: 150, Figure Skate: 4200, Vault: 75                       | Score                                         | [Link](http://rtis.oit.unlv.edu/datasets.html)                           |
-| AQA-7        | 2019     | Video                                 | Sports           | 7             | 1189          | Dive: 97-105-156, Vault: 87, Big Air: 122-132, Trampoline: 634 | Score                                         | [Link](http://rtis.oit.unlv.edu/datasets/)                               |
-| MTL-AQA      | 2019     | Video                                 | Sports           | 16            | 1412          | 96                                                             | Score                                         | [Link](https://github.com/Luciferbobo/DAE-AQA)                           |
-| Fis-V        | 2019     | Video                                 | Sports           | 1             | 500           | 4300                                                           | TES PCS                                       | [Link](https://github.com/chmxu/MS_LSTM)                                 |
-| RG           | 2020     | Video                                 | Sports           | 1             | 250           | 2375                                                           | Difficulty, Execution, Total                  | [Link](https://github.com/qinghuannn/ACTION-NET)                         |
-| FineDiving   | 2022     | Video                                 | Sports           | 52            | 3000          | 105                                                            | Step, Score                                   | [Link](https://github.com/xujinglin/FineDiving)                          |
-| FS1000       | 2023     | Video, Audio                          | Sports           | 7             | 1604          | 5000                                                           | TES PCS, detailed PCS                         | [Link](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating)   |
-| FineFS       | 2023     | Video, 2D/3D Skeleton                 | Sports           | 4             | 1167          | 5000                                                           | detailed Score, Subaction Class, Segmentation | [Link](https://github.com/yanliji/FineFS-dataset)                        |
-| LOGO         | 2023     | Video                                 | Sports           | 12            | 200           | 5100                                                           | Action Class, Formation, Score                | [Link](https://github.com/shiyi-zh0408/LOGO)                             |
-| GAIA         | 2024     | Video (AI Gen.)                       | All              | 510           | 9180          | 70                                                             | Subject, Completeness, Interaction            | [Link](https://github.com/zijianchen98/GAIA)                             |
-| JIGSAWS      | 2014     | Video                                 | Skill Assessment | 3             | 103           | --                                                             | Surgemes Class, Rating                        | [Link](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/) |
-| EPIC-Skills  | 2018     | Video                                 | Skill Assessment | 7             | 216           | --                                                             | Relative Rank                                 | [Link](https://github.com/hazeld/rank-aware-attention-network)           |
-| BEST         | 2019     | Video                                 | Skill Assessment | 5             | 500           | 6400                                                           | Relative Rank                                 | [Link](https://github.com/hazeld/rank-aware-attention-network)           |
-| PISA         | 2021     | Video, Audio                          | Skill Assessment | 1             | 992           | 160                                                            | Skill Level, Difficulty                       | [Link](https://github.com/ParitoshParmar/Piano-Skills-Assessment)        |
-| TAQR         | 2024     | Video                                 | Skill Assessment | 4             | 300           | 488                                                            | Relative Rank                                 | [Link](https://github.com/MingZier/TAQR-Dataset)                         |
-| UI-PRMD      | 2018     | 3D Skeleton, Joint Pos. & Ori.        | Medical Care     | 10            | 1326          | --                                                             | Binary Class                                  | [Link](https://webpages.uidaho.edu/ui-prmd/)                             |
-| KIMORE       | 2019     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care     | 5             | 1560          | --                                                             | Score                                         | [Link](https://vrai.dii.univpm.it/content/kimore-dataset)                |
-| EHE          | 2021     | 3D Skeleton, Joint Pos. & Ori.        | Medical Care     | 6             | 869           | --                                                             | Binary Class                                  | [Link](https://github.com/bruceyo/egcnplusplus/tree/main/EHE_dataset)    |
-| FineRehab    | 2024     | Video, 3D Skeleton, Joint Pos. & Ori. | Medical Care     | 16            | 4215          | --                                                             | Score                                         | [Link](https://bsu3dvlab.github.io/FineRehab/)                           |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Survey list
+
+| Venue / Year | Title | Project / Code |
+|---|---|---|
+| ![](https://img.shields.io/badge/arXiv%202024-4682B4) | [A Comprehensive Survey of Action Quality Assessment: Method and Benchmark](https://zhoukanglei.github.io/AQA-Survey) | [🌐](https://zhoukanglei.github.io/AQA-Survey) |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions](https://haoyin116.github.io/Survey_of_AQA/) | [🌐](https://haoyin116.github.io/Survey_of_AQA/) |
+| ![](https://img.shields.io/badge/ESWA%202025-2ecc71) | Vision-Based Human Action Quality Assessment: A Systematic Review |  |
+| ![](https://img.shields.io/badge/InSAI%202021-4682B4) | A Survey of Video-Based Action Quality Assessment |  |
+| ![](https://img.shields.io/badge/Sensors%202019-4682B4) | A Survey of Vision-Based Human Action Evaluation Methods |  |
+
+## Reference list (sorted by year → venue → title)
+Auto-compiled from the bundled bibliography. If you spot a mistake, please open an issue.
+
+| Venue / Year | Title | Project / Code | New Dataset (modality) |
+|---|---|---|---|
+| ![](https://img.shields.io/badge/IJCV%202026-e74c3c) | [UIL-AQA: Uncertainty-Aware Clip-Level Interpretable Action Quality Assessment](https://github.com/dx199771/Interpretability-AQA) | [![](https://img.shields.io/github/stars/dx199771/Interpretability-AQA.svg?style=social&label=&logo=github)](https://github.com/dx199771/Interpretability-AQA) |  |
+| ![](https://img.shields.io/badge/ESWA%202026-2ecc71) | [A Contrastive Video Language Multimodal Method for Teacher Action Quality Assessment](https://github.com/MingZier/TAQA-Dataset) | [![](https://img.shields.io/github/stars/MingZier/TAQA-Dataset.svg?style=social&label=&logo=github)](https://github.com/MingZier/TAQA-Dataset) | TAQA<br><span style='font-size:90%;color:gray'>RGB, Text</span> |
+| ![](https://img.shields.io/badge/AAAI%202025-e74c3c) | [DanceFix: An Exploration in Group Dance Neatness Assessment through Fixing Abnormal Challenges of Human Pose](https://ojs.aaai.org/index.php/AAAI/article/view/32959) |  | DNV<br><span style='font-size:90%;color:gray'>RGB, Skeleton</span> |
+| ![](https://img.shields.io/badge/ACMMM%202025-e74c3c) | [Human-Activity AGV Quality Assessment: A Benchmark Dataset and an Objective Evaluation Metric](https://github.com/zczhang-sjtu/GHVQ) | [![](https://img.shields.io/github/stars/zczhang-sjtu/GHVQ.svg?style=social&label=&logo=github)](https://github.com/zczhang-sjtu/GHVQ) | Human-AGVQA<br><span style='font-size:90%;color:gray'>RGB, Text</span> |
+| ![](https://img.shields.io/badge/CVPR%202025-e74c3c) | [BASKET: A Large-Scale Video Dataset for Fine-Grained Skill Estimation](https://github.com/yulupan00/BASKET) | [![](https://img.shields.io/github/stars/yulupan00/BASKET.svg?style=social&label=&logo=github)](https://github.com/yulupan00/BASKET) | BASKET<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/CVPR%202025-e74c3c) | [ExpertAF: Expert Actionable Feedback from Video](https://vision.cs.utexas.edu/projects/ExpertAF/) | [🌐](https://vision.cs.utexas.edu/projects/ExpertAF/) |  |
+| ![](https://img.shields.io/badge/CVPR%202025-e74c3c) | [Language-Guided Audio-Visual Learning for Long-Term Sports Assessment](https://github.com/XuHuangbiao/MLAVL) | [![](https://img.shields.io/github/stars/XuHuangbiao/MLAVL.svg?style=social&label=&logo=github)](https://github.com/XuHuangbiao/MLAVL) |  |
+| ![](https://img.shields.io/badge/IJCV%202025-e74c3c) | [Achieving Procedure-Aware Instructional Video Correlation Learning under Weak Supervision from A Collaborative Perspective](https://github.com/hotelll/Collaborative_Procedure_Alignment) | [![](https://img.shields.io/github/stars/hotelll/Collaborative_Procedure_Alignment.svg?style=social&label=&logo=github)](https://github.com/hotelll/Collaborative_Procedure_Alignment) |  |
+| ![](https://img.shields.io/badge/NeurIPS%202025-e74c3c) | [Learning Skill-Attributes for Transferable Assessment in Video](https://vision.cs.utexas.edu/projects/CrossTrainer) | [🌐](https://vision.cs.utexas.edu/projects/CrossTrainer) |  |
+| ![](https://img.shields.io/badge/TIP%202025-e74c3c) | [Action Quality Assessment Via Hierarchical Pose-Guided Multi-Stage Contrastive Regression](https://github.com/Lumos0507/HP-MCoRe) | [![](https://img.shields.io/github/stars/Lumos0507/HP-MCoRe.svg?style=social&label=&logo=github)](https://github.com/Lumos0507/HP-MCoRe) | FineDiving-Pose<br><span style='font-size:90%;color:gray'>RGB, Skeleton</span> |
+| ![](https://img.shields.io/badge/TIP%202025-e74c3c) | [PHI: Bridging Domain Shift in Long-Term Action Quality Assessment Via Progressive Hierarchical Instruction](https://github.com/ZhouKanglei/PHI_AQA) | [![](https://img.shields.io/github/stars/ZhouKanglei/PHI_AQA.svg?style=social&label=&logo=github)](https://github.com/ZhouKanglei/PHI_AQA) |  |
+| ![](https://img.shields.io/badge/TPAMI%202025-e74c3c) | [Human-Centric Fine-Grained Action Quality Assessment](https://ieeexplore.ieee.org/document/10946879) |  | AQA-7-HM<br><span style='font-size:90%;color:gray'>RGB, Mask</span> · MTL-AQA-HM<br><span style='font-size:90%;color:gray'>RGB, Mask</span> |
+| ![](https://img.shields.io/badge/ICASSP%202025-f1c40f) | [A Teacher Action Quality Assessment Method Based on Label Constraint Strategy](https://ieeexplore.ieee.org/document/10888631) |  | TTAQA<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/ICME%202025-f1c40f) | [Decoupling Representations with Quantized Vectors for Semi-Supervised Action Quality Assessment](https://github.com/Pix0611/VQD-Net) | [![](https://img.shields.io/github/stars/Pix0611/VQD-Net.svg?style=social&label=&logo=github)](https://github.com/Pix0611/VQD-Net) |  |
+| ![](https://img.shields.io/badge/TCSVT%202025-f1c40f) | [Adaptive Spatiotemporal Graph Transformer Network for Action Quality Assessment](https://github.com/jiangliu5/ASGTN_AQA) | [![](https://img.shields.io/github/stars/jiangliu5/ASGTN_AQA.svg?style=social&label=&logo=github)](https://github.com/jiangliu5/ASGTN_AQA) |  |
+| ![](https://img.shields.io/badge/TCSVT%202025-f1c40f) | [Pose-Guided Transformer for Fine-Grained Action Quality Assessment](https://ieeexplore.ieee.org/document/10946879) |  |  |
+| ![](https://img.shields.io/badge/TCSVT%202025-f1c40f) | [Rhythmer: Ranking-Based Skill Assessment with Rhythm-Aware Transformer](https://ieeexplore.ieee.org/document/10706745) |  |  |
+| ![](https://img.shields.io/badge/TCSVT%202025-f1c40f) | [Visual-Semantic Alignment Temporal Parsing for Action Quality Assessment](https://ieeexplore.ieee.org/document/10938403) |  |  |
+| ![](https://img.shields.io/badge/TMM%202025-f1c40f) | [Comprehensive Action Quality Assessment through Multi-Branch Modeling](https://ieeexplore.ieee.org/document/11154451) |  |  |
+| ![](https://img.shields.io/badge/TMM%202025-f1c40f) | [Quality-Guided Vision-Language Learning for Long-Term Action Quality Assessment](https://github.com/XuHuangbiao/QGVL) | [![](https://img.shields.io/github/stars/XuHuangbiao/QGVL.svg?style=social&label=&logo=github)](https://github.com/XuHuangbiao/QGVL) |  |
+| ![](https://img.shields.io/badge/TOMM%202025-f1c40f) | [Scaled Background Swap: Video Augmentation for Action Quality Assessment with Background Debiasing](https://github.com/Emy-cv/Scaled-Background-Swap) | [![](https://img.shields.io/github/stars/Emy-cv/Scaled-Background-Swap.svg?style=social&label=&logo=github)](https://github.com/Emy-cv/Scaled-Background-Swap) |  |
+| ![](https://img.shields.io/badge/MS%202025-2ecc71) | [Adaptive Frequency-Aware Network for Action Quality Assessment](https://github.com/han3364/MAN) | [![](https://img.shields.io/github/stars/han3364/MAN.svg?style=social&label=&logo=github)](https://github.com/han3364/MAN) | BDJ<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/Neurocomputing%202025-2ecc71) | [Learning Referee Evaluation and Assessing Action Quality from Coarse to Fine in Diving Sport](https://www.sciencedirect.com/science/article/pii/S0925231225013360) |  |  |
+| ![](https://img.shields.io/badge/TVC%202025-2ecc71) | [Interpretable Two-Stage Action Quality Assessment Via 3D Human Pose Estimation and Dynamic Feature Alignment](https://link.springer.com/article/10.1007/s00371-025-04101-6) |  |  |
+| ![](https://img.shields.io/badge/APIN%202025-4682B4) | [Scene-Aware Contrastive Regression for Multi-Person Action Quality Assessment](https://link.springer.com/article/10.1007/s10489-025-06901-8) |  | MELO<br><span style='font-size:90%;color:gray'>RGB, Skeleton</span> |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [FLEX: A Large-Scale Multi-Modal Multi-Action Dataset for Fitness Action Quality Assessment](https://haoyin116.github.io/FLEX_Dataset) | [🌐](https://haoyin116.github.io/FLEX_Dataset) | FLEX<br><span style='font-size:90%;color:gray'>RGB, 3D Pose, sEMG, Physiological</span> |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [Continual Action Quality Assessment Via Adaptive Manifold-Aligned Graph Regularization](https://github.com/ZhouKanglei/MAGRPP) | [![](https://img.shields.io/github/stars/ZhouKanglei/MAGRPP.svg?style=social&label=&logo=github)](https://github.com/ZhouKanglei/MAGRPP) |  |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [Fineskiing: A Fine-Grained Benchmark for Skiing Action Quality Assessment](https://arxiv.org/pdf/2511.10250.pdf) |  | FineSkiing<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [MCMOE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment](https://github.com/XuHuangbiao/MCMoE) | [![](https://img.shields.io/github/stars/XuHuangbiao/MCMoE.svg?style=social&label=&logo=github)](https://github.com/XuHuangbiao/MCMoE) |  |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [Skillsight: Efficient First-Person Skill Assessment with Gaze](https://arxiv.org/pdf/2511.19629.pdf) |  |  |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [CaFlow: Enhancing Long-Term Action Quality Assessment with Causal Counterfactual Flow](https://github.com/Harrison21/CaFlow) | [![](https://img.shields.io/github/stars/Harrison21/CaFlow.svg?style=social&label=&logo=github)](https://github.com/Harrison21/CaFlow) |  |
+| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [Explainable Action Form Assessment by Exploiting Multimodal Chain-Of-Thoughts Reasoning](https://github.com/MICLAB-BUPT/EFA) | [![](https://img.shields.io/github/stars/MICLAB-BUPT/EFA.svg?style=social&label=&logo=github)](https://github.com/MICLAB-BUPT/EFA) | CoT-AFA<br><span style='font-size:90%;color:gray'>RGB, Text</span> |
+| ![](https://img.shields.io/badge/ASOC%202025-4682B4) | [Attention-Driven Multimodal Alignment for Long-Term Action Quality Assessment](https://arxiv.org/pdf/2507.21945) |  |  |
+| ![](https://img.shields.io/badge/CVPRW%202025-4682B4) | [Finecausal: A Causal-Based Framework for Interpretable Fine-Grained Action Quality Assessment](https://github.com/Harrison21/FineCausal) | [![](https://img.shields.io/github/stars/Harrison21/FineCausal.svg?style=social&label=&logo=github)](https://github.com/Harrison21/FineCausal) |  |
+| ![](https://img.shields.io/badge/Displays%202025-4682B4) | [Vaqa-SS: Vision-Based Action Quality Assessment for Style-Based Skiing](https://doi.org/10.1016/j.displa.2025.103020) |  | Skiing-6<br><span style='font-size:90%;color:gray'>RGB, Skeleton</span> |
+| ![](https://img.shields.io/badge/Sensors%202025-4682B4) | [Enhancing Long-Term Action Quality Assessment: A Dual-Modality Dataset and Causal Cross-Modal Framework for Trampoline Gymnastics](https://zenodo.org/records/16195090) | [🌐](https://zenodo.org/records/16195090) | Trampoline-AQA<br><span style='font-size:90%;color:gray'>RGB, Optical Flow</span> |
+| ![](https://img.shields.io/badge/WACV%202025-4682B4) | [I3D-AE-LSTM: A 2-Stream Autoencoder for Action Quality Assessment Using A Newly Created Cricket Batsman Video Dataset](https://github.com/dvanderhaar/uj-aqa-cricketvision) | [![](https://img.shields.io/github/stars/dvanderhaar/uj-aqa-cricketvision.svg?style=social&label=&logo=github)](https://github.com/dvanderhaar/uj-aqa-cricketvision) | UJ-AQA-CricketVision<br><span style='font-size:90%;color:gray'>RGB, Skeleton</span> |
+| ![](https://img.shields.io/badge/AAAI%202024-e74c3c) | [Collaborative Weakly Supervised Video Correlation Learning for Procedure-Aware Instructional Video Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/27984) |  |  |
+| ![](https://img.shields.io/badge/AAAI%202024-e74c3c) | [Dancemvp: Self-Supervised Learning for Multi-Task Primitive-Based Dance Performance Assessment Via Transformer Text Prompting](https://doi.org/10.1609/aaai.v38i9.28893) |  |  |
+| ![](https://img.shields.io/badge/ACMMM%202024-e74c3c) | [2M-AF: A Strong Multi-Modality Framework for Human Action Quality Assessment with Self-Supervised Representation Learning](https://doi.org/10.1145/3664647.3681084) |  |  |
+| ![](https://img.shields.io/badge/CVPR%202024-e74c3c) | [EgoExoLearn: A Dataset for Bridging Asynchronous Ego-And Exo-Centric View of Procedural Activities in Real World](https://github.com/OpenGVLab/EgoExoLearn) | [![](https://img.shields.io/github/stars/OpenGVLab/EgoExoLearn.svg?style=social&label=&logo=github)](https://github.com/OpenGVLab/EgoExoLearn) | EgoExoLearn<br><span style='font-size:90%;color:gray'>RGB, Gaze</span> |
+| ![](https://img.shields.io/badge/CVPR%202024-e74c3c) | [FineParser: A Fine-Grained Spatio-Temporal Action Parser for Human-Centric Action Quality Assessment](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) | [![](https://img.shields.io/github/stars/PKU-ICST-MIPL/FineParser_CVPR2024.svg?style=social&label=&logo=github)](https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024) | FineDiving-HM |
+| ![](https://img.shields.io/badge/CVPR%202024-e74c3c) | [Narrative Action Evaluation with Prompt-Guided Multimodal Interaction](https://github.com/shiyi-zh0408/NAE_CVPR2024) | [![](https://img.shields.io/github/stars/shiyi-zh0408/NAE_CVPR2024.svg?style=social&label=&logo=github)](https://github.com/shiyi-zh0408/NAE_CVPR2024) |  |
+| ![](https://img.shields.io/badge/IJCAI%202024-e74c3c) | [Cofinal: Enhancing Action Quality Assessment with Coarse-to-Fine Instruction Alignment](https://github.com/ZhouKanglei/CoFInAl_AQA) | [![](https://img.shields.io/github/stars/ZhouKanglei/CoFInAl_AQA.svg?style=social&label=&logo=github)](https://github.com/ZhouKanglei/CoFInAl_AQA) |  |
+| ![](https://img.shields.io/badge/IJCV%202024-e74c3c) | [Procedure-Aware Action Quality Assessment: Datasets and Performance Evaluation](https://github.com/xujinglin/FineDiving) | [![](https://img.shields.io/github/stars/xujinglin/FineDiving.svg?style=social&label=&logo=github)](https://github.com/xujinglin/FineDiving) | FineDiving+<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/NeurIPS%202024-e74c3c) | [GAIA: Rethinking Action Quality Assessment for AI-Generated Videos](https://github.com/zijianchen98/GAIA) | [![](https://img.shields.io/github/stars/zijianchen98/GAIA.svg?style=social&label=&logo=github)](https://github.com/zijianchen98/GAIA) | GAIA<br><span style='font-size:90%;color:gray'>RGB, Text</span> |
+| ![](https://img.shields.io/badge/NeurIPS%202024-e74c3c) | [LucidAction: A Hierarchical and Multi-Model Dataset for Comprehensive Action Quality Assessment](https://proceedings.neurips.cc/paper_files/paper/2024/file/aecf6978509d8b306f74c0d09508f9bc-Paper-Datasets_and_Benchmarks_Track.pdf) |  | LucidAction<br><span style='font-size:90%;color:gray'>RGB, Skeleton</span> |
+| ![](https://img.shields.io/badge/TIP%202024-e74c3c) | [Multimodal Action Quality Assessment](https://github.com/qinghuannn/PAMFN) | [![](https://img.shields.io/github/stars/qinghuannn/PAMFN.svg?style=social&label=&logo=github)](https://github.com/qinghuannn/PAMFN) |  |
+| ![](https://img.shields.io/badge/TIP%202024-e74c3c) | [Self-Supervised Sub-Action Parsing Network for Semi-Supervised Action Quality Assessment](https://ieeexplore.ieee.org/document/10687713) |  |  |
+| ![](https://img.shields.io/badge/TPAMI%202024-e74c3c) | [EGCN++: A New Fusion Strategy for Ensemble Learning in Skeleton-Based Rehabilitation Exercise Assessment](https://doi.org/10.1109/TPAMI.2024.3378753) |  |  |
+| ![](https://img.shields.io/badge/ECCV%202024-f1c40f) | [EgoExo-Fitness: Towards Egocentric and Exocentric Full-Body Action Understanding](https://github.com/iSEE-Laboratory/EgoExo-Fitness) | [![](https://img.shields.io/github/stars/iSEE-Laboratory/EgoExo-Fitness.svg?style=social&label=&logo=github)](https://github.com/iSEE-Laboratory/EgoExo-Fitness) | EgoExo-Fitness<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/ECCV%202024-f1c40f) | [MAGR: Manifold-Aligned Graph Regularization for Continual Action Quality Assessment](https://github.com/ZhouKanglei/MAGR_CAQA) | [![](https://img.shields.io/github/stars/ZhouKanglei/MAGR_CAQA.svg?style=social&label=&logo=github)](https://github.com/ZhouKanglei/MAGR_CAQA) |  |
+| ![](https://img.shields.io/badge/ECCV%202024-f1c40f) | [RICA2: Rubric-Informed, Calibrated Assessment of Actions](https://abrarmajeedi.github.io/rica2_aqa/) | [🌐](https://abrarmajeedi.github.io/rica2_aqa/) |  |
+| ![](https://img.shields.io/badge/ECCV%202024-f1c40f) | [Semi-Supervised Teacher-Reference-Student Architecture for Action Quality Assessment](https://arxiv.org/pdf/2407.19675) |  |  |
+| ![](https://img.shields.io/badge/ECCV%202024-f1c40f) | [Vision-Language Action Knowledge Learning for Semantic-Aware Action Quality Assessment](https://link.springer.com/chapter/10.1007/978-3-031-72970-3_25) |  |  |
+| ![](https://img.shields.io/badge/ICASSP%202024-f1c40f) | [Multi-Stage Contrastive Regression for Action Quality Assessment](https://github.com/Angel-1999/MCoRe) | [![](https://img.shields.io/github/stars/Angel-1999/MCoRe.svg?style=social&label=&logo=github)](https://github.com/Angel-1999/MCoRe) |  |
+| ![](https://img.shields.io/badge/ICASSP%202024-f1c40f) | [Which Is the Better Teacher Action? A New Ranking Model and Dataset](https://github.com/MingZier/TAQR-Dataset) | [![](https://img.shields.io/github/stars/MingZier/TAQR-Dataset.svg?style=social&label=&logo=github)](https://github.com/MingZier/TAQR-Dataset) |  |
+| ![](https://img.shields.io/badge/TCSVT%202024-f1c40f) | [Continual Action Assessment Via Task-Consistent Score-Discriminative Feature Distribution Modeling](https://github.com/iSEE-Laboratory/Continual-AQA) | [![](https://img.shields.io/github/stars/iSEE-Laboratory/Continual-AQA.svg?style=social&label=&logo=github)](https://github.com/iSEE-Laboratory/Continual-AQA) |  |
+| ![](https://img.shields.io/badge/TCSVT%202024-f1c40f) | [Kinematic Diversity and Rhythmic Alignment in Choreographic Quality Transformers for Dance Quality Assessment](https://doi.org/10.1109/TCSVT.2024.3360452) |  | OptiTrack<br><span style='font-size:90%;color:gray'>RGB, Skeleton, Audio</span> |
+| ![](https://img.shields.io/badge/TMM%202024-f1c40f) | [Adaptive Stage-Aware Assessment Skill Transfer for Skill Determination](https://doi.org/10.1109/TMM.2023.3294800) |  |  |
+| ![](https://img.shields.io/badge/BMVC%202024-2ecc71) | [Interpretable Long-Term Action Quality Assessment](https://github.com/dx199771/Interpretability-AQA) | [![](https://img.shields.io/github/stars/dx199771/Interpretability-AQA.svg?style=social&label=&logo=github)](https://github.com/dx199771/Interpretability-AQA) |  |
+| ![](https://img.shields.io/badge/EAAI%202024-2ecc71) | [An Attention-Based Adaptive Spatial--Temporal Graph Convolutional Network for Long-Video Ergonomic Risk Assessment](https://doi.org/10.1016/j.engappai.2023.107780) |  |  |
+| ![](https://img.shields.io/badge/arXiv%202024-4682B4) | [TechCoach: Towards Technical-Point-Aware Descriptive Action Coaching](https://arxiv.org/pdf/2411.17130.pdf) |  | EE4D-DescCoach<br><span style='font-size:90%;color:gray'>RGB, Text</span> |
+| ![](https://img.shields.io/badge/CVPRW%202024-4682B4) | [FineRehab: A Multi-Modality and Multi-Task Dataset for Rehabilitation Analysis](https://bsu3dvlab.github.io/FineRehab) | [🌐](https://bsu3dvlab.github.io/FineRehab) | FineRehab<br><span style='font-size:90%;color:gray'>RGB-D, IMU</span> |
+| ![](https://img.shields.io/badge/CVPRW%202024-4682B4) | [Hierarchical NeuroSymbolic Approach for Comprehensive and Explainable Action Quality Assessment](https://github.com/laurenok24/NSAQA) | [![](https://img.shields.io/github/stars/laurenok24/NSAQA.svg?style=social&label=&logo=github)](https://github.com/laurenok24/NSAQA) |  |
+| ![](https://img.shields.io/badge/INS%202024-4682B4) | [Two-Path Target-Aware Contrastive Regression for Action Quality Assessment](https://doi.org/10.1016/j.ins.2024.120347) |  |  |
+| ![](https://img.shields.io/badge/NCAA%202024-4682B4) | [Auto-Encoding Score Distribution Regression for Action Quality Assessment](https://github.com/InfoX-SEU/DAE-AQA) | [![](https://img.shields.io/github/stars/InfoX-SEU/DAE-AQA.svg?style=social&label=&logo=github)](https://github.com/InfoX-SEU/DAE-AQA) |  |
+| ![](https://img.shields.io/badge/TNSRE%202024-4682B4) | [An Expert-Knowledge-Based Graph Convolutional Network for Skeleton-Based Physical Rehabilitation Exercises Assessment](https://doi.org/10.1109/TNSRE.2024.3400790) |  |  |
+| ![](https://img.shields.io/badge/TNSRE%202024-4682B4) | [Automatic Assessment of Upper Extremity Function and Mobile Application for Self-Administered Stroke Rehabilitation](https://doi.org/10.1109/TNSRE.2024.3358497) |  |  |
+| ![](https://img.shields.io/badge/WACV%202024-4682B4) | [PECoP: Parameter Efficient Continual Pretraining for Action Quality Assessment](https://github.com/Plrbear/PECoP) | [![](https://img.shields.io/github/stars/Plrbear/PECoP.svg?style=social&label=&logo=github)](https://github.com/Plrbear/PECoP) | PD4T<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/AAAI%202023-e74c3c) | [Skating-Mixer: Long-Term Sport Audio-Visual Modeling with Mlps](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating) | [![](https://img.shields.io/github/stars/AndyFrancesco29/Audio-Visual-Figure-Skating.svg?style=social&label=&logo=github)](https://github.com/AndyFrancesco29/Audio-Visual-Figure-Skating) | FS1000<br><span style='font-size:90%;color:gray'>RGB, Audio</span> |
+| ![](https://img.shields.io/badge/ACMMM%202023-e74c3c) | [A Figure Skating Jumping Dataset for Replay-Guided Action Quality Assessment](https://doi.org/10.1145/3581783.3613774) |  | RFSJ<br><span style='font-size:90%;color:gray'>RGB, Multi-View</span> |
+| ![](https://img.shields.io/badge/ACMMM%202023-e74c3c) | [Localization-Assisted Uncertainty Score Disentanglement Network for Action Quality Assessment](https://github.com/yanliji/FineFS-dataset) | [![](https://img.shields.io/github/stars/yanliji/FineFS-dataset.svg?style=social&label=&logo=github)](https://github.com/yanliji/FineFS-dataset) | FineFS<br><span style='font-size:90%;color:gray'>RGB, Skeleton</span> |
+| ![](https://img.shields.io/badge/CVPR%202023-e74c3c) | [LOGO: A Long-Form Video Dataset for Group Action Quality Assessment](https://github.com/shiyi-zh0408/LOGO) | [![](https://img.shields.io/github/stars/shiyi-zh0408/LOGO.svg?style=social&label=&logo=github)](https://github.com/shiyi-zh0408/LOGO) | LOGO<br><span style='font-size:90%;color:gray'>RGB, Formation</span> |
+| ![](https://img.shields.io/badge/IJCV%202023-e74c3c) | [Automatic Modelling for Interactive Action Assessment](https://doi.org/10.1109/TNSRE.2019.2911303) |  |  |
+| ![](https://img.shields.io/badge/TIP%202023-e74c3c) | [Fine-Grained Spatio-Temporal Parsing Network for Action Quality Assessment](https://doi.org/10.1109/TIP.2023.3287274) |  |  |
+| ![](https://img.shields.io/badge/TVCG%202023-e74c3c) | [A Video-Based Augmented Reality System for Human-In-The-Loop Muscle Strength Assessment of Juvenile Dermatomyositis](https://hubertshum.com/publications/tvcg2023jdm/files/tvcg2023jdm.pdf) |  | JDM<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/ICASSP%202023-f1c40f) | [Attention-Guided Deep Learning Framework for Movement Quality Assessment](https://doi.org/10.1109/ICASSP49357.2023.10096869) |  |  |
+| ![](https://img.shields.io/badge/ICASSP%202023-f1c40f) | [Contrastive Self-Supervised Learning for Automated Multi-Modal Dance Performance Assessment](https://doi.org/10.1109/ICASSP49357.2023.10095863) |  |  |
+| ![](https://img.shields.io/badge/MICCAI%202023-f1c40f) | [Sedskill: Surgical Events Driven Method for Skill Assessment from Thoracoscopic Surgical Videos](https://github.com/xmed-lab/SEDSkill) | [![](https://img.shields.io/github/stars/xmed-lab/SEDSkill.svg?style=social&label=&logo=github)](https://github.com/xmed-lab/SEDSkill) | MVR<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/TCSVT%202023-f1c40f) | [Hierarchical Graph Convolutional Networks for Action Quality Assessment](https://github.com/ZhouKanglei/HGCN_AQA) | [![](https://img.shields.io/github/stars/ZhouKanglei/HGCN_AQA.svg?style=social&label=&logo=github)](https://github.com/ZhouKanglei/HGCN_AQA) |  |
+| ![](https://img.shields.io/badge/TMM%202023-f1c40f) | [Learning Semantics-Guided Representations for Scoring Figure Skating](https://doi.org/10.1109/TMM.2023.3328180) |  | OlympicFS<br><span style='font-size:90%;color:gray'>RGB, Text</span> |
+| ![](https://img.shields.io/badge/ESWA%202023-2ecc71) | [Portable Vision-Based Gait Assessment for Post-Stroke Rehabilitation Using an Attention-Based Lightweight CNN](https://doi.org/10.1016/j.eswa.2023.122074) |  |  |
+| ![](https://img.shields.io/badge/APIN%202023-4682B4) | [Improving Action Quality Assessment with Across-Staged Temporal Reasoning on Imbalanced Data](https://doi.org/10.1007/s10489-023-05133-3) |  |  |
+| ![](https://img.shields.io/badge/APIN%202023-4682B4) | [Label-Reconstruction-Based Pseudo-Subscore Learning for Action Quality Assessment in Sporting Events](https://link.springer.com/article/10.1007/s10489-022-03984-5) |  |  |
+| ![](https://img.shields.io/badge/APIN%202023-4682B4) | [Multi-Skeleton Structures Graph Convolutional Network for Action Quality Assessment in Long Videos](https://doi.org/10.1007/s10489-022-04139-1) |  |  |
+| ![](https://img.shields.io/badge/TNSRE%202023-4682B4) | [A Contrastive Learning Network for Performance Metric and Assessment of Physical Rehabilitation Exercises](https://doi.org/10.1109/TNSRE.2023.3317411) |  |  |
+| ![](https://img.shields.io/badge/TNSRE%202023-4682B4) | [A Skeleton-Based Rehabilitation Exercise Assessment System with Rotation Invariance](https://github.com/Kelly510/RehabExerAssess) | [![](https://img.shields.io/github/stars/Kelly510/RehabExerAssess.svg?style=social&label=&logo=github)](https://github.com/Kelly510/RehabExerAssess) |  |
+| ![](https://img.shields.io/badge/CVPR%202022-e74c3c) | [FineDiving: A Fine-Grained Dataset for Procedure-Aware Action Quality Assessment](https://github.com/xujinglin/FineDiving) | [![](https://img.shields.io/github/stars/xujinglin/FineDiving.svg?style=social&label=&logo=github)](https://github.com/xujinglin/FineDiving) | FineDiving<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/CVPR%202022-e74c3c) | [Likert Scoring with Grade Decoupling for Long-Term Action Assessment](https://github.com/xuangch/CVPR22_GDLT) | [![](https://img.shields.io/github/stars/xuangch/CVPR22_GDLT.svg?style=social&label=&logo=github)](https://github.com/xuangch/CVPR22_GDLT) |  |
+| ![](https://img.shields.io/badge/IJCAI%202022-e74c3c) | [EGCN: An Ensemble-Based Learning Framework for Exploring Effective Skeleton-Based Rehabilitation Exercise Assessment](https://github.com/bruceyo/EGCN) | [![](https://img.shields.io/github/stars/bruceyo/EGCN.svg?style=social&label=&logo=github)](https://github.com/bruceyo/EGCN) |  |
+| ![](https://img.shields.io/badge/TPAMI%202022-e74c3c) | [Adaptive Action Assessment](https://doi.org/10.1109/TPAMI.2021.3084467) |  |  |
+| ![](https://img.shields.io/badge/ECCV%202022-f1c40f) | [Action Quality Assessment with Temporal Parsing Transformer](https://github.com/baiyang4/aqa_tpt) | [![](https://img.shields.io/github/stars/baiyang4/aqa_tpt.svg?style=social&label=&logo=github)](https://github.com/baiyang4/aqa_tpt) |  |
+| ![](https://img.shields.io/badge/ECCV%202022-f1c40f) | [Domain Knowledge-Informed Self-Supervised Representations for Workout Form Assessment](https://github.com/ParitoshParmar/Fitness-AQA) | [![](https://img.shields.io/github/stars/ParitoshParmar/Fitness-AQA.svg?style=social&label=&logo=github)](https://github.com/ParitoshParmar/Fitness-AQA) | Fitness-AQA<br><span style='font-size:90%;color:gray'>RGB, Motion</span> |
+| ![](https://img.shields.io/badge/ECCV%202022-f1c40f) | [Pairwise Contrastive Learning Network for Action Quality Assessment](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640450.pdf) |  |  |
+| ![](https://img.shields.io/badge/MICCAI%202022-f1c40f) | [Surgical Skill Assessment Via Video Semantic Aggregation](http://bit.ly/MICCAI2022ViSA) | [🌐](http://bit.ly/MICCAI2022ViSA) |  |
+| ![](https://img.shields.io/badge/MICCAI%202022-f1c40f) | [Video-Based Surgical Skills Assessment Using Long Term Tool Tracking](https://arxiv.org/pdf/2207.02247) |  |  |
+| ![](https://img.shields.io/badge/TCSVT%202022-f1c40f) | [Semi-Supervised Action Quality Assessment with Self-Supervised Segment Feature Recovery](https://doi.org/10.1109/TCSVT.2022.3155319) |  |  |
+| ![](https://img.shields.io/badge/JVCIR%202022-2ecc71) | [Skeleton-Based Deep Pose Feature Learning for Action Quality Assessment on Figure Skating Videos](https://doi.org/10.1016/j.jvcir.2022.103625) |  |  |
+| ![](https://img.shields.io/badge/PRCV%202022-2ecc71) | [Skeleton-Based Action Quality Assessment Via Partially Connected LSTM with Triplet Losses](https://doi.org/10.1007/978-3-031-18916-6_18) |  |  |
+| ![](https://img.shields.io/badge/MMSP%202022-4682B4) | [Tai Chi Action Quality Assessment and Visual Analysis with A Consumer RGB-D Camera](https://doi.org/10.1109/MMSP55362.2022.9949464) |  | TaiChi-24<br><span style='font-size:90%;color:gray'>RGB-D, Skeleton</span> |
+| ![](https://img.shields.io/badge/TNSRE%202022-4682B4) | [Graph Convolutional Networks for Assessment of Physical Rehabilitation Exercises](https://github.com/fokhruli/STGCN-rehab) | [![](https://img.shields.io/github/stars/fokhruli/STGCN-rehab.svg?style=social&label=&logo=github)](https://github.com/fokhruli/STGCN-rehab) |  |
+| ![](https://img.shields.io/badge/ACMMM%202021-e74c3c) | [TSA-Net: Tube Self-Attention Network for Action Quality Assessment](https://github.com/Shunli-Wang/TSA-Net) | [![](https://img.shields.io/github/stars/Shunli-Wang/TSA-Net.svg?style=social&label=&logo=github)](https://github.com/Shunli-Wang/TSA-Net) | FR-FS<br><span style='font-size:90%;color:gray'>RGB, Mask</span> |
+| ![](https://img.shields.io/badge/CVPR%202021-e74c3c) | [Aifit: Automatic 3D Human-Interpretable Feedback Models for Fitness Training](https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf) |  | Fit3D<br><span style='font-size:90%;color:gray'>RGB, 3D Pose</span> |
+| ![](https://img.shields.io/badge/CVPR%202021-e74c3c) | [Towards Unified Surgical Skill Assessment](https://git.io/JG2OA) | [🌐](https://git.io/JG2OA) |  |
+| ![](https://img.shields.io/badge/ICCV%202021-e74c3c) | [Group-Aware Contrastive Regression for Action Quality Assessment](https://github.com/Yuxumin/CoRe) | [![](https://img.shields.io/github/stars/Yuxumin/CoRe.svg?style=social&label=&logo=github)](https://github.com/Yuxumin/CoRe) |  |
+| ![](https://img.shields.io/badge/PR%202021-f1c40f) | [Skeleton-Based Human Action Evaluation Using Graph Convolutional Network for Monitoring Alzheimer’s Progression](https://doi.org/10.1016/j.patcog.2021.108095) |  |  |
+| ![](https://img.shields.io/badge/TCSVT%202021-f1c40f) | [Action Quality Assessment Using Siamese Network-Based Deep Metric Learning](https://arxiv.org/pdf/2002.12096) |  |  |
+| ![](https://img.shields.io/badge/ICIP%202021-2ecc71) | [Action Quality Assessment with Ignoring Scene Context](https://doi.org/10.1109/ICIP42928.2021.9506257) |  |  |
+| ![](https://img.shields.io/badge/KBS%202021-2ecc71) | [Learning and Fusing Multiple Hidden Substages for Action Quality Assessment](https://doi.org/10.1016/j.knosys.2021.107388) |  |  |
+| ![](https://img.shields.io/badge/MMSP%202021-4682B4) | [Piano Skills Assessment](https://github.com/ParitoshParmar/Piano-Skills-Assessment) | [![](https://img.shields.io/github/stars/ParitoshParmar/Piano-Skills-Assessment.svg?style=social&label=&logo=github)](https://github.com/ParitoshParmar/Piano-Skills-Assessment) | PISA<br><span style='font-size:90%;color:gray'>RGB, Audio</span> |
+| ![](https://img.shields.io/badge/WACV%202021-4682B4) | [EAGLE-EYE: Extreme-Pose Action Grader Using Detail Bird's-Eye View](https://github.com/MahdiNek/EAGLE-Eye) | [![](https://img.shields.io/github/stars/MahdiNek/EAGLE-Eye.svg?style=social&label=&logo=github)](https://github.com/MahdiNek/EAGLE-Eye) |  |
+| ![](https://img.shields.io/badge/ACMMM%202020-e74c3c) | [Hybrid Dynamic-Static Context-Aware Attention Network for Action Assessment in Long Videos](https://github.com/lingan1996/ACTION-NET) | [![](https://img.shields.io/github/stars/lingan1996/ACTION-NET.svg?style=social&label=&logo=github)](https://github.com/lingan1996/ACTION-NET) | Rhythmic Gymnastics<br><span style='font-size:90%;color:gray'>RGB, Pose</span> |
+| ![](https://img.shields.io/badge/CVPR%202020-e74c3c) | [Uncertainty-Aware Score Distribution Learning for Action Quality Assessment](https://github.com/nzl-thu/MUSDL) | [![](https://img.shields.io/github/stars/nzl-thu/MUSDL.svg?style=social&label=&logo=github)](https://github.com/nzl-thu/MUSDL) |  |
+| ![](https://img.shields.io/badge/ECCV%202020-f1c40f) | [An Asymmetric Modeling for Action Assessment](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750222.pdf) |  | TASD-2<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/MICCAI%202020-f1c40f) | [Towards Accurate and Interpretable Surgical Skill Assessment: A Video-Based Method Incorporating Recognized Surgical Gestures and Skill Levels](https://github.com/gunnerwang/MTL-VF-and-IMTL-AGF) | [![](https://img.shields.io/github/stars/gunnerwang/MTL-VF-and-IMTL-AGF.svg?style=social&label=&logo=github)](https://github.com/gunnerwang/MTL-VF-and-IMTL-AGF) |  |
+| ![](https://img.shields.io/badge/JBHI%202020-2ecc71) | [Efficient and Robust Skeleton-Based Quality Assessment and Abnormality Detection in Human Action Performance](https://doi.org/10.1109/JBHI.2019.2922201) |  |  |
+| ![](https://img.shields.io/badge/PRCV%202020-2ecc71) | [Assessing Action Quality Via Attentive Spatio-Temporal Convolutional Networks](https://doi.org/10.1007/978-3-030-63823-8_1) |  |  |
+| ![](https://img.shields.io/badge/TNSRE%202020-4682B4) | [A Deep Learning Framework for Assessing Physical Rehabilitation Exercises](https://arxiv.org/pdf/1901.10435) |  |  |
+| ![](https://img.shields.io/badge/CVPR%202019-e74c3c) | [The Pros and Cons: Rank-Aware Temporal Attention for Skill Determination in Long Videos](https://epic-kitchens.github.io/BEST) | [🌐](https://epic-kitchens.github.io/BEST) | BEST<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/CVPR%202019-e74c3c) | [What and How Well You Performed? A Multitask Learning Approach to Action Quality Assessment](https://github.com/ParitoshParmar/MTL-AQA) | [![](https://img.shields.io/github/stars/ParitoshParmar/MTL-AQA.svg?style=social&label=&logo=github)](https://github.com/ParitoshParmar/MTL-AQA) | MTL-AQA<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/ICCV%202019-e74c3c) | [Action Assessment by Joint Relation Graphs](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pan_Action_Assessment_by_Joint_Relation_Graphs_ICCV_2019_paper.pdf) |  |  |
+| ![](https://img.shields.io/badge/ICCV%202019-e74c3c) | [Manipulation-Skill Assessment from Videos with Spatial Attention Network](https://arxiv.org/pdf/1901.02579) |  |  |
+| ![](https://img.shields.io/badge/MICCAI%202019-f1c40f) | [Surgical Skill Assessment on In-Vivo Clinical Data Via the Clearness of Operating Field](https://doi.org/10.1007/978-3-030-32245-8_53) |  |  |
+| ![](https://img.shields.io/badge/TCSVT%202019-f1c40f) | [Learning to Score Figure Skating Sport Videos](https://github.com/loadder/MS_LSTM) | [![](https://img.shields.io/github/stars/loadder/MS_LSTM.svg?style=social&label=&logo=github)](https://github.com/loadder/MS_LSTM) | Fis-V<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/ACCV%202019-2ecc71) | [Scoringnet: Learning Key Fragment for Action Quality Assessment with Ranking Loss in Skilled Sports](https://doi.org/10.1007/978-3-030-20870-7_10) |  |  |
+| ![](https://img.shields.io/badge/TNSRE%202019-4682B4) | [The Kimore Dataset: Kinematic Assessment of Movement and Clinical Scores for Remote Monitoring of Physical Rehabilitation](https://doi.org/10.1109/TNSRE.2019.2923060) |  | KIMORE<br><span style='font-size:90%;color:gray'>RGB-D, Skeleton</span> |
+| ![](https://img.shields.io/badge/WACV%202019-4682B4) | [Action Quality Assessment across Multiple Actions](http://rtis.oit.unlv.edu/datasets.html) | [🌐](http://rtis.oit.unlv.edu/datasets.html) | AQA-7<br><span style='font-size:90%;color:gray'>RGB</span> |
+| ![](https://img.shields.io/badge/CVPR%202018-e74c3c) | [Who's Better? Who's Best? Pairwise Deep Ranking for Skill Determination](https://arxiv.org/pdf/1703.09913) |  |  |
+| ![](https://img.shields.io/badge/ICIP%202018-2ecc71) | [S3D: Stacking Segmental P3D for Action Quality Assessment](https://doi.org/10.1109/ICIP.2018.8451364) |  |  |
+| ![](https://img.shields.io/badge/ICCV%202017-e74c3c) | [Am I A Baller? Basketball Performance Assessment from First-Person Videos](https://arxiv.org/pdf/1611.05365) |  |  |
+| ![](https://img.shields.io/badge/CVPRW%202017-4682B4) | [Learning to Score Olympic Events](https://arxiv.org/pdf/1611.05125) |  |  |
+| ![](https://img.shields.io/badge/TPAMI%202014-e74c3c) | [Relative Hidden Markov Models for Video-Based Evaluation of Motion Skills in Surgical Training](https://doi.org/10.1109/TPAMI.2014.2361121) |  |  |
+| ![](https://img.shields.io/badge/ECCV%202014-f1c40f) | [Assessing the Quality of Actions](https://link.springer.com/chapter/10.1007/978-3-319-10599-4_36) |  |  |
+| ![](https://img.shields.io/badge/MICCAIW%202014-4682B4) | [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release) | [🌐](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release) | JIGSAWS<br><span style='font-size:90%;color:gray'>RGB, Kinematics</span> |
+
+Total entries: 135
