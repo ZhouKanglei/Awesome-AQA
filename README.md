@@ -22,7 +22,7 @@
 | Venue / Year | Title | Project / Code |
 |---|---|---|
 | ![](https://img.shields.io/badge/arXiv%202024-4682B4) | [A Comprehensive Survey of Action Quality Assessment: Method and Benchmark](https://zhoukanglei.github.io/AQA-Survey) (Survey, Benchmark) | [🌐](https://zhoukanglei.github.io/AQA-Survey) |
-| ![](https://img.shields.io/badge/arXiv%202025-4682B4) | [A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions](https://haoyin116.github.io/Survey_of_AQA/) (Survey) | [🌐](https://haoyin116.github.io/Survey_of_AQA/) |
+| ![](https://img.shields.io/badge/IJCV%202026-e74c3c) | [A Decade of Action Quality Assessment: Largest Systematic Survey of Trends, Challenges, and Future Directions](https://haoyin116.github.io/Survey_of_AQA/) (Survey) | [🌐](https://haoyin116.github.io/Survey_of_AQA/) |
 | ![](https://img.shields.io/badge/ESWA%202025-2ecc71) | [Vision-Based Human Action Quality Assessment: A Systematic Review](https://www.sciencedirect.com/science/article/pii/S0957417424025090) (Survey) |  |
 | ![](https://img.shields.io/badge/InSAI%202021-4682B4) | [A Survey of Video-Based Action Quality Assessment](https://arxiv.org/pdf/2204.09271) (Survey) |  |
 | ![](https://img.shields.io/badge/Sensors%202019-4682B4) | [A Survey of Vision-Based Human Action Evaluation Methods](https://www.mdpi.com/1424-8220/19/19/4129) (Survey) |  |
