@@ -179,7 +179,7 @@ def main():
 
 | Item | Details | Link / Image |
 |---|---|---|
-| Contribute | Add or correct papers and links through a guided pull request. | [Contribution guide](CONTRIBUTING.md) · [Open a pull request](https://github.com/ZhouKanglei/Awesome-AQA/compare) · [Issue tracker](https://github.com/ZhouKanglei/Awesome-AQA/issues) |
+| Contribute | Add or correct papers and links through a guided pull request. Venue abbreviations are defined at the top of `data/aqa.bib`. | [Contribution guide](CONTRIBUTING.md) · [Open a pull request](https://github.com/ZhouKanglei/Awesome-AQA/compare) · [Issue tracker](https://github.com/ZhouKanglei/Awesome-AQA/issues) |
 | WeChat group | Join via QR; if the main one expires, use the personal link. | [Main QR](imgs/aqa-wechat-group.jpg) · [Personal QR](imgs/ZKL.png) |
 | Updates | Project page and issues carry the latest notes and announcements. | [Project page](https://zhoukanglei.github.io/AQA-Survey) · [Issue tracker](https://github.com/ZhouKanglei/Awesome-AQA/issues) |
 

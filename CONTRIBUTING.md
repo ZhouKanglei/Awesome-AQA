@@ -64,7 +64,8 @@ that marker for the dataset column.
 
 ## Venue abbreviations
 
-Use the abbreviation macros declared at the top of `data/aqa.bib`. This keeps
+**All supported conference and journal abbreviations are defined at the top of
+`data/aqa.bib`.** Use those macros to keep
 the venue/year badges compact and consistent. Do not wrap a full conference or
 journal name in braces when a macro already exists.
 
