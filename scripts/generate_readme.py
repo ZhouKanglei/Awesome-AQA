@@ -71,10 +71,14 @@ def project_icon(url):
         owner, repo = m.groups()
         shield = (
             f"https://img.shields.io/github/stars/{owner}/{repo}.svg?"
-            "style=social&label=&logo=github"
+            "style=flat-square&logo=github&label=Code"
         )
-        return f"[![]({shield})]({url})"
-    return f"[🌐]({url})"
+        return f"[![Code]({shield})]({url})"
+    shield = (
+        "https://img.shields.io/badge/Project-Page-0A66C2?"
+        "style=flat-square&logo=googlechrome&logoColor=white"
+    )
+    return f"[![Project]({shield})]({url})"
 
 
 def resource_icons(entry):
