@@ -62,6 +62,62 @@ Use empty braces when an optional value is not available. Mark a newly
 introduced dataset as `DatasetName (new)` in `tags`; the README generator uses
 that marker for the dataset column.
 
+## Venue abbreviations
+
+Use the abbreviation macros declared at the top of `data/aqa.bib`. This keeps
+the venue/year badges compact and consistent. Do not wrap a full conference or
+journal name in braces when a macro already exists.
+
+Conference papers use `booktitle`:
+
+```bibtex
+booktitle = CVPR,
+```
+
+Journal papers use `journal`:
+
+```bibtex
+journal = TPAMI,
+```
+
+Common conference macros include:
+
+| Macro | Venue |
+|---|---|
+| `AAAI` | AAAI Conference on Artificial Intelligence |
+| `ACMMM` | ACM International Conference on Multimedia |
+| `CVPR` / `CVPRW` | CVPR / CVPR Workshops |
+| `ECCV` / `ECCVW` | ECCV / ECCV Workshops |
+| `ICASSP` | IEEE ICASSP |
+| `ICCV` | IEEE/CVF ICCV |
+| `ICME` | IEEE ICME |
+| `IJCAI` | International Joint Conference on Artificial Intelligence |
+| `MICCAI` / `MICCAIW` | MICCAI / MICCAI Workshops |
+| `NeurIPS` | Advances in Neural Information Processing Systems |
+| `WACV` | IEEE/CVF WACV |
+
+Common journal macros include:
+
+| Macro | Journal |
+|---|---|
+| `ACMCS` | ACM Computing Surveys |
+| `CVIU` | Computer Vision and Image Understanding |
+| `IETCV` | IET Computer Vision |
+| `IJCV` | International Journal of Computer Vision |
+| `JBHI` | IEEE Journal of Biomedical and Health Informatics |
+| `PR` | Pattern Recognition |
+| `TCSVT` | IEEE Transactions on Circuits and Systems for Video Technology |
+| `TIP` | IEEE Transactions on Image Processing |
+| `TMM` | IEEE Transactions on Multimedia |
+| `TNNLS` | IEEE Transactions on Neural Networks and Learning Systems |
+| `TNSRE` | IEEE Transactions on Neural Systems and Rehabilitation Engineering |
+| `TPAMI` | IEEE Transactions on Pattern Analysis and Machine Intelligence |
+
+The tables above are representative rather than exhaustive; check the macro
+declarations in `data/aqa.bib` before introducing a new name. If a venue macro
+is missing, add the same macro key to the full, abbreviated, and short-name
+sections and mention it in the pull request.
+
 ## Resource links
 
 Keep project pages and source repositories in separate BibTeX fields:
