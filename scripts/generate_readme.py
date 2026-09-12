@@ -112,19 +112,24 @@ def new_dataset_cell(entry):
     tags = entry.get("tags", "")
     items = []
     modality_raw = entry.get("modality", "").strip()
+    dataset_names = [
+        part.replace("(new)", "").strip()
+        for part in [t.strip() for t in tags.split(",")]
+        if "(new)" in part and part.replace("(new)", "").strip()
+    ]
     # Split modalities on separators to handle multiple entries
     modality_list = re.split(r"[;,]", modality_raw) if modality_raw else []
     modality_list = [m.strip() for m in modality_list if m.strip()]
-    for part in [t.strip() for t in tags.split(",")]:
-        if "(new)" in part:
-            name = part.replace("(new)", "").strip()
-            if name:
-                # If multiple new datasets, try to pair sequentially with modality entries
-                mod = modality_list.pop(0) if modality_list else modality_raw
-                if mod:
-                    items.append(f"{name}<br><span style='font-size:90%;color:gray'>{mod}</span>")
-                else:
-                    items.append(name)
+    for name in dataset_names:
+        # A single dataset uses all listed modalities; for multiple datasets,
+        # pair modalities sequentially when possible.
+        mod = modality_raw if len(dataset_names) == 1 else (
+            modality_list.pop(0) if modality_list else modality_raw
+        )
+        if mod:
+            items.append(f"{name}<br><span style='font-size:90%;color:gray'>{mod}</span>")
+        else:
+            items.append(name)
     return "<br>".join(items)
 
 
