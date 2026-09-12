@@ -81,7 +81,7 @@ def resource_icons(entry):
     project = (entry.get("project") or "").strip()
     code = (entry.get("code") or "").strip()
     urls = [url for url in (project, code) if url]
-    return " ".join(project_icon(url) for url in dict.fromkeys(urls))
+    return "<br>".join(project_icon(url) for url in dict.fromkeys(urls))
 
 
 def title_link(entry):
