@@ -85,7 +85,12 @@ def resource_icons(entry):
 
 
 def title_link(entry):
-    url = entry.get("pdf") or entry.get("project") or entry.get("abstract")
+    url = (
+        entry.get("pdf")
+        or entry.get("url")
+        or entry.get("project")
+        or entry.get("abstract")
+    )
     title = entry.get("title", "--")
     parts = []
     domain = (entry.get("domain") or "").strip()
