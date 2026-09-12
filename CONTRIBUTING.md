@@ -17,3 +17,17 @@ To preview the generated README locally, run:
 ```bash
 python scripts/generate_readme.py
 ```
+
+## Resource links
+
+Keep project pages and source repositories in separate BibTeX fields:
+
+```bibtex
+project = {https://example.org/project-page},
+code    = {https://github.com/owner/repository},
+```
+
+- Use `project` for an official project, demo, dataset, or resource page.
+- Use `code` for a source-code or implementation repository.
+- Do not put a GitHub repository in `project`; this keeps both links visible
+  when a paper provides both resources.
