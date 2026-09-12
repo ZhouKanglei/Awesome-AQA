@@ -388,6 +388,7 @@
   pdf      = {https://www.researchgate.net/publication/399128456_UIL-AQA_Uncertainty-Aware_Clip-Level_Interpretable_Action_Quality_Assessment_UIL-AQA_Uncertainty-Aware_Clip-Level_InterpretableX_Dong_et_al},
   domain   = {Sports},
   modality = {RGB},
+  project  = {https://andrewjohngilbert.github.io/InterpretAQA/},
   code  = {https://github.com/dx199771/Interpretability-AQA},
   tags     = {Interpretable Feedback, Uncertainty, Long-Term AQA, Transformer},
   comment  = {UIL-AQA targets long-term AQA with clip-level interpretability and explicit uncertainty modelling. It adds attention loss and query initialization to mitigate temporal skipping in query-based Transformers, injects Gaussian noise to simulate judge bias, and regresses difficulty/quality components separately. Reports SOTA on three long-term real-world AQA datasets.}
@@ -505,6 +506,7 @@
   pdf      = {https://arxiv.org/pdf/2507.21945},
   domain   = {Sports},
   modality = {RGB, Optical Flow, Audio},
+  code     = {https://github.com/xiaoxin5041/ADMA},
   project  = {},
   tags     = {Multi-Modal AQA, Long-Term AQA},
   comment  = {This work proposes LMAC-Net, a long-term multimodal attention consistency network that aligns cross-modal features and uses learnable-query local encoders to capture temporal semantics and complementary relationships for improved action quality assessment.}
@@ -519,6 +521,7 @@
   pdf       = {https://arxiv.org/pdf/2503.20781},
   domain    = {Skill Assessment},
   modality  = {RGB},
+  project  = {https://sites.google.com/cs.unc.edu/basket},
   code   = {https://github.com/yulupan00/BASKET},
   tags      = {Basketball, Dataset, BASKET (new)},
   comment   = {This work introduces BASKET, a large-scale basketball skill-estimation dataset with 5,000+ coach-scored clips, 4,477 hours of video, and broad global coverage across 21 leagues.}
@@ -749,6 +752,7 @@
   pdf      = {},
   domain   = {Sports},
   modality = {RGB, Skeleton},
+  code     = {https://github.com/XiaXia78/AQA_by_MiE_DFA},
   project  = {},
   tags     = {Interpretable Feedback, Pose, TaiChi},
   comment  = {This work proposes a two-stage interpretable AQA pipeline for TaiChi: MiE Transformer first fuses GCN and Transformer layers with motion constraints to lift RGB videos into accurate 3D poses, then decomposes poses into static/dynamic descriptors (velocity, CoG shifts, bone vectors) aligned via improved DTW to compare practice vs. reference sequences, producing multidimensional feature scores that are aggregated into final AQA outputs.}
@@ -1121,6 +1125,7 @@
   pdf       = {https://arxiv.org/pdf/2403.16182},
   domain    = {Sports},
   modality  = {RGB, Gaze},
+  project  = {https://egoexolearn.github.io/},
   code   = {https://github.com/OpenGVLab/EgoExoLearn},
   tags      = {Egocentric, Dataset, EgoExoLearn (new)},
   comment   = {This work introduces EgoExoLearn, a 120-hour dataset of asynchronous ego/exo procedural videos with gaze and multimodal annotations, supporting benchmarks for cross-view association, action planning, and referenced skill assessment toward AI agents that learn from demonstrations.}
@@ -1135,6 +1140,7 @@
   pdf       = {https://arxiv.org/pdf/2405.06887},
   domain    = {Sports},
   modality  = {},
+  project  = {https://pku-icst-mipl.github.io/FineParser_ProjectPage/},
   code   = {https://github.com/PKU-ICST-MIPL/FineParser_CVPR2024},
   tags      = {Contrastive AQA, Dataset, FineDiving-HM (new)},
   comment   = {This work proposes FineParser, a human-centric fine-grained spatial-temporal parser that focuses on foreground action regions and aligns them across time/space for interpretable scoring, and releases the FineDiving-HM mask annotations to support real-world AQA systems.}
@@ -1178,6 +1184,7 @@
   pdf       = {https://arxiv.org/abs/2403.13798v2},
   domain    = {Sports},
   modality  = {RGB},
+  project  = {https://huggingface.co/spaces/X-NS/NSAQA},
   code   = {https://github.com/laurenok24/NSAQA},
   tags      = {Interpretable Feedback, Neuro-Symbolic, Diving, Temporal Segmentation, Action Recognition},
   comment   = {This work proposes NSAQA, a hierarchical neuro-symbolic AQA system for diving: neural modules extract interpretable symbols (platform/location, pose, splash) and rule-based microprograms perform fine-grained action recognition, temporal phase segmentation, error analysis, and objective score aggregation; generates detailed evidence-backed reports and is preferred by domain experts over purely neural AQA.}
@@ -1191,6 +1198,7 @@
   pdf       = {https://arxiv.org/pdf/2408.11687.pdf},
   domain    = {Sports},
   modality  = {RGB},
+  project  = {https://andrewjohngilbert.github.io/InterpretAQA/},
   code   = {https://github.com/dx199771/Interpretability-AQA},
   tags      = {Interpretable Feedback, Long-Term AQA},
   comment   = {This work studies interpretability in long-term AQA with query-based Transformers, identifying a Temporal Skipping issue where attention layers are effectively skipped to avoid degradation. It introduces an attention loss and query initialization to improve both accuracy and interpretability, and replaces single-score regression with a weight-score regression module to better match human scoring patterns; reports SOTA on three long-term AQA benchmarks.}
@@ -1386,6 +1394,7 @@
   pdf      = {https://doi.org/10.1016/j.ins.2024.120347},
   domain   = {Sports},
   modality = {RGB},
+  code     = {https://github.com/XuHuangbiao/T2CR},
   project  = {},
   tags     = {Contrastive AQA},
   comment  = {This work proposes T2CR: fuses direct regression (global feature-to-score mapping to learn occupational scoring rules) and contrastive regression (query--exemplar difference scoring). Uses two-path sparse sampling to enforce consistency across visual fields, alleviating irregular pair distributions and subjective judge noise. Evaluated on MTL-AQA, FineDiving, AQA-7, and JIGSAWS with strong Spearman/R-metric performance.}
@@ -1489,6 +1498,7 @@
   pdf       = {https://doi.org/10.1109/ICASSP49357.2023.10096869},
   domain    = {Healthcare},
   modality  = {Skeleton},
+  code     = {https://github.com/tron8196/Attention-Guided-Deep-Learning-Framework-for-Movement-Quality-Assessment},
   project   = {},
   tags      = {Rehabilitation, Attention},
   comment   = {This paper applies an attention-guided transformer for fast, interpretable movement quality assessment in home-based rehab settings, providing quantitative feedback compared with prior methods.}
@@ -1550,6 +1560,7 @@
   pdf      = {https://hubertshum.com/publications/tcsvt2023aqa/files/tcsvt2023aqa.pdf},
   domain   = {Sports},
   modality = {RGB},
+  project  = {http://hubertshum.com/pbl_tcsvt2023aqa.htm},
   code  = {https://github.com/ZhouKanglei/HGCN_AQA},
   tags     = {GCN Hierarchical Modeling},
   comment  = {This paper Proposes a clip refinement + scene graph strategy to form hierarchical graph convolutional networks that aggregate shots into scenes and scenes into video-level representations, reducing intra-clip confusion and improving AQA on AQA-7, MTL-AQA, and JIGSAWS.}
@@ -1718,6 +1729,7 @@
   pdf      = {https://doi.org/10.1109/TPAMI.2021.3084467},
   domain   = {Sports},
   modality = {RGB, Skeleton},
+  code     = {https://github.com/Jia-Hui-Pan/Adaptive_Action_Assessment},
   project  = {},
   tags     = {Adaptive AQA, Graph-Based AQA},
   comment  = {This paper learns trainable joint relation graphs per action type to adaptively tailor assessment architectures, introduces N-MSE and Pearson losses for automatic score normalization, and achieves strong results with interpretable joint importance across four AQA benchmarks.}
@@ -1775,6 +1787,7 @@
   pdf      = {https://doi.org/10.1109/TNSRE.2022.3150392},
   domain   = {Healthcare},
   modality = {RGB-D, Skeleton},
+  project  = {https://fokhruli.github.io/STGCN-rehab/},
   code  = {https://github.com/fokhruli/STGCN-rehab},
   tags     = {Rehabilitation, Skeleton AQA},
   comment  = {This paper adapts ST-GCN with LSTM-based temporal modeling and joint self-attention to score variable-length rehab exercise repetitions from RGB-D skeletons, outperforming prior methods on KIMORE and UI-PRMD and offering interpretable joint importance guidance.}
@@ -2022,6 +2035,7 @@
   pdf       = {https://arxiv.org/pdf/2106.01035},
   domain    = {Skill Assessment},
   modality  = {RGB},
+  project  = {https://finspire13.github.io/CVPR21-Project-Page/},
   code      = {https://github.com/Finspire13/Towards-Unified-Surgical-Skill-Assessment},
   tags      = {},
   comment   = {This work proposes a multi-path framework that jointly models tool usage, field clearness, and event patterns with a path-dependency module plus contrastive self-supervision; achieves 0.80 Spearman on JIGSAWS and introduces a new clinical laparoscopic dataset.}
@@ -2052,7 +2066,7 @@
   pdf      = {https://arxiv.org/pdf/1901.10435},
   domain   = {Healthcare},
   modality = {Skeleton},
-  project  = {},
+  code     = {https://github.com/avakanski/A-Deep-Learning-Framework-for-Assessing-Physical-Rehabilitation-Exercises},
   tags     = {Rehabilitation},
   comment  = {This work proposes a deep spatio-temporal network with temporal pyramids and hierarchical body-part subnets for UI-PRMD rehab exercises, using GMM-based log-likelihood metrics and autoencoder-reduced features to produce movement quality scores.}
 }
@@ -2169,6 +2183,7 @@
   domain    = {Sports},
   modality  = {RGB},
   project   = {http://rtis.oit.unlv.edu/datasets.html},
+  code      = {https://github.com/ParitoshParmar/C3D-LSTM--PyTorch},
   tags      = {Multi-Action Dataset, Dataset, AQA-7 (new)},
   comment   = {This paper introduces the 1,106-sample AQA-7 dataset (7 actions) and shows that training a single model across multiple actions yields better AQA performance, demonstrating transferability of learned quality representations.}
 }
@@ -2199,6 +2214,7 @@
   pdf       = {https://arxiv.org/pdf/1901.02579},
   domain    = {Skill Assessment},
   modality  = {RGB},
+  code     = {https://github.com/shinkyo0513/Manipulation-Skill-Assessment-from-Videos-with-Spatial-Attention},
   project   = {},
   tags      = {Attention, Manipulation},
   comment   = {This paper introduces dual-RNN spatial attention (RNNatt) and task-progress modeling (RNNtask) for pairwise-ranked manipulation skill videos, demonstrating state-of-the-art results on multiple hand-manipulation datasets plus a new infant grasp dataset.}
@@ -2329,6 +2345,7 @@
   pdf       = {https://arxiv.org/pdf/1611.05125},
   domain    = {Sports},
   modality  = {RGB},
+  code     = {https://github.com/ParitoshParmar/LTSOE},
   project   = {},
   tags      = {Diving, Vault, Figure Skating},
   comment   = {This work trains C3D-based pipelines with SVR and LSTM variants for limited-data Olympic AQA (diving, vault, figure skating), demonstrating an efficient clip-based training mechanism and improvements over prior baselines.}
