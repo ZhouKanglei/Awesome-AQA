@@ -77,6 +77,13 @@ def project_icon(url):
     return f"[🌐]({url})"
 
 
+def resource_icons(entry):
+    project = (entry.get("project") or "").strip()
+    code = (entry.get("code") or "").strip()
+    urls = [url for url in (project, code) if url]
+    return " ".join(project_icon(url) for url in dict.fromkeys(urls))
+
+
 def title_link(entry):
     url = entry.get("pdf") or entry.get("project") or entry.get("abstract")
     title = entry.get("title", "--")
@@ -170,7 +177,7 @@ def main():
 |---|---|---|
 """
     survey_rows = [
-        f"| {badge(s.get('journal') or s.get('booktitle') or '--', s.get('year','--'))} | {title_link(s)} | {project_icon(s.get('project'))} |"
+        f"| {badge(s.get('journal') or s.get('booktitle') or '--', s.get('year','--'))} | {title_link(s)} | {resource_icons(s)} |"
         for s in surveys
     ]
 
@@ -183,7 +190,7 @@ Auto-compiled from the bundled bibliography. If you spot a mistake, please open 
 |---|---|---|---|
 """
     rows = [
-        f"| {badge(e.get('journal') or e.get('booktitle') or '--', e.get('year','--'))} | {title_link(e)} | {project_icon(e.get('project'))} | {new_dataset_cell(e)} |"
+        f"| {badge(e.get('journal') or e.get('booktitle') or '--', e.get('year','--'))} | {title_link(e)} | {resource_icons(e)} | {new_dataset_cell(e)} |"
         for e in entries
     ]
     footer = f"\n\nTotal entries: {len(rows)}\n"
