@@ -75,8 +75,8 @@ def project_icon(url):
         )
         return f"[![]({shield})]({url})"
     shield = (
-        "https://img.shields.io/badge/-Project-0A66C2?"
-        "style=social&logo=googlechrome"
+        "https://img.shields.io/badge/-Project-white?"
+        "style=social&logo=googlechrome&logoColor=black"
     )
     return f"[![Project]({shield})]({url})"
 
