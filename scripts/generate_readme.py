@@ -270,7 +270,14 @@ if __name__ == "__main__":
     CCF_CACHE = {}
     if CCF_JSON.exists():
         data = json.loads(CCF_JSON.read_text(encoding="utf-8"))
-        CCF_CACHE = {
-            normalize_abbr(entry["abbr"]): entry["rank"] for entry in data.get("list", [])
-        }
+        for entry in data.get("list", []):
+            rank = entry.get("rank")
+            if not rank:
+                continue
+            # Some CCF entries, including Information Sciences, have no abbr.
+            # Index both abbreviation and full name so badges and sorting agree.
+            for token in (entry.get("abbr"), entry.get("name")):
+                normalized = normalize_abbr(token or "")
+                if normalized:
+                    CCF_CACHE[normalized] = rank
     main()
