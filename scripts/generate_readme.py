@@ -131,7 +131,8 @@ def project_icon(url):
 def resource_icons(entry):
     project = (entry.get("project") or "").strip()
     code = (entry.get("code") or "").strip()
-    urls = [url for url in (project, code) if url]
+    code_urls = [u.strip() for u in code.split(";") if u.strip()]
+    urls = ([project] if project else []) + code_urls
     return "<br>".join(project_icon(url) for url in dict.fromkeys(urls))
 
 
