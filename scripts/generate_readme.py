@@ -63,6 +63,53 @@ def normalize_abbr(text: str) -> str:
     return re.sub(r"[^A-Z0-9]", "", (text or "--").upper())
 
 
+# Explicit reputation order used only after year and CCF rank. Higher values
+# appear first; venues not listed here retain a deterministic name fallback.
+VENUE_REPUTATION = {
+    "CVPR": 100,
+    "ICCV": 99,
+    "NEURIPS": 98,
+    "ICML": 97,
+    "AAAI": 96,
+    "ACMMM": 95,
+    "TPAMI": 90,
+    "IJCV": 89,
+    "TIP": 88,
+    "TMM": 87,
+    "TC": 86,
+    "TVCG": 85,
+    "ECCV": 80,
+    "MICCAI": 79,
+    "IJCAI": 78,
+    "ICASSP": 77,
+    "ICME": 76,
+    "TCSVT": 70,
+    "CVIU": 69,
+    "TOMM": 68,
+    "PR": 67,
+    "BMVC": 60,
+    "ACCV": 59,
+    "KBS": 58,
+    "EAAI": 57,
+    "ESWA": 56,
+    "PRCV": 55,
+    "TVC": 54,
+    "JVCIR": 53,
+    "JBHI": 52,
+    "WACV": 50,
+    "CVPRW": 40,
+    "MICCAIW": 39,
+    "INFORMATIONFUSION": 38,
+    "INFORMATIONSCIENCES": 37,
+    "NEUROCOMPUTING": 30,
+    "TNSRE": 29,
+}
+
+
+def venue_reputation(venue: str) -> int:
+    return VENUE_REPUTATION.get(normalize_abbr(venue), 0)
+
+
 def project_icon(url):
     if not url:
         return ""
@@ -145,7 +192,7 @@ def clean_tags(tags: str) -> str:
 def main():
     entries = parse_bib(BIB)
     surveys = parse_bib(SURVEY_BIB) if SURVEY_BIB.exists() else []
-    # sort per year: CCF level (A→B→C→others), then venue alphabetically, then title
+    # sort per year: CCF level, venue reputation, venue name, then title
     level_priority = {"A": 0, "B": 1, "C": 2, "Z": 3}
     entries.sort(
         key=lambda e: (
@@ -153,6 +200,7 @@ def main():
             level_priority.get(
                 ccf_level(e.get("journal") or e.get("booktitle") or "--"), 3
             ),
+            -venue_reputation(e.get("journal") or e.get("booktitle") or ""),
             (e.get("journal") or e.get("booktitle") or "").upper(),
             e.get("title", ""),
         )
@@ -162,6 +210,7 @@ def main():
         key=lambda e: (
             0 if e.get("key", "").lower() in pinned else 1,
             -int(re.sub(r"[^0-9]", "", e.get("year", "0")) or 0),
+            -venue_reputation(e.get("journal") or e.get("booktitle") or ""),
             (e.get("journal") or e.get("booktitle") or "").upper(),
             e.get("title", ""),
         )
@@ -197,7 +246,7 @@ def main():
 
     header_refs = """
 
-## Reference list (sorted by year → venue → title)
+## Reference list (sorted by year → CCF level → venue reputation → venue → title)
 Auto-compiled from the bundled bibliography. If you spot a mistake, please open an issue.
 
 | Venue / Year | Title | Project / Code | New Dataset (modality) |
