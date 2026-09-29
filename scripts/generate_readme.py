@@ -201,7 +201,7 @@ def clean_tags(tags: str) -> str:
 def main():
     entries = parse_bib(BIB)
     surveys = parse_bib(SURVEY_BIB) if SURVEY_BIB.exists() else []
-    # sort per year: CCF level, venue reputation, venue name, then title
+    # sort per year: CCF level, pub type (journal before conference), venue reputation, venue name, then title
     level_priority = {"A": 0, "B": 1, "C": 2, "Z": 3}
     entries.sort(
         key=lambda e: (
@@ -209,6 +209,7 @@ def main():
             level_priority.get(
                 ccf_level(e.get("journal") or e.get("booktitle") or "--"), 3
             ),
+            0 if e.get("journal") else 1,
             -venue_reputation(e.get("journal") or e.get("booktitle") or ""),
             (e.get("journal") or e.get("booktitle") or "").upper(),
             e.get("title", ""),
@@ -255,7 +256,7 @@ def main():
 
     header_refs = """
 
-## Reference list (sorted by year → CCF level → venue reputation → venue → title)
+## Reference list (sorted by year → CCF level → pub type → venue reputation → venue → title)
 Auto-compiled from the bundled bibliography. If you spot a mistake, please open an issue.
 
 | Venue / Year | Title | Project / Code | New Dataset (modality) |
