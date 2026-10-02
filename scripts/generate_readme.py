@@ -151,7 +151,7 @@ def title_link(entry):
         or entry.get("project")
         or entry.get("abstract")
     )
-    title = entry.get("title", "--")
+    title = re.sub(r"(?<!\\)[{}]", "", entry.get("title", "--"))
     parts = []
     domain = (entry.get("domain") or "").strip()
     if domain:
