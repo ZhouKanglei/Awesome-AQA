@@ -63,6 +63,21 @@ def normalize_abbr(text: str) -> str:
     return re.sub(r"[^A-Z0-9]", "", (text or "--").upper())
 
 
+def display_bibtex_text(text: str) -> str:
+    """Remove BibTeX grouping braces from rendered text, not source data."""
+    result = []
+    escaped = False
+    for char in text or "":
+        if char in "{}" and not escaped:
+            continue
+        result.append(char)
+        if char == "\\" and not escaped:
+            escaped = True
+        else:
+            escaped = False
+    return "".join(result)
+
+
 # Explicit reputation order used only after year and CCF rank. Higher values
 # appear first; venues not listed here retain a deterministic name fallback.
 VENUE_REPUTATION = {
@@ -151,7 +166,7 @@ def title_link(entry):
         or entry.get("project")
         or entry.get("abstract")
     )
-    title = entry.get("title", "--")
+    title = display_bibtex_text(entry.get("title", "--"))
     parts = []
     domain = (entry.get("domain") or "").strip()
     if domain:
@@ -212,7 +227,7 @@ def main():
             0 if e.get("journal") else 1,
             -venue_reputation(e.get("journal") or e.get("booktitle") or ""),
             (e.get("journal") or e.get("booktitle") or "").upper(),
-            e.get("title", ""),
+            display_bibtex_text(e.get("title", "")),
         )
     )
     pinned = {"zhou2024acomprehensivesu"}
@@ -222,7 +237,7 @@ def main():
             -int(re.sub(r"[^0-9]", "", e.get("year", "0")) or 0),
             -venue_reputation(e.get("journal") or e.get("booktitle") or ""),
             (e.get("journal") or e.get("booktitle") or "").upper(),
-            e.get("title", ""),
+            display_bibtex_text(e.get("title", "")),
         )
     )
     header = """# Awesome Action Quality Assessment (AQA)
